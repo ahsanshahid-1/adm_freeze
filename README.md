@@ -2,6 +2,8 @@
 
 Frozen protocol for the formal experiments (E1, E4, E5). Created 2026-11-12T08:16:43Z.
 
+Registered on OSF: https://osf.io/bn6va (embargoed). The registered archive `adm_freeze_20261112.tgz` (SHA-256 `305cba70a80363d9be59295f1a1039499c41a54c21ef18d3ef8f2a854093877a`) is `git archive` of tag `freeze-20261112`.
+
 | Hash | Value |
 |---|---|
 | Protocol | `22d4f2fa1dab5138402e649306a7cefc1c7ef5ad31d50b35f607785c6f7740f1` |
