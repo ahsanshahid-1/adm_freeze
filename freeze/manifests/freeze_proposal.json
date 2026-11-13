@@ -1,0 +1,368 @@
+{
+  "calibration": {
+    "limits": {
+      "aggregate_tokens": 300000,
+      "model_calls": 48,
+      "pipeline_evaluations": 6,
+      "repair_cycles": 2,
+      "tool_calls": 40,
+      "wall_seconds": 600
+    },
+    "n_runs": 1377,
+    "p95": {
+      "aggregate_tokens": 245961.60000000006,
+      "model_calls": 33.0,
+      "tool_calls": 30.0,
+      "wall_seconds": 249.0816
+    },
+    "pilot_limits": {
+      "aggregate_tokens": 300000,
+      "model_calls": 48,
+      "pipeline_evaluations": 6,
+      "repair_cycles": 2,
+      "tool_calls": 40,
+      "wall_seconds": 1200
+    },
+    "protocol_text_limits": {
+      "aggregate_tokens": 30000,
+      "model_calls": 48,
+      "pipeline_evaluations": 6,
+      "repair_cycles": 2,
+      "tool_calls": 40,
+      "wall_seconds": 600
+    },
+    "rule": "max(protocol-text limit, ceil(1.25 x p95 of pilot usage)), capped at the pilot limit; agentic SUBMITTED/ABSTAINED runs pooled"
+  },
+  "created": "2026-11-12T08:07:10Z",
+  "design_conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "X2b",
+    "X3a",
+    "X4b"
+  ],
+  "estimates": {
+    "3": {
+      "estimated_gpu_hours": 40.0,
+      "estimated_hours": 40.0,
+      "repetitions": 3,
+      "runs": {
+        "E1": 7560,
+        "E4": 540,
+        "E5": 252,
+        "total": 8352
+      },
+      "seconds_per_run": {
+        "backbone_b": 21.56,
+        "tier1": 15.45,
+        "tier2": 20.19
+      }
+    },
+    "4": {
+      "estimated_gpu_hours": 53.4,
+      "estimated_hours": 53.4,
+      "repetitions": 4,
+      "runs": {
+        "E1": 10080,
+        "E4": 720,
+        "E5": 336,
+        "total": 11136
+      },
+      "seconds_per_run": {
+        "backbone_b": 21.56,
+        "tier1": 15.45,
+        "tier2": 20.19
+      }
+    },
+    "5": {
+      "estimated_gpu_hours": 66.7,
+      "estimated_hours": 66.7,
+      "repetitions": 5,
+      "runs": {
+        "E1": 12600,
+        "E4": 900,
+        "E5": 420,
+        "total": 13920
+      },
+      "seconds_per_run": {
+        "backbone_b": 21.56,
+        "tier1": 15.45,
+        "tier2": 20.19
+      }
+    },
+    "6": {
+      "estimated_gpu_hours": 80.1,
+      "estimated_hours": 80.1,
+      "repetitions": 6,
+      "runs": {
+        "E1": 15120,
+        "E4": 1080,
+        "E5": 504,
+        "total": 16704
+      },
+      "seconds_per_run": {
+        "backbone_b": 21.56,
+        "tier1": 15.45,
+        "tier2": 20.19
+      }
+    }
+  },
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "n_pilot_runs": 1680,
+  "note": "Edit FREEZE_REPETITIONS / FREEZE_LIMIT_OVERRIDES in the config cell to deviate; overrides are recorded.",
+  "pilot_sources": [
+    "E0",
+    "E0S",
+    "E0X2"
+  ],
+  "power": {
+    "assumptions": {
+      "baseline_vcr_M0_pilot": 0.8333333333333334,
+      "effect_pp": 10.0,
+      "note": "Development pilot tasks differ from the evaluation portfolio; the variance model is an assumption.",
+      "sd_cell_logit": 0.5,
+      "sd_family_logit": 0.5,
+      "sims": 200
+    },
+    "grid": [
+      {
+        "power": 1.0,
+        "reps": 3,
+        "sd_block_logit": 0.25
+      },
+      {
+        "power": 1.0,
+        "reps": 4,
+        "sd_block_logit": 0.25
+      },
+      {
+        "power": 1.0,
+        "reps": 5,
+        "sd_block_logit": 0.25
+      },
+      {
+        "power": 1.0,
+        "reps": 6,
+        "sd_block_logit": 0.25
+      },
+      {
+        "power": 1.0,
+        "reps": 3,
+        "sd_block_logit": 0.5
+      },
+      {
+        "power": 1.0,
+        "reps": 4,
+        "sd_block_logit": 0.5
+      },
+      {
+        "power": 1.0,
+        "reps": 5,
+        "sd_block_logit": 0.5
+      },
+      {
+        "power": 1.0,
+        "reps": 6,
+        "sd_block_logit": 0.5
+      },
+      {
+        "power": 1.0,
+        "reps": 3,
+        "sd_block_logit": 1.0
+      },
+      {
+        "power": 1.0,
+        "reps": 4,
+        "sd_block_logit": 1.0
+      },
+      {
+        "power": 1.0,
+        "reps": 5,
+        "sd_block_logit": 1.0
+      },
+      {
+        "power": 1.0,
+        "reps": 6,
+        "sd_block_logit": 1.0
+      }
+    ],
+    "time": "2026-11-12T08:07:10Z"
+  },
+  "recommended_repetitions": [
+    0,
+    1,
+    2
+  ],
+  "tier2_calibration": {
+    "defects": {
+      "X2": {
+        "chosen": "X2b",
+        "complete": true,
+        "levels": [
+          {
+            "baseline_vcr": 0.7708333333333334,
+            "level": "X2a",
+            "n_baseline_runs": 48,
+            "vcr_by_system": {
+              "F": 0.0,
+              "M0": 0.6666666666666666,
+              "MP": 0.875,
+              "MQ": 0.8333333333333334,
+              "MQP": 0.9583333333333334,
+              "S0": 0.875,
+              "SQP": 0.875
+            }
+          },
+          {
+            "baseline_vcr": 0.75,
+            "level": "X2b",
+            "n_baseline_runs": 48,
+            "vcr_by_system": {
+              "F": 0.0,
+              "M0": 0.75,
+              "MP": 0.875,
+              "MQ": 0.75,
+              "MQP": 0.6666666666666666,
+              "S0": 0.75,
+              "SQP": 0.7083333333333334
+            }
+          },
+          {
+            "baseline_vcr": 0.75,
+            "level": "X2c",
+            "n_baseline_runs": 48,
+            "vcr_by_system": {
+              "F": 0.0,
+              "M0": 0.625,
+              "MP": 0.75,
+              "MQ": 0.5833333333333334,
+              "MQP": 0.7083333333333334,
+              "S0": 0.875,
+              "SQP": 0.625
+            }
+          }
+        ]
+      },
+      "X3": {
+        "chosen": "X3a",
+        "complete": true,
+        "levels": [
+          {
+            "baseline_vcr": 0.7083333333333334,
+            "level": "X3a",
+            "n_baseline_runs": 48,
+            "vcr_by_system": {
+              "F": 0.0,
+              "M0": 0.6666666666666666,
+              "MP": 0.7083333333333334,
+              "MQ": 0.8333333333333334,
+              "MQP": 0.8333333333333334,
+              "S0": 0.75,
+              "SQP": 0.7916666666666666
+            }
+          },
+          {
+            "baseline_vcr": 0.8125,
+            "level": "X3b",
+            "n_baseline_runs": 48,
+            "vcr_by_system": {
+              "F": 0.0,
+              "M0": 0.75,
+              "MP": 0.75,
+              "MQ": 0.9583333333333334,
+              "MQP": 0.8333333333333334,
+              "S0": 0.875,
+              "SQP": 0.9166666666666666
+            }
+          },
+          {
+            "baseline_vcr": 0.8333333333333334,
+            "level": "X3c",
+            "n_baseline_runs": 48,
+            "vcr_by_system": {
+              "F": 0.0,
+              "M0": 0.8333333333333334,
+              "MP": 0.8333333333333334,
+              "MQ": 0.9583333333333334,
+              "MQP": 0.875,
+              "S0": 0.8333333333333334,
+              "SQP": 0.875
+            }
+          }
+        ]
+      },
+      "X4": {
+        "chosen": "X4b",
+        "complete": true,
+        "levels": [
+          {
+            "baseline_vcr": 0.041666666666666664,
+            "level": "X4a",
+            "n_baseline_runs": 48,
+            "vcr_by_system": {
+              "F": 0.0,
+              "M0": 0.041666666666666664,
+              "MP": 1.0,
+              "MQ": 0.3333333333333333,
+              "MQP": 0.9166666666666666,
+              "S0": 0.041666666666666664,
+              "SQP": 0.9166666666666666
+            }
+          },
+          {
+            "baseline_vcr": 0.08333333333333333,
+            "level": "X4b",
+            "n_baseline_runs": 48,
+            "vcr_by_system": {
+              "F": 0.0,
+              "M0": 0.125,
+              "MP": 0.9583333333333334,
+              "MQ": 0.2916666666666667,
+              "MQP": 1.0,
+              "S0": 0.041666666666666664,
+              "SQP": 1.0
+            }
+          },
+          {
+            "baseline_vcr": 0.020833333333333332,
+            "level": "X4c",
+            "n_baseline_runs": 48,
+            "vcr_by_system": {
+              "F": 0.0,
+              "M0": 0.041666666666666664,
+              "MP": 0.9583333333333334,
+              "MQ": 0.25,
+              "MQP": 1.0,
+              "S0": 0.0,
+              "SQP": 1.0
+            }
+          }
+        ]
+      }
+    },
+    "experiment": "E0X2",
+    "repetitions": [
+      1,
+      2
+    ],
+    "rule": "argmin |VCR(S0,M0 pooled) - 0.5| per defect; ties -> lower level"
+  },
+  "tier2_conditions": [
+    "X2b",
+    "X3a",
+    "X4b"
+  ],
+  "version": "v2.1"
+}

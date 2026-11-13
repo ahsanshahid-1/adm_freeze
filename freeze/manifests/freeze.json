@@ -1,0 +1,640 @@
+{
+  "canonical_manifest_hash": "edc4bacd1eef3b1a04493d89b630bdbbdf91890d013b598c78dcc33ea9fca537",
+  "code_hash": "c8cdef91e85a6f2a09719d22bc3cdabcea0222dce7d1c0eb199cf59773ae3fba",
+  "config_hash": "5cfa0a57560cee1a0d4b6111a5b5dc3ee76d23eb22faf2567260b6b1d4ede492",
+  "created": "2026-11-12T08:16:43Z",
+  "datasets_manifest_hash": "eae402df854963775b2af4128cb3eed1368b67cf01e310c56356a8ec183a65ba",
+  "frozen_config": {
+    "concurrency": 8,
+    "fit_slots": 3,
+    "generation": {
+      "enable_thinking": false,
+      "max_context_tokens": 16384,
+      "max_output_tokens_per_call": 1024,
+      "temperature": 0.2,
+      "top_k": 40,
+      "top_p": 0.9
+    },
+    "limits": {
+      "aggregate_tokens": 300000,
+      "model_calls": 48,
+      "pipeline_evaluations": 6,
+      "repair_cycles": 2,
+      "tool_calls": 40,
+      "wall_seconds": 600
+    },
+    "optional_budget_experiment": false,
+    "repetitions": [
+      0,
+      1,
+      2
+    ],
+    "tier2_conditions": [
+      "X2b",
+      "X3a",
+      "X4b"
+    ]
+  },
+  "model_lock": {
+    "backbones": {
+      "A": {
+        "base_model": "Qwen/Qwen3.8-27B",
+        "downloaded": "2026-11-11T18:47:31Z",
+        "dtype": "bfloat16",
+        "file_hashes": {
+          "chat_template.jinja": "af16f654968d47d09a6c604e00370b12dbc21f76456f59c9e98b82e84d9f6375",
+          "config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+          "generation_config.json": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+          "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+          "tokenizer_config.json": "207c03c41a06a9c3b0cc527d8a56115159c1eac6b59a4ffae85b646e773d074e"
+        },
+        "launch_command": [
+          "/home/axshahid/Data-Mining/adm_crc_run/vllm_env/bin/vllm",
+          "serve",
+          "/home/axshahid/Data-Mining/adm_crc_run/adm_models/Qwen__Qwen3.8-27B",
+          "--served-model-name",
+          "A",
+          "--tensor-parallel-size",
+          "1",
+          "--dtype",
+          "bfloat16",
+          "--max-model-len",
+          "16384",
+          "--gpu-memory-utilization",
+          "0.9",
+          "--max-num-seqs",
+          "16",
+          "--enable-prefix-caching",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "18000",
+          "--seed",
+          "0",
+          "--language-model-only"
+        ],
+        "launch_env": {
+          "VLLM_USE_FLASHINFER_SAMPLER": "0",
+          "VLLM_WORKER_MULTIPROC_METHOD": "spawn"
+        },
+        "launch_variant": "default",
+        "path": "/home/axshahid/Data-Mining/adm_crc_run/adm_models/Qwen__Qwen3.8-27B",
+        "preflight": {
+          "args_test": {
+            "passed": true,
+            "text": "{\"thought\": \"The user is asking me to call a function called `inspect_schema` with the argument `{\\\"table\\\": \\\"observations\\\"}`. However, I don't have access to any tools or functions that I can call. I cannot execute code, access databases, or call external functions. I should inform the user that "
+          },
+          "ok": true,
+          "schema_test": {
+            "action": "list_sources",
+            "contains_42": true,
+            "mode": "response_format",
+            "seconds": 2.84,
+            "text": "{\n  \"thought\": \"The sum of 17 and 25 is 42.\",\n  \"action\": \"list_sources\",\n  \"args\": {}\n}"
+          },
+          "served": "A",
+          "structured_mode": "response_format",
+          "throughput": {
+            "concurrent_requests": 8,
+            "output_tokens_per_second": 113.39,
+            "output_tokens_total": 1024,
+            "prompt_tokens_each": 1228,
+            "valid_json": 8,
+            "wall_seconds": 9.03
+          },
+          "time": "2026-11-11T18:53:41Z"
+        },
+        "quantization": null,
+        "repo": "Qwen/Qwen3.8-27B",
+        "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+        "structured_mode": "response_format",
+        "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+        "weight_files": [
+          "model-00001-of-00018.safetensors",
+          "model-00002-of-00018.safetensors",
+          "model-00003-of-00018.safetensors",
+          "model-00004-of-00018.safetensors",
+          "model-00005-of-00018.safetensors",
+          "model-00006-of-00018.safetensors",
+          "model-00007-of-00018.safetensors",
+          "model-00008-of-00018.safetensors",
+          "model-00009-of-00018.safetensors",
+          "model-00010-of-00018.safetensors",
+          "model-00011-of-00018.safetensors",
+          "model-00012-of-00018.safetensors",
+          "model-00013-of-00018.safetensors",
+          "model-00014-of-00018.safetensors",
+          "model-00015-of-00018.safetensors",
+          "model-00016-of-00018.safetensors",
+          "model-00017-of-00018.safetensors",
+          "model-00018-of-00018.safetensors"
+        ],
+        "weight_manifest_hash": "b3734f9fd633ba3ca9c93ed230d650d066389dacc094a1070f18679546718a74"
+      },
+      "B": {
+        "base_model": "google/gemma-4-31B-it",
+        "downloaded": "2026-11-12T04:25:41Z",
+        "dtype": "bfloat16",
+        "file_hashes": {
+          "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+          "config.json": "e967dd38bc5cfd38bd09a995a7bf4a754075df2b46aba68f7fbb5a791e6d8dd1",
+          "generation_config.json": "d4226bbe3117d2d253ba4609720ba82c6c4ce4627a9a6ae05387c78983ac03de",
+          "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+          "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633"
+        },
+        "launch_command": [
+          "/home/axshahid/Data-Mining/adm_crc_run/vllm_env/bin/vllm",
+          "serve",
+          "/home/axshahid/Data-Mining/adm_crc_run/adm_models/google__gemma-4-31B-it",
+          "--served-model-name",
+          "B",
+          "--tensor-parallel-size",
+          "1",
+          "--dtype",
+          "bfloat16",
+          "--max-model-len",
+          "16384",
+          "--gpu-memory-utilization",
+          "0.9",
+          "--max-num-seqs",
+          "16",
+          "--enable-prefix-caching",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "18000",
+          "--seed",
+          "0",
+          "--language-model-only"
+        ],
+        "launch_env": {
+          "VLLM_USE_FLASHINFER_SAMPLER": "0",
+          "VLLM_WORKER_MULTIPROC_METHOD": "spawn"
+        },
+        "launch_variant": "default",
+        "path": "/home/axshahid/Data-Mining/adm_crc_run/adm_models/google__gemma-4-31B-it",
+        "preflight": {
+          "args_test": {
+            "passed": true,
+            "text": "{\"thought\": \"The user wants to call the `inspect_schema` tool for the 'observations' table.\", \"action\": \"inspect_schema\", \"args\": {\"table\": \"observations\"}}"
+          },
+          "ok": true,
+          "schema_test": {
+            "action": "list_sources",
+            "contains_42": true,
+            "mode": "response_format",
+            "seconds": 2.92,
+            "text": "{\n  \"thought\": \"17+25=42\",\n  \"action\": \"list_sources\",\n  \"args\": {}\n}"
+          },
+          "served": "B",
+          "structured_mode": "response_format",
+          "throughput": {
+            "concurrent_requests": 8,
+            "output_tokens_per_second": 141.48,
+            "output_tokens_total": 692,
+            "prompt_tokens_each": 1292,
+            "valid_json": 8,
+            "wall_seconds": 4.89
+          },
+          "time": "2026-11-12T04:29:21Z"
+        },
+        "quantization": null,
+        "repo": "google/gemma-4-31B-it",
+        "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+        "structured_mode": "response_format",
+        "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "weight_files": [
+          "model-00001-of-00002.safetensors",
+          "model-00002-of-00002.safetensors"
+        ],
+        "weight_manifest_hash": "65436f2ea4b9fe2623eb9fbb34f72dc2ef1bc866531eca8c0055651edb9519ff"
+      }
+    },
+    "gpu": {
+      "cuda_driver_api": "13.2",
+      "gpus": [
+        {
+          "compute_capability": "12.0",
+          "driver": "595.91.07",
+          "memory": "97887 MiB",
+          "name": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
+        }
+      ]
+    },
+    "host": {
+      "cpus": 64,
+      "disk_free_gib": 2479.4,
+      "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+      "python": "3.14.4",
+      "ram_gib": 183.3
+    },
+    "platform": {
+      "label": "1 x NVIDIA RTX PRO 6000 Blackwell (96 GB)",
+      "name": "crc"
+    },
+    "vllm_version": "0.33.0"
+  },
+  "pre_freeze_decisions_20261112": [
+    "MQP - F in the Holm family is estimated on Tier 1 only, because F abstains on Tier 2 by construction; MQP - F over all tiers is exploratory.",
+    "Prespecified secondary outcome (not Holm-adjusted): use of the content-verifying load policy (authoritative_verified) on X4 when it is available but not enforced, per system, from trusted traces; and its use on Tier 1 as a false-alarm measure.",
+    "Prespecified sensitivity analyses for the primary estimate (three repetition blocks per family): (a) mixed-effects logistic regression of V on system with random intercepts for task and for family-repetition block; (b) the block bootstrap with the small-sample variance inflation n/(n-1); (c) per-family estimates reported alongside leave-one-family-out.",
+    "Prespecified descriptive analysis: terminal state and tool-call composition of budget-exhausted runs by system and tier (exploration, materialisation, fits, gate-check calls)."
+  ],
+  "prespecified_tier_analyses": [
+    "Every primary and Holm-family contrast estimated separately on Tier 1 and on Tier 2",
+    "Tier-2 minus Tier-1 difference of each contrast (paired family-repetition blocks, block bootstrap)",
+    "Sensitivity: all contrasts on Tier 2 excluding X4, and on all recoverable tasks excluding X4"
+  ],
+  "primary": "H1: MQP - M0 verified completion, backbone A, all recoverable core tasks (Tier 1 and the frozen Tier-2 conditions, pooled; main-plan-v2.1)",
+  "proposal": {
+    "calibration": {
+      "limits": {
+        "aggregate_tokens": 300000,
+        "model_calls": 48,
+        "pipeline_evaluations": 6,
+        "repair_cycles": 2,
+        "tool_calls": 40,
+        "wall_seconds": 600
+      },
+      "n_runs": 1377,
+      "p95": {
+        "aggregate_tokens": 245961.60000000006,
+        "model_calls": 33.0,
+        "tool_calls": 30.0,
+        "wall_seconds": 249.0816
+      },
+      "pilot_limits": {
+        "aggregate_tokens": 300000,
+        "model_calls": 48,
+        "pipeline_evaluations": 6,
+        "repair_cycles": 2,
+        "tool_calls": 40,
+        "wall_seconds": 1200
+      },
+      "protocol_text_limits": {
+        "aggregate_tokens": 30000,
+        "model_calls": 48,
+        "pipeline_evaluations": 6,
+        "repair_cycles": 2,
+        "tool_calls": 40,
+        "wall_seconds": 600
+      },
+      "rule": "max(protocol-text limit, ceil(1.25 x p95 of pilot usage)), capped at the pilot limit; agentic SUBMITTED/ABSTAINED runs pooled"
+    },
+    "created": "2026-11-12T08:07:10Z",
+    "design_conditions": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "X2b",
+      "X3a",
+      "X4b"
+    ],
+    "estimates": {
+      "3": {
+        "estimated_gpu_hours": 40.0,
+        "estimated_hours": 40.0,
+        "repetitions": 3,
+        "runs": {
+          "E1": 7560,
+          "E4": 540,
+          "E5": 252,
+          "total": 8352
+        },
+        "seconds_per_run": {
+          "backbone_b": 21.56,
+          "tier1": 15.45,
+          "tier2": 20.19
+        }
+      },
+      "4": {
+        "estimated_gpu_hours": 53.4,
+        "estimated_hours": 53.4,
+        "repetitions": 4,
+        "runs": {
+          "E1": 10080,
+          "E4": 720,
+          "E5": 336,
+          "total": 11136
+        },
+        "seconds_per_run": {
+          "backbone_b": 21.56,
+          "tier1": 15.45,
+          "tier2": 20.19
+        }
+      },
+      "5": {
+        "estimated_gpu_hours": 66.7,
+        "estimated_hours": 66.7,
+        "repetitions": 5,
+        "runs": {
+          "E1": 12600,
+          "E4": 900,
+          "E5": 420,
+          "total": 13920
+        },
+        "seconds_per_run": {
+          "backbone_b": 21.56,
+          "tier1": 15.45,
+          "tier2": 20.19
+        }
+      },
+      "6": {
+        "estimated_gpu_hours": 80.1,
+        "estimated_hours": 80.1,
+        "repetitions": 6,
+        "runs": {
+          "E1": 15120,
+          "E4": 1080,
+          "E5": 504,
+          "total": 16704
+        },
+        "seconds_per_run": {
+          "backbone_b": 21.56,
+          "tier1": 15.45,
+          "tier2": 20.19
+        }
+      }
+    },
+    "limits": {
+      "aggregate_tokens": 300000,
+      "model_calls": 48,
+      "pipeline_evaluations": 6,
+      "repair_cycles": 2,
+      "tool_calls": 40,
+      "wall_seconds": 600
+    },
+    "n_pilot_runs": 1680,
+    "note": "Edit FREEZE_REPETITIONS / FREEZE_LIMIT_OVERRIDES in the config cell to deviate; overrides are recorded.",
+    "overrides": {},
+    "pilot_sources": [
+      "E0",
+      "E0S",
+      "E0X2"
+    ],
+    "power": {
+      "assumptions": {
+        "baseline_vcr_M0_pilot": 0.8333333333333334,
+        "effect_pp": 10.0,
+        "note": "Development pilot tasks differ from the evaluation portfolio; the variance model is an assumption.",
+        "sd_cell_logit": 0.5,
+        "sd_family_logit": 0.5,
+        "sims": 200
+      },
+      "grid": [
+        {
+          "power": 1.0,
+          "reps": 3,
+          "sd_block_logit": 0.25
+        },
+        {
+          "power": 1.0,
+          "reps": 4,
+          "sd_block_logit": 0.25
+        },
+        {
+          "power": 1.0,
+          "reps": 5,
+          "sd_block_logit": 0.25
+        },
+        {
+          "power": 1.0,
+          "reps": 6,
+          "sd_block_logit": 0.25
+        },
+        {
+          "power": 1.0,
+          "reps": 3,
+          "sd_block_logit": 0.5
+        },
+        {
+          "power": 1.0,
+          "reps": 4,
+          "sd_block_logit": 0.5
+        },
+        {
+          "power": 1.0,
+          "reps": 5,
+          "sd_block_logit": 0.5
+        },
+        {
+          "power": 1.0,
+          "reps": 6,
+          "sd_block_logit": 0.5
+        },
+        {
+          "power": 1.0,
+          "reps": 3,
+          "sd_block_logit": 1.0
+        },
+        {
+          "power": 1.0,
+          "reps": 4,
+          "sd_block_logit": 1.0
+        },
+        {
+          "power": 1.0,
+          "reps": 5,
+          "sd_block_logit": 1.0
+        },
+        {
+          "power": 1.0,
+          "reps": 6,
+          "sd_block_logit": 1.0
+        }
+      ],
+      "time": "2026-11-12T08:07:10Z"
+    },
+    "recommended_repetitions": [
+      0,
+      1,
+      2
+    ],
+    "repetitions": [
+      0,
+      1,
+      2
+    ],
+    "tier2_calibration": {
+      "defects": {
+        "X2": {
+          "chosen": "X2b",
+          "complete": true,
+          "levels": [
+            {
+              "baseline_vcr": 0.7708333333333334,
+              "level": "X2a",
+              "n_baseline_runs": 48,
+              "vcr_by_system": {
+                "F": 0.0,
+                "M0": 0.6666666666666666,
+                "MP": 0.875,
+                "MQ": 0.8333333333333334,
+                "MQP": 0.9583333333333334,
+                "S0": 0.875,
+                "SQP": 0.875
+              }
+            },
+            {
+              "baseline_vcr": 0.75,
+              "level": "X2b",
+              "n_baseline_runs": 48,
+              "vcr_by_system": {
+                "F": 0.0,
+                "M0": 0.75,
+                "MP": 0.875,
+                "MQ": 0.75,
+                "MQP": 0.6666666666666666,
+                "S0": 0.75,
+                "SQP": 0.7083333333333334
+              }
+            },
+            {
+              "baseline_vcr": 0.75,
+              "level": "X2c",
+              "n_baseline_runs": 48,
+              "vcr_by_system": {
+                "F": 0.0,
+                "M0": 0.625,
+                "MP": 0.75,
+                "MQ": 0.5833333333333334,
+                "MQP": 0.7083333333333334,
+                "S0": 0.875,
+                "SQP": 0.625
+              }
+            }
+          ]
+        },
+        "X3": {
+          "chosen": "X3a",
+          "complete": true,
+          "levels": [
+            {
+              "baseline_vcr": 0.7083333333333334,
+              "level": "X3a",
+              "n_baseline_runs": 48,
+              "vcr_by_system": {
+                "F": 0.0,
+                "M0": 0.6666666666666666,
+                "MP": 0.7083333333333334,
+                "MQ": 0.8333333333333334,
+                "MQP": 0.8333333333333334,
+                "S0": 0.75,
+                "SQP": 0.7916666666666666
+              }
+            },
+            {
+              "baseline_vcr": 0.8125,
+              "level": "X3b",
+              "n_baseline_runs": 48,
+              "vcr_by_system": {
+                "F": 0.0,
+                "M0": 0.75,
+                "MP": 0.75,
+                "MQ": 0.9583333333333334,
+                "MQP": 0.8333333333333334,
+                "S0": 0.875,
+                "SQP": 0.9166666666666666
+              }
+            },
+            {
+              "baseline_vcr": 0.8333333333333334,
+              "level": "X3c",
+              "n_baseline_runs": 48,
+              "vcr_by_system": {
+                "F": 0.0,
+                "M0": 0.8333333333333334,
+                "MP": 0.8333333333333334,
+                "MQ": 0.9583333333333334,
+                "MQP": 0.875,
+                "S0": 0.8333333333333334,
+                "SQP": 0.875
+              }
+            }
+          ]
+        },
+        "X4": {
+          "chosen": "X4b",
+          "complete": true,
+          "levels": [
+            {
+              "baseline_vcr": 0.041666666666666664,
+              "level": "X4a",
+              "n_baseline_runs": 48,
+              "vcr_by_system": {
+                "F": 0.0,
+                "M0": 0.041666666666666664,
+                "MP": 1.0,
+                "MQ": 0.3333333333333333,
+                "MQP": 0.9166666666666666,
+                "S0": 0.041666666666666664,
+                "SQP": 0.9166666666666666
+              }
+            },
+            {
+              "baseline_vcr": 0.08333333333333333,
+              "level": "X4b",
+              "n_baseline_runs": 48,
+              "vcr_by_system": {
+                "F": 0.0,
+                "M0": 0.125,
+                "MP": 0.9583333333333334,
+                "MQ": 0.2916666666666667,
+                "MQP": 1.0,
+                "S0": 0.041666666666666664,
+                "SQP": 1.0
+              }
+            },
+            {
+              "baseline_vcr": 0.020833333333333332,
+              "level": "X4c",
+              "n_baseline_runs": 48,
+              "vcr_by_system": {
+                "F": 0.0,
+                "M0": 0.041666666666666664,
+                "MP": 0.9583333333333334,
+                "MQ": 0.25,
+                "MQP": 1.0,
+                "S0": 0.0,
+                "SQP": 1.0
+              }
+            }
+          ]
+        }
+      },
+      "experiment": "E0X2",
+      "repetitions": [
+        1,
+        2
+      ],
+      "rule": "argmin |VCR(S0,M0 pooled) - 0.5| per defect; ties -> lower level"
+    },
+    "tier2_conditions": [
+      "X2b",
+      "X3a",
+      "X4b"
+    ],
+    "version": "v2.1"
+  },
+  "protocol_hash": "22d4f2fa1dab5138402e649306a7cefc1c7ef5ad31d50b35f607785c6f7740f1",
+  "replication_tasks": [
+    "D1-T5",
+    "D2-T2",
+    "D3-T4",
+    "D4-T6",
+    "D5-T3",
+    "D6-T1"
+  ],
+  "secondary_holm_family": [
+    "Q main effect",
+    "P main effect",
+    "Q x P interaction",
+    "MQP - SQP",
+    "MQP - F (Tier 1 conditions only)"
+  ],
+  "splits_manifest_hash": "5527d05bb46c017fd004a8d3f1a2bfcbfb9f9080eb5a221cb44084b829aa23af"
+}

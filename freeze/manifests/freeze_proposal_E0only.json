@@ -1,0 +1,186 @@
+{
+  "calibration": {
+    "limits": {
+      "aggregate_tokens": 267000,
+      "model_calls": 48,
+      "pipeline_evaluations": 6,
+      "repair_cycles": 2,
+      "tool_calls": 40,
+      "wall_seconds": 600
+    },
+    "n_runs": 286,
+    "p95": {
+      "aggregate_tokens": 213396.75,
+      "model_calls": 31.0,
+      "tool_calls": 28.0,
+      "wall_seconds": 213.89825000000002
+    },
+    "pilot_limits": {
+      "aggregate_tokens": 300000,
+      "model_calls": 48,
+      "pipeline_evaluations": 6,
+      "repair_cycles": 2,
+      "tool_calls": 40,
+      "wall_seconds": 1200
+    },
+    "protocol_text_limits": {
+      "aggregate_tokens": 30000,
+      "model_calls": 48,
+      "pipeline_evaluations": 6,
+      "repair_cycles": 2,
+      "tool_calls": 40,
+      "wall_seconds": 600
+    },
+    "rule": "max(protocol-text limit, ceil(1.25 x p95 of pilot usage)), capped at the pilot limit; agentic SUBMITTED/ABSTAINED runs pooled"
+  },
+  "created": "2026-11-11T05:38:42Z",
+  "estimates": {
+    "3": {
+      "estimated_gpu_hours": 25.6,
+      "estimated_hours": 25.6,
+      "estimated_sessions": 3,
+      "gpus": 1,
+      "repetitions": 3,
+      "runs": {
+        "E1": 5292,
+        "E4": 378,
+        "E5": 252,
+        "total": 5922
+      }
+    },
+    "4": {
+      "estimated_gpu_hours": 34.1,
+      "estimated_hours": 34.1,
+      "estimated_sessions": 4,
+      "gpus": 1,
+      "repetitions": 4,
+      "runs": {
+        "E1": 7056,
+        "E4": 504,
+        "E5": 336,
+        "total": 7896
+      }
+    },
+    "5": {
+      "estimated_gpu_hours": 42.7,
+      "estimated_hours": 42.7,
+      "estimated_sessions": 5,
+      "gpus": 1,
+      "repetitions": 5,
+      "runs": {
+        "E1": 8820,
+        "E4": 630,
+        "E5": 420,
+        "total": 9870
+      }
+    },
+    "6": {
+      "estimated_gpu_hours": 51.2,
+      "estimated_hours": 51.2,
+      "estimated_sessions": 6,
+      "gpus": 1,
+      "repetitions": 6,
+      "runs": {
+        "E1": 10584,
+        "E4": 756,
+        "E5": 504,
+        "total": 11844
+      }
+    }
+  },
+  "limits": {
+    "aggregate_tokens": 267000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "note": "Edit FREEZE_REPETITIONS / FREEZE_LIMIT_OVERRIDES in the config cell to deviate; overrides are recorded.",
+  "power": {
+    "assumptions": {
+      "baseline_vcr_M0_pilot": 0.9791666666666666,
+      "effect_pp": 10.0,
+      "note": "Development pilot tasks differ from the evaluation portfolio; the variance model is an assumption.",
+      "sd_cell_logit": 0.5,
+      "sd_family_logit": 0.5,
+      "sims": 200
+    },
+    "grid": [
+      {
+        "power": 1.0,
+        "reps": 3,
+        "sd_block_logit": 0.25
+      },
+      {
+        "power": 1.0,
+        "reps": 4,
+        "sd_block_logit": 0.25
+      },
+      {
+        "power": 1.0,
+        "reps": 5,
+        "sd_block_logit": 0.25
+      },
+      {
+        "power": 1.0,
+        "reps": 6,
+        "sd_block_logit": 0.25
+      },
+      {
+        "power": 1.0,
+        "reps": 3,
+        "sd_block_logit": 0.5
+      },
+      {
+        "power": 1.0,
+        "reps": 4,
+        "sd_block_logit": 0.5
+      },
+      {
+        "power": 1.0,
+        "reps": 5,
+        "sd_block_logit": 0.5
+      },
+      {
+        "power": 1.0,
+        "reps": 6,
+        "sd_block_logit": 0.5
+      },
+      {
+        "power": 1.0,
+        "reps": 3,
+        "sd_block_logit": 1.0
+      },
+      {
+        "power": 1.0,
+        "reps": 4,
+        "sd_block_logit": 1.0
+      },
+      {
+        "power": 1.0,
+        "reps": 5,
+        "sd_block_logit": 1.0
+      },
+      {
+        "power": 1.0,
+        "reps": 6,
+        "sd_block_logit": 1.0
+      }
+    ],
+    "time": "2026-11-11T05:38:42Z"
+  },
+  "recommended_repetitions": [
+    0,
+    1,
+    2
+  ],
+  "throughput": {
+    "agentic_runs": 288,
+    "concurrency": 8,
+    "mean_active_s": 139.42225694444446,
+    "mean_llm_s": 131.84138541666667,
+    "seconds_per_run_effective": 15.566369047619048,
+    "stage_wall_seconds": 5230.3
+  }
+}

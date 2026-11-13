@@ -1,0 +1,199 @@
+{
+  "backbones": {
+    "A": {
+      "base_model": "Qwen/Qwen3.8-27B",
+      "downloaded": "2026-11-11T18:47:31Z",
+      "dtype": "bfloat16",
+      "file_hashes": {
+        "chat_template.jinja": "af16f654968d47d09a6c604e00370b12dbc21f76456f59c9e98b82e84d9f6375",
+        "config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+        "generation_config.json": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+        "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+        "tokenizer_config.json": "207c03c41a06a9c3b0cc527d8a56115159c1eac6b59a4ffae85b646e773d074e"
+      },
+      "launch_command": [
+        "/home/axshahid/Data-Mining/adm_crc_run/vllm_env/bin/vllm",
+        "serve",
+        "/home/axshahid/Data-Mining/adm_crc_run/adm_models/Qwen__Qwen3.8-27B",
+        "--served-model-name",
+        "A",
+        "--tensor-parallel-size",
+        "1",
+        "--dtype",
+        "bfloat16",
+        "--max-model-len",
+        "16384",
+        "--gpu-memory-utilization",
+        "0.9",
+        "--max-num-seqs",
+        "16",
+        "--enable-prefix-caching",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "18000",
+        "--seed",
+        "0",
+        "--language-model-only"
+      ],
+      "launch_env": {
+        "VLLM_USE_FLASHINFER_SAMPLER": "0",
+        "VLLM_WORKER_MULTIPROC_METHOD": "spawn"
+      },
+      "launch_variant": "default",
+      "path": "/home/axshahid/Data-Mining/adm_crc_run/adm_models/Qwen__Qwen3.8-27B",
+      "preflight": {
+        "args_test": {
+          "passed": true,
+          "text": "{\"thought\": \"The user is asking me to call a function called `inspect_schema` with the argument `{\\\"table\\\": \\\"observations\\\"}`. However, I don't have access to any tools or functions that I can call. I cannot execute code, access databases, or call external functions. I should inform the user that "
+        },
+        "ok": true,
+        "schema_test": {
+          "action": "list_sources",
+          "contains_42": true,
+          "mode": "response_format",
+          "seconds": 2.84,
+          "text": "{\n  \"thought\": \"The sum of 17 and 25 is 42.\",\n  \"action\": \"list_sources\",\n  \"args\": {}\n}"
+        },
+        "served": "A",
+        "structured_mode": "response_format",
+        "throughput": {
+          "concurrent_requests": 8,
+          "output_tokens_per_second": 113.39,
+          "output_tokens_total": 1024,
+          "prompt_tokens_each": 1228,
+          "valid_json": 8,
+          "wall_seconds": 9.03
+        },
+        "time": "2026-11-11T18:53:41Z"
+      },
+      "quantization": null,
+      "repo": "Qwen/Qwen3.8-27B",
+      "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+      "structured_mode": "response_format",
+      "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+      "weight_files": [
+        "model-00001-of-00018.safetensors",
+        "model-00002-of-00018.safetensors",
+        "model-00003-of-00018.safetensors",
+        "model-00004-of-00018.safetensors",
+        "model-00005-of-00018.safetensors",
+        "model-00006-of-00018.safetensors",
+        "model-00007-of-00018.safetensors",
+        "model-00008-of-00018.safetensors",
+        "model-00009-of-00018.safetensors",
+        "model-00010-of-00018.safetensors",
+        "model-00011-of-00018.safetensors",
+        "model-00012-of-00018.safetensors",
+        "model-00013-of-00018.safetensors",
+        "model-00014-of-00018.safetensors",
+        "model-00015-of-00018.safetensors",
+        "model-00016-of-00018.safetensors",
+        "model-00017-of-00018.safetensors",
+        "model-00018-of-00018.safetensors"
+      ],
+      "weight_manifest_hash": "b3734f9fd633ba3ca9c93ed230d650d066389dacc094a1070f18679546718a74"
+    },
+    "B": {
+      "base_model": "google/gemma-4-31B-it",
+      "downloaded": "2026-11-12T04:25:41Z",
+      "dtype": "bfloat16",
+      "file_hashes": {
+        "chat_template.jinja": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+        "config.json": "e967dd38bc5cfd38bd09a995a7bf4a754075df2b46aba68f7fbb5a791e6d8dd1",
+        "generation_config.json": "d4226bbe3117d2d253ba4609720ba82c6c4ce4627a9a6ae05387c78983ac03de",
+        "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+        "tokenizer_config.json": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633"
+      },
+      "launch_command": [
+        "/home/axshahid/Data-Mining/adm_crc_run/vllm_env/bin/vllm",
+        "serve",
+        "/home/axshahid/Data-Mining/adm_crc_run/adm_models/google__gemma-4-31B-it",
+        "--served-model-name",
+        "B",
+        "--tensor-parallel-size",
+        "1",
+        "--dtype",
+        "bfloat16",
+        "--max-model-len",
+        "16384",
+        "--gpu-memory-utilization",
+        "0.9",
+        "--max-num-seqs",
+        "16",
+        "--enable-prefix-caching",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "18000",
+        "--seed",
+        "0",
+        "--language-model-only"
+      ],
+      "launch_env": {
+        "VLLM_USE_FLASHINFER_SAMPLER": "0",
+        "VLLM_WORKER_MULTIPROC_METHOD": "spawn"
+      },
+      "launch_variant": "default",
+      "path": "/home/axshahid/Data-Mining/adm_crc_run/adm_models/google__gemma-4-31B-it",
+      "preflight": {
+        "args_test": {
+          "passed": true,
+          "text": "{\"thought\": \"The user wants to call the `inspect_schema` tool for the 'observations' table.\", \"action\": \"inspect_schema\", \"args\": {\"table\": \"observations\"}}"
+        },
+        "ok": true,
+        "schema_test": {
+          "action": "list_sources",
+          "contains_42": true,
+          "mode": "response_format",
+          "seconds": 2.92,
+          "text": "{\n  \"thought\": \"17+25=42\",\n  \"action\": \"list_sources\",\n  \"args\": {}\n}"
+        },
+        "served": "B",
+        "structured_mode": "response_format",
+        "throughput": {
+          "concurrent_requests": 8,
+          "output_tokens_per_second": 141.48,
+          "output_tokens_total": 692,
+          "prompt_tokens_each": 1292,
+          "valid_json": 8,
+          "wall_seconds": 4.89
+        },
+        "time": "2026-11-12T04:29:21Z"
+      },
+      "quantization": null,
+      "repo": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "structured_mode": "response_format",
+      "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+      "weight_files": [
+        "model-00001-of-00002.safetensors",
+        "model-00002-of-00002.safetensors"
+      ],
+      "weight_manifest_hash": "65436f2ea4b9fe2623eb9fbb34f72dc2ef1bc866531eca8c0055651edb9519ff"
+    }
+  },
+  "gpu": {
+    "cuda_driver_api": "13.2",
+    "gpus": [
+      {
+        "compute_capability": "12.0",
+        "driver": "595.91.07",
+        "memory": "97887 MiB",
+        "name": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
+      }
+    ]
+  },
+  "host": {
+    "cpus": 64,
+    "disk_free_gib": 2479.4,
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+    "python": "3.14.4",
+    "ram_gib": 183.3
+  },
+  "platform": {
+    "label": "1 x NVIDIA RTX PRO 6000 Blackwell (96 GB)",
+    "name": "crc"
+  },
+  "vllm_version": "0.33.0"
+}

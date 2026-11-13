@@ -1,0 +1,54 @@
+{
+  "D1": {
+    "archive": "uci_601.zip",
+    "bytes": 522170,
+    "citation": "Matzka, S. (2020). AI4I 2020 Predictive Maintenance Dataset. UCI Machine Learning Repository.",
+    "doi": "10.24432/C5HS5C",
+    "license": "CC BY 4.0",
+    "name": "AI4I 2020 Predictive Maintenance Dataset",
+    "page": "https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset",
+    "retrieved": "2026-11-11T03:27:23Z",
+    "sha256": "f601f14294bcf190f9d720676b7f0aea46a26cde9ab8ebc7b4f8174d9d26b252",
+    "uci_id": 601,
+    "url": "https://archive.ics.uci.edu/static/public/601/ai4i+2020+predictive+maintenance+dataset.zip"
+  },
+  "D2": {
+    "archive": "uci_198.zip",
+    "bytes": 100890,
+    "citation": "Buscema, M., Terzi, S., & Tastle, W. (2010). Steel Plates Faults. UCI Machine Learning Repository.",
+    "doi": "10.24432/C5J88N",
+    "license": "CC BY 4.0",
+    "name": "Steel Plates Faults",
+    "page": "https://archive.ics.uci.edu/dataset/198/steel+plates+faults",
+    "retrieved": "2026-11-11T03:27:23Z",
+    "sha256": "cb8eb9859198b63f053e443513036b401746fa517ef58bd17c846c6741c93919",
+    "uci_id": 198,
+    "url": "https://archive.ics.uci.edu/static/public/198/steel+plates+faults.zip"
+  },
+  "D3": {
+    "archive": "uci_165.zip",
+    "bytes": 34444,
+    "citation": "Yeh, I.-C. (1998). Concrete Compressive Strength. UCI Machine Learning Repository.",
+    "doi": "10.24432/C5PK67",
+    "license": "CC BY 4.0",
+    "name": "Concrete Compressive Strength",
+    "page": "https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength",
+    "retrieved": "2026-11-11T03:27:24Z",
+    "sha256": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+    "uci_id": 165,
+    "url": "https://archive.ics.uci.edu/static/public/165/concrete+compressive+strength.zip"
+  },
+  "D4": {
+    "archive": "uci_242.zip",
+    "bytes": 76321,
+    "citation": "Tsanas, A. & Xifara, A. (2012). Energy Efficiency. UCI Machine Learning Repository.",
+    "doi": "10.24432/C51307",
+    "license": "CC BY 4.0",
+    "name": "Energy Efficiency",
+    "page": "https://archive.ics.uci.edu/dataset/242/energy+efficiency",
+    "retrieved": "2026-11-11T03:27:24Z",
+    "sha256": "499441eee27929a4b00417f58fd8c63c9cc14b8a71520cd0dd27fcb626738351",
+    "uci_id": 242,
+    "url": "https://archive.ics.uci.edu/static/public/242/energy+efficiency.zip"
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "development/D5/r0": {
+    "hash": "1afa18542f84a35f16c43af0de7c1ef202c5024e3837c23d52426ea2747e5789",
+    "positives": {
+      "test": 59,
+      "train": 138,
+      "validation": 59
+    },
+    "sizes": {
+      "test": 400,
+      "train": 1180,
+      "validation": 420
+    }
+  },
+  "development/D5/r1": {
+    "hash": "4fd46ab1f53f10f5b4a60f65e094faa6b15cba25bf465c3f3275b5dbe09c54a8",
+    "positives": {
+      "test": 49,
+      "train": 149,
+      "validation": 58
+    },
+    "sizes": {
+      "test": 400,
+      "train": 1200,
+      "validation": 400
+    }
+  },
+  "development/D5/r2": {
+    "hash": "ab838ae196505b42fa0c0e7475afd655913f51788c7160c1d475be8124d9561e",
+    "positives": {
+      "test": 50,
+      "train": 147,
+      "validation": 59
+    },
+    "sizes": {
+      "test": 400,
+      "train": 1200,
+      "validation": 400
+    }
+  },
+  "development/D6/r0": {
+    "hash": "348d70d20f1afab6a2fec08e52aaeda7bfceb4699f56b0e817ecf456d37ea947",
+    "sizes": {
+      "test": 360,
+      "train": 1080,
+      "validation": 360
+    }
+  },
+  "development/D6/r1": {
+    "hash": "84992fc676a1b4388450310ec41ab31a259100a041c841b318b295a1ca52c595",
+    "sizes": {
+      "test": 360,
+      "train": 1080,
+      "validation": 360
+    }
+  },
+  "development/D6/r2": {
+    "hash": "7611df5918ce2818e4597d290e2c88036424e647c878647a4020fd68ea388888",
+    "sizes": {
+      "test": 360,
+      "train": 1080,
+      "validation": 360
+    }
+  },
+  "evaluation/D1/r0": {
+    "hash": "4c9d01e08186924eee710460250d0b335e48b6e884c463321e018adf88ab2adf",
+    "positives": {
+      "test": 39,
+      "train": 255,
+      "validation": 45
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D1/r1": {
+    "hash": "4c9d01e08186924eee710460250d0b335e48b6e884c463321e018adf88ab2adf",
+    "positives": {
+      "test": 39,
+      "train": 255,
+      "validation": 45
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D1/r2": {
+    "hash": "4c9d01e08186924eee710460250d0b335e48b6e884c463321e018adf88ab2adf",
+    "positives": {
+      "test": 39,
+      "train": 255,
+      "validation": 45
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D1/r3": {
+    "hash": "4c9d01e08186924eee710460250d0b335e48b6e884c463321e018adf88ab2adf",
+    "positives": {
+      "test": 39,
+      "train": 255,
+      "validation": 45
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D1/r4": {
+    "hash": "4c9d01e08186924eee710460250d0b335e48b6e884c463321e018adf88ab2adf",
+    "positives": {
+      "test": 39,
+      "train": 255,
+      "validation": 45
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D1/r5": {
+    "hash": "4c9d01e08186924eee710460250d0b335e48b6e884c463321e018adf88ab2adf",
+    "positives": {
+      "test": 39,
+      "train": 255,
+      "validation": 45
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D2/r0": {
+    "hash": "795cff47303d2be3503a65aa721e2b380cebd9848998870c7ad107a2ab9a3b56",
+    "positives": null,
+    "sizes": {
+      "test": 386,
+      "train": 1165,
+      "validation": 390
+    }
+  },
+  "evaluation/D2/r1": {
+    "hash": "4d764a673fadf6f7bbccf006f81c7f1a9800c9e8fc82e12f52a3b248ff1f67f9",
+    "positives": null,
+    "sizes": {
+      "test": 386,
+      "train": 1165,
+      "validation": 390
+    }
+  },
+  "evaluation/D2/r2": {
+    "hash": "183c1ffe511b47bb26a8e8fd245b26fd81c2e49fe0f6b182b3d0fe5013e457e5",
+    "positives": null,
+    "sizes": {
+      "test": 386,
+      "train": 1165,
+      "validation": 390
+    }
+  },
+  "evaluation/D2/r3": {
+    "hash": "afb7a6fe07ba720764c5d75e536e53bc17ce225ca7d1e3e9bb8dcbff0775ee95",
+    "positives": null,
+    "sizes": {
+      "test": 386,
+      "train": 1165,
+      "validation": 390
+    }
+  },
+  "evaluation/D2/r4": {
+    "hash": "568423cd3a2fa876005ae0825f9eeaf31f60868312fe10c86328382a51cdb5d5",
+    "positives": null,
+    "sizes": {
+      "test": 386,
+      "train": 1165,
+      "validation": 390
+    }
+  },
+  "evaluation/D2/r5": {
+    "hash": "c219b9c6940190c159a9729d3b62b2918b1367cb035b0a85f57c839ed13cabb8",
+    "positives": null,
+    "sizes": {
+      "test": 386,
+      "train": 1165,
+      "validation": 390
+    }
+  },
+  "evaluation/D3/r0": {
+    "hash": "63940ec91d37108997493001163b37b69aaf5839088ab478f40eb9e0ec8f2961",
+    "sizes": {
+      "test": 206,
+      "train": 621,
+      "validation": 203
+    }
+  },
+  "evaluation/D3/r1": {
+    "hash": "adbd91f3affcc9e3d24ab399ace4e323e25ff12dd9654dc73508e79eb0f0f404",
+    "sizes": {
+      "test": 206,
+      "train": 620,
+      "validation": 204
+    }
+  },
+  "evaluation/D3/r2": {
+    "hash": "5fd5b442c89f44e2d9d9faf720d66170373e386f70f6e559cb0dee92f0402750",
+    "sizes": {
+      "test": 208,
+      "train": 617,
+      "validation": 205
+    }
+  },
+  "evaluation/D3/r3": {
+    "hash": "fb97ed81b3c729ba5bd0722b8489e63f28f464ba5e33a12b5904ceae413bb518",
+    "sizes": {
+      "test": 204,
+      "train": 616,
+      "validation": 210
+    }
+  },
+  "evaluation/D3/r4": {
+    "hash": "59058a3a29be36095f50d4e6b90b092b505dbe124d6cf0d7acc4ac747333ebf4",
+    "sizes": {
+      "test": 202,
+      "train": 618,
+      "validation": 210
+    }
+  },
+  "evaluation/D3/r5": {
+    "hash": "bdfea2fb4ab81e39f9942c6e1c40f6a2ff297ea53ee2aa0bd7ed740a0f789023",
+    "sizes": {
+      "test": 208,
+      "train": 620,
+      "validation": 202
+    }
+  },
+  "evaluation/D4/r0": {
+    "groups": {
+      "test": 3,
+      "train": 7,
+      "validation": 2
+    },
+    "hash": "f8f1bfc6033e7ae55d1a58acaa12c7c5fa4f3b3f7b358cb69c385beeffeab534",
+    "sizes": {
+      "test": 192,
+      "train": 448,
+      "validation": 128
+    }
+  },
+  "evaluation/D4/r1": {
+    "groups": {
+      "test": 3,
+      "train": 7,
+      "validation": 2
+    },
+    "hash": "3a3fa9b5067ab50732522ab862e03e59f56d0ea112d7528c0a5b7b02ed2fae18",
+    "sizes": {
+      "test": 192,
+      "train": 448,
+      "validation": 128
+    }
+  },
+  "evaluation/D4/r2": {
+    "groups": {
+      "test": 3,
+      "train": 7,
+      "validation": 2
+    },
+    "hash": "8ebbb739b16f5492b4fbc7ccdf85b12b8593a75ae8409efa0bcdf3b56f458ada",
+    "sizes": {
+      "test": 192,
+      "train": 448,
+      "validation": 128
+    }
+  },
+  "evaluation/D4/r3": {
+    "groups": {
+      "test": 3,
+      "train": 7,
+      "validation": 2
+    },
+    "hash": "4ac4cf9a1a291dbb1e8a71083d1f918e9ae9428ce18d8690be7d6633067fc8b2",
+    "sizes": {
+      "test": 192,
+      "train": 448,
+      "validation": 128
+    }
+  },
+  "evaluation/D4/r4": {
+    "groups": {
+      "test": 3,
+      "train": 7,
+      "validation": 2
+    },
+    "hash": "7f2ed5da9ea5f55eff8d615b8253f5e9e9237fe1477fbbbb3b265244790c2b1b",
+    "sizes": {
+      "test": 192,
+      "train": 448,
+      "validation": 128
+    }
+  },
+  "evaluation/D4/r5": {
+    "groups": {
+      "test": 3,
+      "train": 7,
+      "validation": 2
+    },
+    "hash": "2eb669c6375bb8b4d66f0938ed301d6bc2008b1864fe254cc965ec161e73b849",
+    "sizes": {
+      "test": 192,
+      "train": 448,
+      "validation": 128
+    }
+  },
+  "evaluation/D5/r0": {
+    "hash": "4624ef374e08e30a84f3ae51b7dbc3200132e4210a0400f565d4bb15d2928c16",
+    "positives": {
+      "test": 276,
+      "train": 824,
+      "validation": 292
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D5/r1": {
+    "hash": "e939698c68c0e5b91911b87c9498a37021429d7465fc56a1ae1243159548b841",
+    "positives": {
+      "test": 273,
+      "train": 826,
+      "validation": 293
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D5/r2": {
+    "hash": "0413c49b4a4c161330860bdedeae30221ef3c03cc244dc8ce5c95d7126dce956",
+    "positives": {
+      "test": 284,
+      "train": 822,
+      "validation": 286
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D5/r3": {
+    "hash": "1b378cf55939a589c4da6a20d5a1a614368ae23fd8122d3f40d65a107e9d2d2d",
+    "positives": {
+      "test": 279,
+      "train": 835,
+      "validation": 278
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D5/r4": {
+    "hash": "80d578161b687e8fba6ffbd55b7c7ebc617284b5edd2e704392f62d71f26e637",
+    "positives": {
+      "test": 274,
+      "train": 824,
+      "validation": 294
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D5/r5": {
+    "hash": "5d016e7c08f9539102ac8f0353b995ae1fc085d1c07c0f161daa44557ab7d935",
+    "positives": {
+      "test": 275,
+      "train": 830,
+      "validation": 287
+    },
+    "sizes": {
+      "test": 2000,
+      "train": 6000,
+      "validation": 2000
+    }
+  },
+  "evaluation/D6/r0": {
+    "hash": "ee2edfee74ff47779f95b30061b46afb338cc951b77253f8c95cf8fbb7ff5115",
+    "sizes": {
+      "test": 1800,
+      "train": 5400,
+      "validation": 1800
+    }
+  },
+  "evaluation/D6/r1": {
+    "hash": "8535095344bca085fba99e8409a859a440c4662c1ec749b2066e90745935a86a",
+    "sizes": {
+      "test": 1800,
+      "train": 5400,
+      "validation": 1800
+    }
+  },
+  "evaluation/D6/r2": {
+    "hash": "8b67c6ee8c8e859747a2a6ef8e2bf40112a956d398bd2a9235c4112ba5c2803c",
+    "sizes": {
+      "test": 1800,
+      "train": 5400,
+      "validation": 1800
+    }
+  },
+  "evaluation/D6/r3": {
+    "hash": "3ee962e39f1781b11006d054ea719e61c09d544fc2a7d53f714ea52ec2f69b4c",
+    "sizes": {
+      "test": 1800,
+      "train": 5400,
+      "validation": 1800
+    }
+  },
+  "evaluation/D6/r4": {
+    "hash": "723d4391668a1647969d4de2358e517ca664449838e1d1b4a29a2ee9151ae553",
+    "sizes": {
+      "test": 1800,
+      "train": 5400,
+      "validation": 1800
+    }
+  },
+  "evaluation/D6/r5": {
+    "hash": "745a1b2618621b8a253b487ab8adff6ccbe6863bdbae4b875d163dad3f76658c",
+    "sizes": {
+      "test": 1800,
+      "train": 5400,
+      "validation": 1800
+    }
+  }
+}

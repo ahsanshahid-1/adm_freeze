@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ADM task contract",
+  "type": "object",
+  "required": ["task_id", "instance_id", "template", "objective", "task_type", "target", "prediction_key",
+               "selection_metric", "required_features", "numeric_features", "categorical_features",
+               "excluded_predictors", "source_versions", "keys", "duplicates", "joins", "aggregates", "units",
+               "numeric_format", "value_ranges", "missing_numeric_policy", "visible_partition_sizes",
+               "final_refit_partitions", "candidate_models", "abstention_reasons", "output"],
+  "properties": {
+    "task_type": {"enum": ["binary", "multiclass", "regression"]},
+    "selection_metric": {"enum": ["average_precision", "macro_f1", "rmse"]},
+    "required_features": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "excluded_predictors": {"type": "array", "items": {"type": "string"}},
+    "candidate_models": {"type": "array", "items": {"type": "string"}, "minItems": 6, "maxItems": 6},
+    "final_refit_partitions": {"const": ["train", "validation"]},
+    "joins": {"type": "array", "items": {"type": "object", "required": ["left", "right", "keys", "required_cardinality"]}},
+    "aggregates": {"type": "array", "items": {"type": "object", "required": ["child_table", "key", "series", "stats", "output_columns"]}},
+    "value_ranges": {"type": "object", "additionalProperties": {"type": "array", "minItems": 2, "maxItems": 2}}
+  }
+}

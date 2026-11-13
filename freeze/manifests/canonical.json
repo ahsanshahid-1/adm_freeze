@@ -1,0 +1,79 @@
+{
+  "development/D5": {
+    "class_counts": {
+      "0": 1744,
+      "1": 256
+    },
+    "features": 7,
+    "groups": 100,
+    "hash": "f8bf6c2d3dfb9b7138c1eedf4c103177114ab284f27789441738a443bdb989c2",
+    "rows": 2000,
+    "task_type": "binary"
+  },
+  "development/D6": {
+    "features": 8,
+    "groups": 60,
+    "hash": "87fbf2c6f91152f9c6663d0ad18c08456097a7109990d7cae268c825d834b7c1",
+    "rows": 1800,
+    "task_type": "regression"
+  },
+  "evaluation/D1": {
+    "class_counts": {
+      "0": 9661,
+      "1": 339
+    },
+    "features": 6,
+    "groups": 10000,
+    "hash": "30fbb656c8ad65d4f9cc50c6b8d11671e1b986290e63fc7a9aab6a6d14a3edf9",
+    "rows": 10000,
+    "task_type": "binary"
+  },
+  "evaluation/D2": {
+    "class_counts": {
+      "Bumps": 402,
+      "Dirtiness": 55,
+      "K_Scatch": 391,
+      "Other_Faults": 673,
+      "Pastry": 158,
+      "Stains": 72,
+      "Z_Scratch": 190
+    },
+    "features": 27,
+    "groups": 1941,
+    "hash": "6d580f3800bf768c290d5e7f71673d824a9066fe2510c6b4a7d5bf9da1606fe1",
+    "rows": 1941,
+    "task_type": "multiclass"
+  },
+  "evaluation/D3": {
+    "features": 8,
+    "groups": 428,
+    "hash": "964aeb37eeb76466051cad84d1eba0189905749ef2ca7ba10068524c86ff257a",
+    "rows": 1030,
+    "task_type": "regression"
+  },
+  "evaluation/D4": {
+    "features": 8,
+    "groups": 12,
+    "hash": "dd19fc7c3876f519a881b13ddd4c97bd8980d8bf8a4b4dbe8386b81b878657ca",
+    "rows": 768,
+    "task_type": "regression"
+  },
+  "evaluation/D5": {
+    "class_counts": {
+      "0": 8608,
+      "1": 1392
+    },
+    "features": 7,
+    "groups": 500,
+    "hash": "8fba9a016838852217d2486fc879a963b1bbd5aa75b2fe9425cd157120bf502d",
+    "rows": 10000,
+    "task_type": "binary"
+  },
+  "evaluation/D6": {
+    "features": 8,
+    "groups": 300,
+    "hash": "804af882c0f8cd45451d411d48cbdd967e92905f4546d0716d557e9b0a7a59e3",
+    "rows": 9000,
+    "task_type": "regression"
+  }
+}
