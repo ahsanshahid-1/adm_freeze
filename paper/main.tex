@@ -678,9 +678,10 @@ pipeline then completed and passed its freeze verification. No run, outcome, or 
 \section{Reproducibility and Research Ethics}
 % =====================================================================
 The frozen package (code, prompts, configuration, manifests with SHA-256 checksums, model lock, study plan, analysis
-scripts, and a script that recomputes every hash) is registered on OSF; on publication we will release it with the
-task generators and seeds (master seed 20261030), the evaluator and fixtures, every run record and trusted trace, and
-the scripts that produce every table. Pilot runs are archived separately from confirmatory runs, including the 504
+scripts, and a script that recomputes every hash) is registered on OSF. The repository
+\url{https://github.com/ahsanshahid-1/adm_freeze} contains the frozen package at tag \texttt{freeze-20261112}, the
+full source with task generators and seeds (master seed 20261030), the evaluator and fixtures, every run record and
+trusted trace, the frozen pipeline's final report, and the scripts that produce every number in this paper. Pilot runs are archived separately from confirmatory runs, including the 504
 first-E0SB runs. The pilots used 23.4 GPU-hours and the formal experiments about 47.5 (E1 43.0, E4 4.1, E5 0.4), counting
 a 14.3-hour E1 session whose accounting record was lost when the server was stopped externally. The study uses no human participants, personal data, human
 annotation, or human or LLM grading.
