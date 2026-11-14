@@ -1,0 +1,246 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 93.284,
+  "agent_seed": 22096075,
+  "aggregate_tokens": 124646,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E0S/D5-T6/C4/r0/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C4",
+  "correct_refusal": null,
+  "corruption_seed": 17450630459259551281,
+  "data_hashes": {
+    "private": "c9ed78410568cfdb3d34accd7a0b6fc0029d72184bd28b778fcf7cba5f9561ce",
+    "trusted": "1165a873a8604cc88e360d07127ab7bc28ebc8fa05f00fb3ea9a19fce95ae066",
+    "visible": "bd5784830958d829de1ca8d79a7ecda7137a517c796dfd32f1447da23588c783"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 200,
+        "precision": 1.0,
+        "recall": 1.0,
+        "reported": 200,
+        "true_positive": 200
+      },
+      "duplicate": {
+        "injected": 200,
+        "precision": 1.0,
+        "recall": 1.0,
+        "reported": 200,
+        "true_positive": 200
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 1.0,
+    "reversible_defects": 400,
+    "unintended_edit_rate": 0.0
+  },
+  "dataset_id": "D5",
+  "estimator_seed": 1049116649,
+  "evaluator_error": null,
+  "evaluator_seconds": 1.006,
+  "exception_events": 0,
+  "experiment_id": "E0S",
+  "external_failure_codes": [],
+  "false_submission": null,
+  "first_failure": null,
+  "fit_count": 25,
+  "gate_calls": 16,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1/CL1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL3",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL4",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL5",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL6",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "submit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "submit"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 123081,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 1200
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 85.911,
+  "model_calls": 15,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 4,
+  "output_tokens": 1565,
+  "peak_worker_memory_mb": 302.546875,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {}
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 0,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E0S-D5-T6-C4-r0-SQP-A",
+  "selected_candidate": "CL4",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "1afa18542f84a35f16c43af0de7c1ef202c5024e3837c23d52426ea2747e5789",
+  "start_time": "2026-11-11T07:50:21Z",
+  "suite": "development",
+  "system_id": "SQP",
+  "task_id": "D5-T6",
+  "template_id": "T6",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "average_precision": 0.3597286112944911,
+    "macro_f1": 0.4601889338731444,
+    "n": 400,
+    "prevalence": 0.1475,
+    "roc_auc": 0.7128584919727621
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 1.0,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 15,
+  "trace_path": "outputs/traces/E0S/E0S-D5-T6-C4-r0-SQP-A__a1.jsonl.gz",
+  "verified_completion": 1,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 94.876
+}

@@ -1,0 +1,160 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 221.254,
+  "agent_seed": 1000652861,
+  "aggregate_tokens": 232071,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D5-T3/X4b/r2/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "X4b",
+  "correct_refusal": null,
+  "corruption_seed": 13144273088733838353,
+  "data_hashes": {
+    "private": "6e5cd68fb4837579931b4f95620069271d397c2097733e6fdc6e90b16c10f25b",
+    "trusted": "6c8de6994d72553774bcc1dbbedd8ef8a3bfa31409303e209c0eca70bec6cfe5",
+    "visible": "37dde24efc98042c1a1acbf4a4550e78f12f1b14609231fab6c690c4e138b23e"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 0.0,
+    "reversible_defects": 6,
+    "unintended_edit_rate": 0.035
+  },
+  "dataset_id": "D5",
+  "estimator_seed": 2098200545,
+  "evaluator_error": null,
+  "evaluator_seconds": 1.17,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "SOURCE_VERSION",
+    "VALUE_MISMATCH"
+  ],
+  "false_submission": null,
+  "first_failure": "SOURCE_VERSION",
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 228800,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 194.1,
+  "model_calls": 33,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 3,
+  "output_tokens": 3271,
+  "peak_worker_memory_mb": 316.828125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "authority_problems": [
+      "train: measurements_b:train-07 uses measurements_b__v2__train (version v2), not the authorised content",
+      "train: measurements_b:train-18 uses measurements_b__v2__train (version v2), not the authorised content",
+      "validation: observations:validation-10 uses observations__v2__validation (version v2), not the authorised content",
+      "validation: measurements_b:validation-15 uses measurements_b__v2__validation (version v2), not the authorised content",
+      "test: measurements_b:test-04 uses measurements_b__v2__test (version v2), not the authorised content",
+      "test: measurements_b:test-08 uses measurements_b__v2__test (version v2), not the authorised content"
+    ],
+    "feature_comparison": {
+      "value_mismatches": {
+        "sensor_4": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 200
+        },
+        "sensor_5": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 200
+        }
+      }
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": false,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 5.31,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 2,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E1-D5-T3-X4b-r2-M0-A",
+  "selected_candidate": "CL2",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "0413c49b4a4c161330860bdedeae30221ef3c03cc244dc8ce5c95d7126dce956",
+  "start_time": "2026-11-14T11:28:01Z",
+  "suite": "evaluation",
+  "system_id": "M0",
+  "task_id": "D5-T3",
+  "template_id": "T3",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "average_precision": 0.40689248973454706,
+    "macro_f1": 0.5904093973994861,
+    "n": 2000,
+    "prevalence": 0.142,
+    "roc_auc": 0.7738845661380873
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 0.9714285714285714,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 29,
+  "trace_path": "outputs/traces/E1/E1-D5-T3-X4b-r2-M0-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": false,
+  "wall_including_queue_seconds": 228.255
+}

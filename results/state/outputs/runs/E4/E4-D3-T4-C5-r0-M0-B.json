@@ -1,0 +1,138 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 178.21,
+  "agent_seed": 2071701798,
+  "aggregate_tokens": 142368,
+  "attempt": 1,
+  "backbone_id": "B",
+  "block": "E4/D3-T4/C5/r0/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C5",
+  "correct_refusal": null,
+  "corruption_seed": 4658286860152188776,
+  "data_hashes": {
+    "private": "870078f7673688404a59524b24e365d1226f5ee0cc99f1748ae76bacc0c35e14",
+    "trusted": "d7a62dfa57fbbf4862903102cf1929cf6bbeb2178eaed91414c401b4a260e8b0",
+    "visible": "a5daf3cdbee0fa8667a05760aac4600d9006aa2bba3a7860eaf6807baf7757ac"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 1.0,
+    "reversible_defects": 3,
+    "unintended_edit_rate": 0.0
+  },
+  "dataset_id": "D3",
+  "estimator_seed": 1874955664,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.622,
+  "exception_events": 0,
+  "experiment_id": "E4",
+  "external_failure_codes": [],
+  "false_submission": null,
+  "first_failure": null,
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 140259,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 172.602,
+  "model_calls": 24,
+  "model_repo": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 0,
+  "output_tokens": 2109,
+  "peak_worker_memory_mb": 316.828125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {}
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 0,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E4-D3-T4-C5-r0-M0-B",
+  "selected_candidate": "RG3",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "63940ec91d37108997493001163b37b69aaf5839088ab478f40eb9e0ec8f2961",
+  "start_time": "2026-11-14T16:02:37Z",
+  "suite": "evaluation",
+  "system_id": "M0",
+  "task_id": "D3-T4",
+  "template_id": "T4",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "mae": 6.124510339771643,
+    "n": 206,
+    "rmse": 8.106808090114203
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 1.0,
+  "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "tool_calls": 21,
+  "trace_path": "outputs/traces/E4/E4-D3-T4-C5-r0-M0-B__a1.jsonl.gz",
+  "verified_completion": 1,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 179.737
+}

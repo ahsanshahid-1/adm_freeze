@@ -1,0 +1,178 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 103.1,
+  "agent_seed": 937466574,
+  "aggregate_tokens": 163795,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E0X2/D5-T2/X4c/r1/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "X4c",
+  "correct_refusal": null,
+  "corruption_seed": 10974104655433891075,
+  "data_hashes": {
+    "private": "76f10925746fafa9b29bc048adb8d4e07271d5fc9790288f14d67e9f86d0ed21",
+    "trusted": "3f672ea087fdb39522f49e52f9018e6919f7bc32f38969cebfd4952812fb6f4a",
+    "visible": "7e02b9a4a6e76861a9543c082e8f76b9cfc4313947ed44cbd36dae0749e9f268"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 0.0,
+    "reversible_defects": 12,
+    "unintended_edit_rate": 0.09
+  },
+  "dataset_id": "D5",
+  "estimator_seed": 1655764375,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.815,
+  "exception_events": 0,
+  "experiment_id": "E0X2",
+  "external_failure_codes": [
+    "SOURCE_VERSION",
+    "VALUE_MISMATCH"
+  ],
+  "false_submission": null,
+  "first_failure": "SOURCE_VERSION",
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 162159,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 1200
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 95.808,
+  "model_calls": 17,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 4,
+  "output_tokens": 1636,
+  "peak_worker_memory_mb": 358.86328125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "authority_problems": [
+      "train: block_a:train-01 uses block_a__v2__train (version v2), not the authorised content",
+      "train: block_a:train-09 uses block_a__v2__train (version v2), not the authorised content",
+      "train: block_b:train-08 uses block_b__v2__train (version v2), not the authorised content",
+      "train: block_b:train-12 uses block_b__v2__train (version v2), not the authorised content",
+      "validation: block_b:validation-02 uses block_b__v2__validation (version v2), not the authorised content",
+      "validation: block_b:validation-12 uses block_b__v2__validation (version v2), not the authorised content",
+      "validation: block_b:validation-14 uses block_b__v2__validation (version v2), not the authorised content",
+      "validation: block_b:validation-17 uses block_b__v2__validation (version v2), not the authorised content"
+    ],
+    "feature_comparison": {
+      "value_mismatches": {
+        "sensor_1": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 20
+        },
+        "sensor_2": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 20
+        },
+        "sensor_3": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 20
+        },
+        "sensor_4": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 20
+        },
+        "sensor_5": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 60
+        },
+        "sensor_6": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 60
+        }
+      }
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": false,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 1,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E0X2-D5-T2-X4c-r1-S0-A",
+  "selected_candidate": "CL1",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "4fd46ab1f53f10f5b4a60f65e094faa6b15cba25bf465c3f3275b5dbe09c54a8",
+  "start_time": "2026-11-11T20:27:30Z",
+  "suite": "development",
+  "system_id": "S0",
+  "task_id": "D5-T2",
+  "template_id": "T2",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "average_precision": 0.28827759238905104,
+    "macro_f1": 0.48261134838316044,
+    "n": 400,
+    "prevalence": 0.1225,
+    "roc_auc": 0.7382987382987383
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 0.9285714285714286,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 17,
+  "trace_path": "outputs/traces/E0X2/E0X2-D5-T2-X4c-r1-S0-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": false,
+  "wall_including_queue_seconds": 104.679
+}

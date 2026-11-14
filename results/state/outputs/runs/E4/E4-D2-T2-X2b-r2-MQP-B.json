@@ -1,0 +1,327 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 284.744,
+  "agent_seed": 1806586218,
+  "aggregate_tokens": 189020,
+  "attempt": 1,
+  "backbone_id": "B",
+  "block": "E4/D2-T2/X2b/r2/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "X2b",
+  "correct_refusal": null,
+  "corruption_seed": 13384998555943623552,
+  "data_hashes": {
+    "private": "3d43a807215c64744f0075a01d5b3c769e5b3cda816a1cd2923cbd241d0163db",
+    "trusted": "7bac7297f897cbdd25db31494d8116b258f793f536a9564fc45f79f0dd9b2fb5",
+    "visible": "354dd69e21717a86fe60ae637bc575334482b4c12741b46e323e46df5d39fb22"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 195,
+        "precision": 1.0,
+        "recall": 1.0,
+        "reported": 195,
+        "true_positive": 195
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 1.0,
+    "reversible_defects": 195,
+    "unintended_edit_rate": 0.0
+  },
+  "dataset_id": "D2",
+  "estimator_seed": 1642064483,
+  "evaluator_error": null,
+  "evaluator_seconds": 1.54,
+  "exception_events": 0,
+  "experiment_id": "E4",
+  "external_failure_codes": [],
+  "false_submission": null,
+  "first_failure": null,
+  "fit_count": 25,
+  "gate_calls": 16,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1/CL1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL3",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL4",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL5",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL6",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "submit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "submit"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 186502,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 261.333,
+  "model_calls": 24,
+  "model_repo": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 1,
+  "output_tokens": 2518,
+  "peak_worker_memory_mb": 316.828125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {}
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 2,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E4-D2-T2-X2b-r2-MQP-B",
+  "selected_candidate": "CL6",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "183c1ffe511b47bb26a8e8fd245b26fd81c2e49fe0f6b182b3d0fe5013e457e5",
+  "start_time": "2026-11-14T18:29:39Z",
+  "suite": "evaluation",
+  "system_id": "MQP",
+  "task_id": "D2-T2",
+  "template_id": "T2",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "balanced_accuracy": 0.8519053448009053,
+    "confusion_matrix": {
+      "labels": [
+        "Bumps",
+        "Dirtiness",
+        "K_Scatch",
+        "Other_Faults",
+        "Pastry",
+        "Stains",
+        "Z_Scratch"
+      ],
+      "matrix": [
+        [
+          61,
+          0,
+          0,
+          19,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          75,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          29,
+          1,
+          5,
+          91,
+          8,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          0,
+          4,
+          21,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          37
+        ]
+      ]
+    },
+    "macro_f1": 0.8496494640898372,
+    "n": 386
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 1.0,
+  "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "tool_calls": 21,
+  "trace_path": "outputs/traces/E4/E4-D2-T2-X2b-r2-MQP-B__a1.jsonl.gz",
+  "verified_completion": 1,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 286.258
+}

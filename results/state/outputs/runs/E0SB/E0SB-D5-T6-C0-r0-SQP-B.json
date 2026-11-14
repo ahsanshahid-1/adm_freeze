@@ -1,0 +1,253 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 119.0,
+  "agent_seed": 303297716,
+  "aggregate_tokens": 86881,
+  "attempt": 1,
+  "backbone_id": "B",
+  "block": "E0SB/D5-T6/C0/r0/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C0",
+  "correct_refusal": null,
+  "corruption_seed": 7744581932657847839,
+  "data_hashes": {
+    "private": "3aef30c1c4cfd352e8131d679a4cfa5fd6324ab2635253b0d2f416b80c765717",
+    "trusted": "1165a873a8604cc88e360d07127ab7bc28ebc8fa05f00fb3ea9a19fce95ae066",
+    "visible": "a5426c0a375adfc4d062fc6a820c1426858b83d68aecfc0046b10ab22e6adcdf"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": null,
+    "reversible_defects": 0,
+    "unintended_edit_rate": 0.0
+  },
+  "dataset_id": "D5",
+  "estimator_seed": 37966442,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.965,
+  "exception_events": 0,
+  "experiment_id": "E0SB",
+  "external_failure_codes": [],
+  "false_submission": null,
+  "first_failure": null,
+  "fit_count": 25,
+  "gate_calls": 16,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1/CL1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL3",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL4",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL5",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL6",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "submit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "submit"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 85430,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 1200
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 111.249,
+  "model_calls": 12,
+  "model_repo": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 0,
+  "output_tokens": 1451,
+  "peak_worker_memory_mb": 312.40234375,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {}
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 0,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E0SB-D5-T6-C0-r0-SQP-B",
+  "selected_candidate": "CL4",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "1afa18542f84a35f16c43af0de7c1ef202c5024e3837c23d52426ea2747e5789",
+  "start_time": "2026-11-12T05:38:09Z",
+  "suite": "development",
+  "system_id": "SQP",
+  "task_id": "D5-T6",
+  "template_id": "T6",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "average_precision": 0.3712494920191097,
+    "macro_f1": 0.4601889338731444,
+    "n": 400,
+    "prevalence": 0.1475,
+    "roc_auc": 0.7031661613400269
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 1.0,
+  "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "tool_calls": 12,
+  "trace_path": "outputs/traces/E0SB/E0SB-D5-T6-C0-r0-SQP-B__a1.jsonl.gz",
+  "verified_completion": 1,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 120.7
+}

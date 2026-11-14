@@ -1,0 +1,200 @@
+{
+  "abstention_reason": "CONTRACT_UNSATISFIABLE",
+  "active_seconds": 107.356,
+  "agent_seed": 1769750599,
+  "aggregate_tokens": 146810,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D4-T1/C3/r2/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C3",
+  "correct_refusal": null,
+  "corruption_seed": 11039777331742703938,
+  "data_hashes": {
+    "private": "18a7f947cb9d29b350534d068afaf172f0b5ad4778dde7792ea59afbe600a462",
+    "trusted": "6716dbc6c8efca9e3107996889bfdd5b1c944fac49c77b49538cadab1834f0bb",
+    "visible": "49638d5cd2e2c3c3ef4f82237508dde80045b16364374c89f1fceb5f2fc3e49f"
+  },
+  "data_management": null,
+  "dataset_id": "D4",
+  "estimator_seed": 2008987926,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.0,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "ABSTAINED"
+  ],
+  "false_submission": null,
+  "first_failure": "ABSTAINED",
+  "fit_count": 24,
+  "gate_calls": 16,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [
+        "validation:value_ranges"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1/RG1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/RG2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/RG3",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/RG4",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/RG5",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/RG6",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [
+        "validation:value_ranges"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "submit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "submit"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 144996,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 103.702,
+  "model_calls": 16,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 2,
+  "output_tokens": 1814,
+  "peak_worker_memory_mb": 316.328125,
+  "pipeline_evaluations": 6,
+  "predicates": null,
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": null,
+  "repair_cycles": 0,
+  "repetition_id": 2,
+  "replay_status": null,
+  "run_error": null,
+  "run_id": "E1-D4-T1-C3-r2-SQP-A",
+  "selected_candidate": null,
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "8ebbb739b16f5492b4fbc7ccdf85b12b8593a75ae8409efa0bcdf3b56f458ada",
+  "start_time": "2026-11-14T07:13:38Z",
+  "suite": "evaluation",
+  "system_id": "SQP",
+  "task_id": "D4-T1",
+  "template_id": "T1",
+  "terminal_state": "ABSTAINED",
+  "test_metrics": null,
+  "test_prediction_coverage": null,
+  "test_value_match_rate": null,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 16,
+  "trace_path": "outputs/traces/E1/E1-D4-T1-C3-r2-SQP-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": null,
+  "wall_including_queue_seconds": 108.787
+}

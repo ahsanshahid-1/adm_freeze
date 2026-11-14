@@ -1,0 +1,231 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 500.233,
+  "agent_seed": 564784972,
+  "aggregate_tokens": 308324,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D2-T3/C3/r2/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C3",
+  "correct_refusal": null,
+  "corruption_seed": 10814294277512973073,
+  "data_hashes": {
+    "private": "5b64a524f0bb4f85d9c8ab8ebbf65af443c39da93a8a6d78f903a7bb33b95e26",
+    "trusted": "7bac7297f897cbdd25db31494d8116b258f793f536a9564fc45f79f0dd9b2fb5",
+    "visible": "0840ebda18893b8726540b743b6db2614a908d9378b885a19c33bd4330eef0f5"
+  },
+  "data_management": null,
+  "dataset_id": "D2",
+  "estimator_seed": 1228500258,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.0,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "BUDGET"
+  ],
+  "false_submission": null,
+  "first_failure": "BUDGET",
+  "fit_count": 24,
+  "gate_calls": 18,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [
+        "train:required_columns",
+        "validation:required_columns"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2",
+      "failures": [
+        "train:record_coverage",
+        "validation:record_coverage"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2/CL1",
+      "failures": [
+        "validation_coverage"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/CL2",
+      "failures": [
+        "validation_coverage"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/CL3",
+      "failures": [
+        "validation_coverage"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/CL4",
+      "failures": [
+        "validation_coverage"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/CL5",
+      "failures": [
+        "validation_coverage"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/CL6",
+      "failures": [
+        "validation_coverage"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [
+        "train:record_coverage",
+        "validation:record_coverage"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "submit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "submit"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 301323,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 479.522,
+  "model_calls": 33,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 3,
+  "output_tokens": 7001,
+  "peak_worker_memory_mb": 316.328125,
+  "pipeline_evaluations": 6,
+  "predicates": null,
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": null,
+  "repair_cycles": 2,
+  "repetition_id": 2,
+  "replay_status": null,
+  "run_error": "limit exceeded: aggregate_tokens",
+  "run_id": "E1-D2-T3-C3-r2-MQP-A",
+  "selected_candidate": null,
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "183c1ffe511b47bb26a8e8fd245b26fd81c2e49fe0f6b182b3d0fe5013e457e5",
+  "start_time": "2026-11-14T03:18:12Z",
+  "suite": "evaluation",
+  "system_id": "MQP",
+  "task_id": "D2-T3",
+  "template_id": "T3",
+  "terminal_state": "BUDGET_EXCEEDED",
+  "test_metrics": null,
+  "test_prediction_coverage": null,
+  "test_value_match_rate": null,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 29,
+  "trace_path": "outputs/traces/E1/E1-D2-T3-C3-r2-MQP-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": null,
+  "wall_including_queue_seconds": 501.836
+}

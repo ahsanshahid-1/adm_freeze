@@ -1,0 +1,140 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 196.934,
+  "agent_seed": 116340471,
+  "aggregate_tokens": 139735,
+  "attempt": 1,
+  "backbone_id": "B",
+  "block": "E0SB/D5-T5/C1/r1/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C1",
+  "correct_refusal": null,
+  "corruption_seed": 8799176401932546766,
+  "data_hashes": {
+    "private": "ef12bfe504191a28125b77263473e68f4e664bd01b69329203b9b2af6c9dd99d",
+    "trusted": "3f672ea087fdb39522f49e52f9018e6919f7bc32f38969cebfd4952812fb6f4a",
+    "visible": "31bf3c521ef214585e54cae4dc4da6552f089962b783060ab6dbf741c570fc6d"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 300,
+        "precision": 1.0,
+        "recall": 1.0,
+        "reported": 300,
+        "true_positive": 300
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 1.0,
+    "reversible_defects": 300,
+    "unintended_edit_rate": 0.0
+  },
+  "dataset_id": "D5",
+  "estimator_seed": 646258619,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.578,
+  "exception_events": 0,
+  "experiment_id": "E0SB",
+  "external_failure_codes": [],
+  "false_submission": null,
+  "first_failure": null,
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 137358,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 1200
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 189.522,
+  "model_calls": 25,
+  "model_repo": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 2,
+  "output_tokens": 2377,
+  "peak_worker_memory_mb": 312.40234375,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {}
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 1,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E0SB-D5-T5-C1-r1-M0-B",
+  "selected_candidate": "CL2",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "4fd46ab1f53f10f5b4a60f65e094faa6b15cba25bf465c3f3275b5dbe09c54a8",
+  "start_time": "2026-11-12T05:28:23Z",
+  "suite": "development",
+  "system_id": "M0",
+  "task_id": "D5-T5",
+  "template_id": "T5",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "average_precision": 0.3028837392474616,
+    "macro_f1": 0.49942150126325235,
+    "n": 400,
+    "prevalence": 0.1225,
+    "roc_auc": 0.7290540147683005
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 1.0,
+  "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "tool_calls": 22,
+  "trace_path": "outputs/traces/E0SB/E0SB-D5-T5-C1-r1-M0-B__a1.jsonl.gz",
+  "verified_completion": 1,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 198.438
+}

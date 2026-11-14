@@ -1,0 +1,144 @@
+{
+  "all_passed": true,
+  "fixtures": [
+    {
+      "codes": [],
+      "expected": "VERIFIED",
+      "fixture": "correct_T3_C4",
+      "passed": true,
+      "verified": 1
+    },
+    {
+      "codes": [],
+      "expected": "VERIFIED",
+      "fixture": "valid_alt_inner_join_T3_C4",
+      "passed": true,
+      "verified": 1
+    },
+    {
+      "codes": [],
+      "expected": "VERIFIED",
+      "fixture": "valid_alt_explicit_version_T3_C4",
+      "passed": true,
+      "verified": 1
+    },
+    {
+      "codes": [
+        "MISSING_RECORD",
+        "INVALID_PREDICTION"
+      ],
+      "expected": "MISSING_RECORD",
+      "fixture": "wrong_join_unmapped_alias_T3_C4",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [
+        "ROW_MULTIPLICITY",
+        "INVALID_PREDICTION"
+      ],
+      "expected": "ROW_MULTIPLICITY",
+      "fixture": "duplicated_predictions_T3_C4",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [],
+      "expected": "VERIFIED",
+      "fixture": "correct_T6_C6",
+      "passed": true,
+      "verified": 1
+    },
+    {
+      "codes": [
+        "SOURCE_VERSION",
+        "VALUE_MISMATCH"
+      ],
+      "expected": "SOURCE_VERSION",
+      "fixture": "wrong_version_T6_C6",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [
+        "UNIT_MISMATCH"
+      ],
+      "expected": "UNIT_MISMATCH",
+      "fixture": "unit_mismatch_T6_C6",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [
+        "BAD_AGGREGATE"
+      ],
+      "expected": "BAD_AGGREGATE",
+      "fixture": "bad_aggregate_T6_C6",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [
+        "FORBIDDEN_FEATURE"
+      ],
+      "expected": "FORBIDDEN_FEATURE",
+      "fixture": "forbidden_predictor_T6_C6",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [
+        "SOURCE_VERSION",
+        "VALUE_MISMATCH"
+      ],
+      "expected": "SOURCE_VERSION",
+      "fixture": "wrong_version_T5_C0",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [
+        "MISSING_RECORD",
+        "INVALID_PREDICTION"
+      ],
+      "expected": "MISSING_RECORD",
+      "fixture": "missing_records_drop_rows_T1_C2",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [
+        "FORBIDDEN_FEATURE"
+      ],
+      "expected": "FORBIDDEN_FEATURE",
+      "fixture": "forbidden_identifier_T1_C0",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [
+        "ARTIFACT_MISMATCH"
+      ],
+      "expected": "ARTIFACT_MISMATCH",
+      "fixture": "changed_artifact_hash_T1_C0",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [
+        "INVALID_PREDICTION"
+      ],
+      "expected": "INVALID_PREDICTION",
+      "fixture": "invalid_probabilities_T1_C0",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [],
+      "expected": "equal",
+      "fixture": "equivalent_numeric_representations",
+      "passed": true,
+      "verified": null
+    }
+  ]
+}

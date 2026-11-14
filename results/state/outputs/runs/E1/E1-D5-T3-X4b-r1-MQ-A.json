@@ -1,0 +1,229 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 243.911,
+  "agent_seed": 1429398504,
+  "aggregate_tokens": 250524,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D5-T3/X4b/r1/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "X4b",
+  "correct_refusal": null,
+  "corruption_seed": 15382769789191934099,
+  "data_hashes": {
+    "private": "dd0061b4564ea1a12598e49fe3bfb1d42a80eaf392c6752a81e80ca3d493c7b0",
+    "trusted": "9dfc2755d9427271a66488e7a3511da552da511777c6ad724a2a23ac6ff8f616",
+    "visible": "d7582fd1be2eb2495ab2a0219f0cc08ef0d2225f612ef4018e7a696651ccf9e0"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 0.0,
+    "reversible_defects": 6,
+    "unintended_edit_rate": 0.041666666666666664
+  },
+  "dataset_id": "D5",
+  "estimator_seed": 102547139,
+  "evaluator_error": null,
+  "evaluator_seconds": 1.446,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "SOURCE_VERSION",
+    "VALUE_MISMATCH"
+  ],
+  "false_submission": null,
+  "first_failure": "SOURCE_VERSION",
+  "fit_count": 25,
+  "gate_calls": 8,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1/CL1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL3",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL4",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL5",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL6",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "submit"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 246868,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 213.965,
+  "model_calls": 34,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 2,
+  "output_tokens": 3656,
+  "peak_worker_memory_mb": 316.328125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "authority_problems": [
+      "train: observations:train-06 uses observations__v2__train (version v2), not the authorised content",
+      "train: measurements_b:train-16 uses measurements_b__v2__train (version v2), not the authorised content",
+      "validation: observations:validation-17 uses observations__v2__validation (version v2), not the authorised content",
+      "validation: measurements_b:validation-10 uses measurements_b__v2__validation (version v2), not the authorised content",
+      "test: observations:test-19 uses observations__v2__test (version v2), not the authorised content",
+      "test: measurements_b:test-15 uses measurements_b__v2__test (version v2), not the authorised content"
+    ],
+    "feature_comparison": {
+      "value_mismatches": {
+        "sensor_1": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 100
+        },
+        "sensor_2": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 100
+        },
+        "sensor_3": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 100
+        },
+        "sensor_4": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 100
+        },
+        "sensor_5": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 100
+        }
+      }
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": false,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 2.845,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 1,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E1-D5-T3-X4b-r1-MQ-A",
+  "selected_candidate": "CL4",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "e939698c68c0e5b91911b87c9498a37021429d7465fc56a1ae1243159548b841",
+  "start_time": "2026-11-13T20:38:49Z",
+  "suite": "evaluation",
+  "system_id": "MQ",
+  "task_id": "D5-T3",
+  "template_id": "T3",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "average_precision": 0.3902844231548446,
+    "macro_f1": 0.5558242132578123,
+    "n": 2000,
+    "prevalence": 0.1365,
+    "roc_auc": 0.7710463634030514
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 0.9642857142857143,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 31,
+  "trace_path": "outputs/traces/E1/E1-D5-T3-X4b-r1-MQ-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": false,
+  "wall_including_queue_seconds": 248.412
+}

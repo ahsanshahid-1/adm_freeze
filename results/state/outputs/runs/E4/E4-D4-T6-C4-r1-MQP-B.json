@@ -1,0 +1,253 @@
+{
+  "abstention_reason": "CONTRACT_UNSATISFIABLE",
+  "active_seconds": 369.036,
+  "agent_seed": 132751765,
+  "aggregate_tokens": 166129,
+  "attempt": 1,
+  "backbone_id": "B",
+  "block": "E4/D4-T6/C4/r1/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C4",
+  "correct_refusal": null,
+  "corruption_seed": 2039943128195452797,
+  "data_hashes": {
+    "private": "a1a6a287e5f21357095d7d3391687b042cdbc1fa5fe7fc980e9832f150b43eea",
+    "trusted": "227ebbe9721080700e1556d3a91c29fd835141da2fd9f7617c10ba2f7ee22216",
+    "visible": "b8c9ef384f5b9da947d494fd18130ee6df84d6e12761dee19f7b239654347b82"
+  },
+  "data_management": null,
+  "dataset_id": "D4",
+  "estimator_seed": 1360617536,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.0,
+  "exception_events": 0,
+  "experiment_id": "E4",
+  "external_failure_codes": [
+    "ABSTAINED"
+  ],
+  "false_submission": null,
+  "first_failure": "ABSTAINED",
+  "fit_count": 24,
+  "gate_calls": 20,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [
+        "train:value_ranges",
+        "train:aggregate_count:relative_compactness",
+        "train:aggregate_count:surface_area",
+        "validation:value_ranges",
+        "validation:aggregate_count:relative_compactness",
+        "validation:aggregate_count:surface_area"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2",
+      "failures": [
+        "train:value_ranges",
+        "train:aggregate_count:relative_compactness",
+        "train:aggregate_count:surface_area",
+        "validation:value_ranges",
+        "validation:aggregate_count:relative_compactness",
+        "validation:aggregate_count:surface_area"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2/RG1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG3",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG4",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG5",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG6",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [
+        "train:value_ranges",
+        "train:aggregate_count:relative_compactness",
+        "train:aggregate_count:surface_area",
+        "validation:value_ranges",
+        "validation:aggregate_count:relative_compactness",
+        "validation:aggregate_count:surface_area"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "submit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "submit"
+    },
+    {
+      "artifact": "H3",
+      "failures": [
+        "train:value_ranges",
+        "train:aggregate_count:relative_compactness",
+        "train:aggregate_count:surface_area",
+        "validation:value_ranges",
+        "validation:aggregate_count:relative_compactness",
+        "validation:aggregate_count:surface_area",
+        "missing_value_policy"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H3",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 161398,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 364.323,
+  "model_calls": 27,
+  "model_repo": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 2,
+  "output_tokens": 4731,
+  "peak_worker_memory_mb": 316.828125,
+  "pipeline_evaluations": 6,
+  "predicates": null,
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": null,
+  "repair_cycles": 2,
+  "repetition_id": 1,
+  "replay_status": null,
+  "run_error": null,
+  "run_id": "E4-D4-T6-C4-r1-MQP-B",
+  "selected_candidate": null,
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "3a3fa9b5067ab50732522ab862e03e59f56d0ea112d7528c0a5b7b02ed2fae18",
+  "start_time": "2026-11-14T17:36:16Z",
+  "suite": "evaluation",
+  "system_id": "MQP",
+  "task_id": "D4-T6",
+  "template_id": "T6",
+  "terminal_state": "ABSTAINED",
+  "test_metrics": null,
+  "test_prediction_coverage": null,
+  "test_value_match_rate": null,
+  "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "tool_calls": 24,
+  "trace_path": "outputs/traces/E4/E4-D4-T6-C4-r1-MQP-B__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": null,
+  "wall_including_queue_seconds": 370.61
+}

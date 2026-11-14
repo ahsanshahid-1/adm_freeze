@@ -1,0 +1,249 @@
+{
+  "abstention_reason": "CONTRACT_UNSATISFIABLE",
+  "active_seconds": 192.642,
+  "agent_seed": 1720293542,
+  "aggregate_tokens": 90437,
+  "attempt": 1,
+  "backbone_id": "B",
+  "block": "E4/D4-T6/C3/r0/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C3",
+  "correct_refusal": null,
+  "corruption_seed": 17991514404777643665,
+  "data_hashes": {
+    "private": "4f504b2472e75790270e62f00a9ef03c81fcaf5158c672af409f1ae4bbc8d3ec",
+    "trusted": "3ef3677f88682b9daac683012f04b9a20dcda59b0a2ab3e201ac8d54fe48c5c5",
+    "visible": "36a0f04a713afe1eef5f712b435ba49163495bc0d3f0ae207136efefdd8656c4"
+  },
+  "data_management": null,
+  "dataset_id": "D4",
+  "estimator_seed": 754168315,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.0,
+  "exception_events": 0,
+  "experiment_id": "E4",
+  "external_failure_codes": [
+    "ABSTAINED"
+  ],
+  "false_submission": null,
+  "first_failure": "ABSTAINED",
+  "fit_count": 24,
+  "gate_calls": 20,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [
+        "train:value_ranges",
+        "train:aggregate_count:relative_compactness",
+        "train:aggregate_count:surface_area",
+        "validation:value_ranges",
+        "validation:aggregate_count:relative_compactness"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1/RG1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/RG2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/RG3",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/RG4",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/RG5",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/RG6",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [
+        "train:value_ranges",
+        "train:aggregate_count:relative_compactness",
+        "train:aggregate_count:surface_area",
+        "validation:value_ranges",
+        "validation:aggregate_count:relative_compactness"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "submit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "submit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [
+        "train:value_ranges",
+        "train:aggregate_count:relative_compactness",
+        "train:aggregate_count:surface_area",
+        "validation:value_ranges",
+        "validation:aggregate_count:relative_compactness",
+        "missing_value_policy"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1",
+      "failures": [
+        "train:value_ranges",
+        "train:aggregate_count:relative_compactness",
+        "train:aggregate_count:surface_area",
+        "validation:value_ranges",
+        "validation:aggregate_count:relative_compactness"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "submit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "submit"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 88025,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 188.062,
+  "model_calls": 12,
+  "model_repo": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 0,
+  "output_tokens": 2412,
+  "peak_worker_memory_mb": 316.828125,
+  "pipeline_evaluations": 6,
+  "predicates": null,
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": null,
+  "repair_cycles": 1,
+  "repetition_id": 0,
+  "replay_status": null,
+  "run_error": null,
+  "run_id": "E4-D4-T6-C3-r0-SQP-B",
+  "selected_candidate": null,
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "f8f1bfc6033e7ae55d1a58acaa12c7c5fa4f3b3f7b358cb69c385beeffeab534",
+  "start_time": "2026-11-14T16:10:46Z",
+  "suite": "evaluation",
+  "system_id": "SQP",
+  "task_id": "D4-T6",
+  "template_id": "T6",
+  "terminal_state": "ABSTAINED",
+  "test_metrics": null,
+  "test_prediction_coverage": null,
+  "test_value_match_rate": null,
+  "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "tool_calls": 12,
+  "trace_path": "outputs/traces/E4/E4-D4-T6-C3-r0-SQP-B__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": null,
+  "wall_including_queue_seconds": 194.12
+}

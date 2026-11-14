@@ -1,0 +1,143 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 349.906,
+  "agent_seed": 1015945972,
+  "aggregate_tokens": 304473,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D3-T3/X3a/r0/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "X3a",
+  "correct_refusal": null,
+  "corruption_seed": 7345711687809302293,
+  "data_hashes": {
+    "private": "881fde80ce7b6b06f50a28de5037621da566730a9509fb5c9c384ab6254708c9",
+    "trusted": "d7a62dfa57fbbf4862903102cf1929cf6bbeb2178eaed91414c401b4a260e8b0",
+    "visible": "d70af640d322ca88894fdc720175ee5dda290d7bfe4e50e0a4cab042ea65440e"
+  },
+  "data_management": null,
+  "dataset_id": "D3",
+  "estimator_seed": 72652207,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.0,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "BUDGET"
+  ],
+  "false_submission": null,
+  "first_failure": "BUDGET",
+  "fit_count": 24,
+  "gate_calls": 8,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [
+        "train:value_ranges",
+        "validation:value_ranges"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2/RG1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG3",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG4",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG5",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG6",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 299122,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 343.954,
+  "model_calls": 36,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 5,
+  "output_tokens": 5351,
+  "peak_worker_memory_mb": 318.390625,
+  "pipeline_evaluations": 6,
+  "predicates": null,
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": null,
+  "repair_cycles": 1,
+  "repetition_id": 0,
+  "replay_status": null,
+  "run_error": "limit exceeded: aggregate_tokens",
+  "run_id": "E1-D3-T3-X3a-r0-MQ-A",
+  "selected_candidate": null,
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "63940ec91d37108997493001163b37b69aaf5839088ab478f40eb9e0ec8f2961",
+  "start_time": "2026-11-12T21:59:33Z",
+  "suite": "evaluation",
+  "system_id": "MQ",
+  "task_id": "D3-T3",
+  "template_id": "T3",
+  "terminal_state": "BUDGET_EXCEEDED",
+  "test_metrics": null,
+  "test_prediction_coverage": null,
+  "test_value_match_rate": null,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 32,
+  "trace_path": "outputs/traces/E1/E1-D3-T3-X3a-r0-MQ-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": null,
+  "wall_including_queue_seconds": 351.556
+}

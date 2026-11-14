@@ -1,0 +1,12 @@
+{"time": "2026-11-11T05:15:35Z", "label": "E0", "scheduled": 336, "pending_at_start": 336, "completed": 336, "infra_attempts": 0, "stopped_for_time": false, "wall_seconds": 5230.3}
+{"time": "2026-11-11T05:35:12Z", "label": "E0B", "scheduled": 6, "pending_at_start": 6, "completed": 6, "infra_attempts": 0, "stopped_for_time": false, "wall_seconds": 325.3}
+{"time": "2026-11-11T09:50:57Z", "label": "E0S", "scheduled": 840, "pending_at_start": 840, "completed": 840, "infra_attempts": 0, "stopped_for_time": false, "wall_seconds": 12941.3}
+{"time": "2026-11-11T14:15:01Z", "label": "E0X", "scheduled": 756, "pending_at_start": 756, "completed": 741, "infra_attempts": 0, "stopped_for_time": true, "wall_seconds": 14183.1}
+{"time": "2026-11-11T18:38:24Z", "label": "E0SB", "scheduled": 504, "pending_at_start": 504, "completed": 504, "infra_attempts": 0, "stopped_for_time": false, "wall_seconds": 9913.7}
+{"time": "2026-11-12T03:22:40Z", "label": "E0X2", "scheduled": 1512, "pending_at_start": 1512, "completed": 1512, "infra_attempts": 0, "stopped_for_time": false, "wall_seconds": 30522.4}
+{"time": "2026-11-12T07:31:02Z", "label": "E0SB", "scheduled": 504, "pending_at_start": 504, "completed": 504, "infra_attempts": 0, "stopped_for_time": false, "wall_seconds": 10864.7}
+{"time": "2026-11-12T13:26:51Z", "label": "E1", "scheduled": 7560, "pending_at_start": 7560, "completed": 892, "infra_attempts": 0, "stopped_for_time": true, "wall_seconds": 18246.3}
+{"time": "2026-11-12T14:24:53Z", "label": "E1", "scheduled": 6668, "pending_at_start": 6668, "completed": 144, "infra_attempts": 0, "stopped_for_time": true, "wall_seconds": 2805.3}
+{"time": "2026-11-14T14:59:55Z", "label": "E1", "scheduled": 4040, "pending_at_start": 4040, "completed": 4040, "infra_attempts": 1, "stopped_for_time": false, "wall_seconds": 82093.3}
+{"time": "2026-11-14T15:23:03Z", "label": "E5", "scheduled": 252, "pending_at_start": 252, "completed": 252, "infra_attempts": 0, "stopped_for_time": false, "wall_seconds": 1255.8}
+{"time": "2026-11-14T19:35:56Z", "label": "E4", "scheduled": 540, "pending_at_start": 540, "completed": 540, "infra_attempts": 0, "stopped_for_time": false, "wall_seconds": 14624.8}

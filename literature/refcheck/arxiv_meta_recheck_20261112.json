@@ -1,0 +1,106 @@
+{
+ "2606.05670": {
+  "title": "Do More Agents Help? Evaluating Accuracy and Cost in LLM Multi-Agent Workflows",
+  "authors": [
+   "Fu, Yuhang",
+   "Fang, Ruishan",
+   "Shao, Jiaqi",
+   "Zheng, Huiyu",
+   "Zhu, Zhengtao",
+   "Luo, Bing",
+   "Wen, Zhenyu",
+   "Lin, Tao"
+  ],
+  "date": "2026/06/04",
+  "abstract": "Choosing whether to replace a single-agent controller requires evidence on both task performance and inference expenditure. We present BenchAgent, a shared evaluation framework, and compare six multi-agent workflow configurations against its single-agent reference, BenchAgent Core, across ten reasoning, coding, and tool-use benchmarks. All configurations use GPT-4.1 and common tool and scoring interfaces; Core executions share the same step limits. We measure accuracy and recorded token use over three runs on fixed task sets, with 3,302 instances per configuration per run. EvoAgent reaches 79.70% mean pooled accuracy versus 76.65% for Core and exceeds Core in all three runs; the other five MAS trail by 1.71-8.76 percentage points. LLM-Debate gains 9.67 points on HumanEval but loses 1.96 points in pooled accuracy while consuming 1.39 times the tokens of Core. ChatEval gains 22.25 points on IFEval but trails Core in pooled accuracy with 4.34 times its token consumption. The broad comparison and targeted analyses of retained responses provide evidence for workflow selection and identify answer preservation and resource allocation as directions for subsequent multi-agent optimization.",
+  "versions": [
+   [
+    "2",
+    "Fri, 9 Oct 2026 07:41:21 UTC "
+   ]
+  ]
+ },
+ "2603.20576": {
+  "title": "Can AI Agents Answer Your Data Questions? A Benchmark for Data Agents",
+  "authors": [
+   "Ma, Ruiying",
+   "Shankar, Shreya",
+   "Chen, Ruiqi",
+   "Lin, Yiming",
+   "Zeighami, Sepanta",
+   "Ghosh, Rajoshi",
+   "Gupta, Abhinav",
+   "Gupta, Anushrut",
+   "Gopal, Tanmai",
+   "Parameswaran, Aditya G."
+  ],
+  "date": "2026/03/21",
+  "abstract": "However, building reliable data agents remains difficult because real enterprise data is fragmented across many heterogeneous database systems, with duplicated and inconsistent data, and key information often buried in unstructured text, requiring agents to go beyond just writing SQL or data science scripts to answer questions. Existing benchmarks tackle only individual pieces of this end-to-end workflow (e.g., text-to-SQL over a single database) and are increasingly saturated and contaminated. We present a new benchmark for LLM agents, the Data Agent Benchmark (DAB), grounded in a study of enterprises building production data agents across six industries. DAB comprises 104 queries across 17 datasets and 4 database management systems. On DAB, the best state-of-the-art agent achieves only 57% pass@1. We analyze agent failure modes and distill takeaways for future data-agent development. Our benchmark and experiment code are published at github.com/ucbepic/DataAgentBench.",
+  "versions": [
+   [
+    "3",
+    "Wed, 7 Oct 2026 20:17:37 UTC "
+   ]
+  ]
+ },
+ "2601.12307": {
+  "title": "Rethinking the Value of Multi-Agent Workflow: A Strong Single Agent Baseline",
+  "authors": [
+   "Xu, Jiawei",
+   "Koesdwiady, Arief",
+   "Bei, Sisong",
+   "Han, Yan",
+   "Huang, Baixiang",
+   "Wang, Dakuo",
+   "Chen, Yutong",
+   "Wang, Zheshen",
+   "Wang, Peihao",
+   "Li, Pan",
+   "Ding, Ying"
+  ],
+  "date": "2026/01/18",
+  "abstract": "Recent advances in LLM-based multi-agent systems (MAS) show that workflows composed of multiple LLM agents with distinct roles, tools, and communication patterns can outperform single-LLM baselines on complex tasks. However, most frameworks are homogeneous, where all agents share the same base LLM and differ only in prompts, tools, and positions in the workflow. This raises the question of whether such workflows can be simulated by a single agent through multi-turn conversations. We investigate this across seven benchmarks spanning coding, mathematics, general question answering, domain-specific reasoning, and real-world planning and tool use. Our results show that a single agent can reach the performance of homogeneous workflows with an efficiency advantage from KV cache reuse, and can even match the performance of an automatically optimized heterogeneous workflow. Building on this finding, we propose \\textbf{OneFlow}, an algorithm that automatically tailors workflows for single-agent execution, reducing inference costs compared to existing automatic multi-agent design frameworks without trading off accuracy. These results position the single-LLM implementation of multi-agent workflows as a strong baseline for MAS research. We also note that single-LLM methods cannot capture heterogeneous workflows due to the lack of KV cache sharing across different LLMs, highlighting future opportunities in developing \\textit{truly} heterogeneous multi-agent systems.",
+  "versions": [
+   [
+    "1",
+    "Sun, 18 Jan 2026 08:16:09 UTC "
+   ]
+  ]
+ },
+ "2606.13692": {
+  "title": "An Agentic Retrieval Framework for Autonomous Context-Aware Data Quality Assessment",
+  "authors": [
+   "Fadlallah, Hadi",
+   "Dhaini, Ibrahim",
+   "Mubarak, Fatima",
+   "Kilany, Rima"
+  ],
+  "date": "2026/05/15",
+  "abstract": "Data quality assessment is a critical prerequisite for effective data analytics and data-driven decision-making, yet it remains a challenging task due to the inherently context-dependent nature of data quality. Existing approaches often rely on static rules or manual assessment strategies, limiting their adaptability to diverse usage scenarios and constraining automation at scale. Recent advances in artificial intelligence, particularly large language models, offer new opportunities for automating data quality assessment, but raise concerns related to reliability, grounding, and execution safety. In this paper, we propose a unified agentic-retrieval framework for autonomous context-aware data quality assessment. The framework interprets natural-language descriptions of intended data usage, derives context-aware assessment strategies, and generates executable validation logic through a multi-agent workflow. To ensure operational reliability, the framework introduces a feasibility validation stage that evaluates the realism and executability of generated assessment specifications before execution, enabling iterative refinement when necessary. Accepted validation logic is executed deterministically to guarantee reproducible and auditable results. We implement the proposed framework as an end-to-end prototype and evaluate it across multiple usage scenarios applied to the same dataset. The results demonstrate that assessment outcomes adapt meaningfully to different intended uses, while feasibility-gated execution reduces unrealistic or non-executable rule generation. The proposed approach provides a practical foundation for deploying autonomous yet controlled data quality assessment in modern data-driven environments.",
+  "versions": [
+   [
+    "1",
+    "Fri, 15 May 2026 11:24:53 UTC "
+   ]
+  ]
+ },
+ "2609.04217": {
+  "title": "At Equal Inference Cost, Multi-Agent Structure Does Not Beat a Single Frozen Agent",
+  "authors": [
+   "Dylan, David",
+   "Brennan, Aoife",
+   "Murphy, Cian",
+   "O'Sullivan, Niamh",
+   "Kelly, Conor",
+   "Walsh, Saoirse"
+  ],
+  "date": "2026/06/25",
+  "abstract": "Multi-agent LLM pipelines, such as Planner-Executor-Critic teams, often report gains over single agents, but these gains usually come with higher inference cost because the team makes multiple model calls per environment step. Existing automated methods search over roles, topologies, and prompts, but typically compare teams against single agents at equal environment rollouts, giving the team extra compute. We instead fix the total number of language-model calls and ask whether evolving a multi-agent team still beats evolving a single agent under the same budget. We introduce MA-Evolve, which represents a Planner-Executor-Critic team as three evolvable role prompts and optimizes them by per-role coordinate ascent over a shared frozen 7B backbone. On ALFWorld, evolving a single executor significantly improves over the unevolved agent, while the full team achieves the highest mean but is not statistically better than the single agent: 0.769 versus 0.754, p = 0.80, despite using 1.8 times more evaluation calls. Leave-one-in analysis shows that the realized value comes entirely from the executor; the planner and critic evolve to empty or low-impact prompts and rarely change the executor's action. With 2-3 times free compute, the team only matches the single agent, and on WebShop evolution is null while the team trends worse. Under equal inference cost, multi-agent structure adds cost without clear benefit.",
+  "versions": [
+   [
+    "1",
+    "Thu, 25 Jun 2026 03:50:48 UTC "
+   ]
+  ]
+ }
+}

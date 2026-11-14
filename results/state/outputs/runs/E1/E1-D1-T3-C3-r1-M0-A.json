@@ -1,0 +1,145 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 193.697,
+  "agent_seed": 2012661351,
+  "aggregate_tokens": 138276,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D1-T3/C3/r1/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C3",
+  "correct_refusal": null,
+  "corruption_seed": 7370001659038402165,
+  "data_hashes": {
+    "private": "cda28521c65e74f437b9e38a2743e036ba88794ed6ec47fa5674c8686810b654",
+    "trusted": "b9ce16958af16a6770025b60b38744e998317fb26a6e112548ed89614c2b821c",
+    "visible": "1752d0ec0cfc91e79afcc107a9ebbbef3624c464b7472c3729676f81fa1e4d6e"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 250,
+        "precision": 1.0,
+        "recall": 0.508,
+        "reported": 127,
+        "true_positive": 127
+      },
+      "duplicate": {
+        "injected": 250,
+        "precision": 1.0,
+        "recall": 1.0,
+        "reported": 250,
+        "true_positive": 250
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 0.754,
+    "reversible_defects": 500,
+    "unintended_edit_rate": 0.0
+  },
+  "dataset_id": "D1",
+  "estimator_seed": 1138019516,
+  "evaluator_error": null,
+  "evaluator_seconds": 1.45,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "MISSING_RECORD",
+    "INVALID_PREDICTION"
+  ],
+  "false_submission": null,
+  "first_failure": "MISSING_RECORD",
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 135035,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 174.574,
+  "model_calls": 25,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 6,
+  "output_tokens": 3241,
+  "peak_worker_memory_mb": 318.390625,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "missing_ids": 22,
+      "unexpected_ids": 0,
+      "value_mismatches": {}
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": false,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.231,
+  "record_integrity_rate": 0.989,
+  "repair_cycles": 1,
+  "repetition_id": 1,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E1-D1-T3-C3-r1-M0-A",
+  "selected_candidate": "CL6",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "4c9d01e08186924eee710460250d0b335e48b6e884c463321e018adf88ab2adf",
+  "start_time": "2026-11-13T06:38:01Z",
+  "suite": "evaluation",
+  "system_id": "M0",
+  "task_id": "D1-T3",
+  "template_id": "T3",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "average_precision": 0.7229273781434711,
+    "macro_f1": 0.8150969852769339,
+    "n": 1978,
+    "prevalence": 0.01870576339737108,
+    "roc_auc": 0.9689488561204173
+  },
+  "test_prediction_coverage": 0.989,
+  "test_value_match_rate": 1.0,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 21,
+  "trace_path": "outputs/traces/E1/E1-D1-T3-C3-r1-M0-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 196.147
+}

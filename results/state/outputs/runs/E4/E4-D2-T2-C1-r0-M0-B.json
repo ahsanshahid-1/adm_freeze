@@ -1,0 +1,214 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 252.24,
+  "agent_seed": 1024301534,
+  "aggregate_tokens": 179362,
+  "attempt": 1,
+  "backbone_id": "B",
+  "block": "E4/D2-T2/C1/r0/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C1",
+  "correct_refusal": null,
+  "corruption_seed": 7704155233658783009,
+  "data_hashes": {
+    "private": "0eec8b6b53b968d579c5d585ad7255f0528893fc464ed55076f8045db266b19c",
+    "trusted": "0c5ce4b73db7704b3c24bc5d592a04992413a828ebcf493998d26534006a2b7c",
+    "visible": "6ea03be3543048293906a0d49f15a2f4c4a316d4f241abdb4e11bdd13e35a0fe"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 1309,
+        "precision": 1.0,
+        "recall": 1.0,
+        "reported": 1309,
+        "true_positive": 1309
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 1.0,
+    "reversible_defects": 1309,
+    "unintended_edit_rate": 0.0
+  },
+  "dataset_id": "D2",
+  "estimator_seed": 1578111858,
+  "evaluator_error": null,
+  "evaluator_seconds": 1.49,
+  "exception_events": 0,
+  "experiment_id": "E4",
+  "external_failure_codes": [],
+  "false_submission": null,
+  "first_failure": null,
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 176801,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 230.167,
+  "model_calls": 24,
+  "model_repo": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 1,
+  "output_tokens": 2561,
+  "peak_worker_memory_mb": 316.828125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {}
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 0,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E4-D2-T2-C1-r0-M0-B",
+  "selected_candidate": "CL5",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "795cff47303d2be3503a65aa721e2b380cebd9848998870c7ad107a2ab9a3b56",
+  "start_time": "2026-11-14T15:42:08Z",
+  "suite": "evaluation",
+  "system_id": "M0",
+  "task_id": "D2-T2",
+  "template_id": "T2",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "balanced_accuracy": 0.7532874546720699,
+    "confusion_matrix": {
+      "labels": [
+        "Bumps",
+        "Dirtiness",
+        "K_Scatch",
+        "Other_Faults",
+        "Pastry",
+        "Stains",
+        "Z_Scratch"
+      ],
+      "matrix": [
+        [
+          55,
+          1,
+          0,
+          18,
+          3,
+          1,
+          2
+        ],
+        [
+          2,
+          7,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          73,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          20,
+          4,
+          1,
+          101,
+          8,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          0,
+          7,
+          19,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          30
+        ]
+      ]
+    },
+    "macro_f1": 0.763779822371799,
+    "n": 386
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 1.0,
+  "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "tool_calls": 21,
+  "trace_path": "outputs/traces/E4/E4-D2-T2-C1-r0-M0-B__a1.jsonl.gz",
+  "verified_completion": 1,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 253.928
+}

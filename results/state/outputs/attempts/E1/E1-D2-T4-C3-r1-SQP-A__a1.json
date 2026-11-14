@@ -1,0 +1,27 @@
+{
+  "abstention_reason": null,
+  "attempt": 1,
+  "blocked_attempts": [],
+  "error": "HTTP 400: {\"error\":{\"message\":\"max_tokens must be at least 1, got 0. (parameter=max_tokens, value=0)\",\"type\":\"BadRequestError\",\"param\":\"max_tokens\",\"code\":400}}",
+  "exception_events": 0,
+  "peak_worker_memory_mb": 318.390625,
+  "run_id": "E1-D2-T4-C3-r1-SQP-A",
+  "submission": null,
+  "terminal_state": "INFRASTRUCTURE_ERROR",
+  "usage": {
+    "active_seconds": 195.7,
+    "aggregate_tokens": 234831,
+    "fit_count": 24,
+    "gate_calls": 16,
+    "input_tokens": 232501,
+    "llm_seconds": 160.324,
+    "model_calls": 21,
+    "output_tokens": 2330,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 0,
+    "tool_calls": 20,
+    "wait_seconds": 0.0
+  },
+  "wall_including_queue_seconds": 197.379,
+  "worker_seconds": 196.486
+}

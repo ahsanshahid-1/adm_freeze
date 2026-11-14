@@ -1,0 +1,626 @@
+{
+  "D5-T1/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1475,
+      "macro_f1": 0.4601889338731444,
+      "prevalence": 0.1475,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL1",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T1",
+    "test_metrics": {
+      "average_precision": 0.37862511474838456,
+      "macro_f1": 0.5562532705389849,
+      "prevalence": 0.1475,
+      "roc_auc": 0.727024205974452
+    },
+    "validation": {
+      "CL1": 0.40665794071429556,
+      "CL2": 0.40232444718290133,
+      "CL3": 0.32924798726988513,
+      "CL4": 0.38025925412462297,
+      "CL5": 0.3462083668084691,
+      "CL6": 0.35126438935921267
+    }
+  },
+  "D5-T1/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1225,
+      "macro_f1": 0.4673768308921438,
+      "prevalence": 0.1225,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL2",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T1",
+    "test_metrics": {
+      "average_precision": 0.2913456827260176,
+      "macro_f1": 0.4980946184589646,
+      "prevalence": 0.1225,
+      "roc_auc": 0.7380661666375952
+    },
+    "validation": {
+      "CL1": 0.32897467959202714,
+      "CL2": 0.329481309907712,
+      "CL3": 0.278547418457529,
+      "CL4": 0.29565242206842984,
+      "CL5": 0.2468096308201616,
+      "CL6": 0.2658899852765742
+    }
+  },
+  "D5-T2/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1475,
+      "macro_f1": 0.4601889338731444,
+      "prevalence": 0.1475,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL1",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T2",
+    "test_metrics": {
+      "average_precision": 0.37862511474838456,
+      "macro_f1": 0.5562532705389849,
+      "prevalence": 0.1475,
+      "roc_auc": 0.727024205974452
+    },
+    "validation": {
+      "CL1": 0.40665794071429556,
+      "CL2": 0.40232444718290133,
+      "CL3": 0.3338662623140837,
+      "CL4": 0.37182769446337305,
+      "CL5": 0.3462083668084691,
+      "CL6": 0.35126438935921267
+    }
+  },
+  "D5-T2/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1225,
+      "macro_f1": 0.4673768308921438,
+      "prevalence": 0.1225,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL2",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T2",
+    "test_metrics": {
+      "average_precision": 0.2913456827260176,
+      "macro_f1": 0.4980946184589646,
+      "prevalence": 0.1225,
+      "roc_auc": 0.7380661666375952
+    },
+    "validation": {
+      "CL1": 0.32897467959202714,
+      "CL2": 0.329481309907712,
+      "CL3": 0.29824283400354046,
+      "CL4": 0.28948740555409824,
+      "CL5": 0.2468096308201616,
+      "CL6": 0.2658899852765742
+    }
+  },
+  "D5-T3/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1475,
+      "macro_f1": 0.4601889338731444,
+      "prevalence": 0.1475,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL1",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T3",
+    "test_metrics": {
+      "average_precision": 0.37862511474838456,
+      "macro_f1": 0.5562532705389849,
+      "prevalence": 0.1475,
+      "roc_auc": 0.727024205974452
+    },
+    "validation": {
+      "CL1": 0.40665794071429556,
+      "CL2": 0.40232444718290133,
+      "CL3": 0.34626939759826647,
+      "CL4": 0.36796272041542644,
+      "CL5": 0.3462083668084691,
+      "CL6": 0.35126438935921267
+    }
+  },
+  "D5-T3/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1225,
+      "macro_f1": 0.4673768308921438,
+      "prevalence": 0.1225,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL2",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T3",
+    "test_metrics": {
+      "average_precision": 0.2913456827260176,
+      "macro_f1": 0.4980946184589646,
+      "prevalence": 0.1225,
+      "roc_auc": 0.7380661666375952
+    },
+    "validation": {
+      "CL1": 0.32897467959202714,
+      "CL2": 0.329481309907712,
+      "CL3": 0.27724480929424594,
+      "CL4": 0.2828586119065686,
+      "CL5": 0.2468096308201616,
+      "CL6": 0.2658899852765742
+    }
+  },
+  "D5-T4/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1475,
+      "macro_f1": 0.4601889338731444,
+      "prevalence": 0.1475,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL1",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T4",
+    "test_metrics": {
+      "average_precision": 0.37862511474838456,
+      "macro_f1": 0.5562532705389849,
+      "prevalence": 0.1475,
+      "roc_auc": 0.727024205974452
+    },
+    "validation": {
+      "CL1": 0.40665794071429556,
+      "CL2": 0.40232444718290133,
+      "CL3": 0.3286585286973315,
+      "CL4": 0.373049550204156,
+      "CL5": 0.3462083668084691,
+      "CL6": 0.35126438935921267
+    }
+  },
+  "D5-T4/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1225,
+      "macro_f1": 0.4673768308921438,
+      "prevalence": 0.1225,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL2",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T4",
+    "test_metrics": {
+      "average_precision": 0.2913456827260176,
+      "macro_f1": 0.4980946184589646,
+      "prevalence": 0.1225,
+      "roc_auc": 0.7380661666375952
+    },
+    "validation": {
+      "CL1": 0.32897467959202714,
+      "CL2": 0.329481309907712,
+      "CL3": 0.28190380505389184,
+      "CL4": 0.29017921686961184,
+      "CL5": 0.2468096308201616,
+      "CL6": 0.2658899852765742
+    }
+  },
+  "D5-T5/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1475,
+      "macro_f1": 0.4601889338731444,
+      "prevalence": 0.1475,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL1",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T5",
+    "test_metrics": {
+      "average_precision": 0.37862511474838456,
+      "macro_f1": 0.5562532705389849,
+      "prevalence": 0.1475,
+      "roc_auc": 0.727024205974452
+    },
+    "validation": {
+      "CL1": 0.40665794071429556,
+      "CL2": 0.40232444718290133,
+      "CL3": 0.31683990119041816,
+      "CL4": 0.3628791021503911,
+      "CL5": 0.3462083668084691,
+      "CL6": 0.35126438935921267
+    }
+  },
+  "D5-T5/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1225,
+      "macro_f1": 0.4673768308921438,
+      "prevalence": 0.1225,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL2",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T5",
+    "test_metrics": {
+      "average_precision": 0.2913456827260176,
+      "macro_f1": 0.4980946184589646,
+      "prevalence": 0.1225,
+      "roc_auc": 0.7380661666375952
+    },
+    "validation": {
+      "CL1": 0.32897467959202714,
+      "CL2": 0.329481309907712,
+      "CL3": 0.2789377256550004,
+      "CL4": 0.2921059052206318,
+      "CL5": 0.2468096308201616,
+      "CL6": 0.2658899852765742
+    }
+  },
+  "D5-T6/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1475,
+      "macro_f1": 0.4601889338731444,
+      "prevalence": 0.1475,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL1",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T6",
+    "test_metrics": {
+      "average_precision": 0.3719519482966521,
+      "macro_f1": 0.5562532705389849,
+      "prevalence": 0.1475,
+      "roc_auc": 0.7208608777772254
+    },
+    "validation": {
+      "CL1": 0.39234310721871146,
+      "CL2": 0.38660013123450687,
+      "CL3": 0.36218774860691566,
+      "CL4": 0.360732988159049,
+      "CL5": 0.35409955428973805,
+      "CL6": 0.37103553535566847
+    }
+  },
+  "D5-T6/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1225,
+      "macro_f1": 0.4673768308921438,
+      "prevalence": 0.1225,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL2",
+    "suite": "development",
+    "task_type": "binary",
+    "template": "T6",
+    "test_metrics": {
+      "average_precision": 0.28952535872076557,
+      "macro_f1": 0.4980946184589646,
+      "prevalence": 0.1225,
+      "roc_auc": 0.7377173091458805
+    },
+    "validation": {
+      "CL1": 0.32107696180327483,
+      "CL2": 0.3258910055583903,
+      "CL3": 0.2802835802560692,
+      "CL4": 0.27988226147218087,
+      "CL5": 0.24716911639805872,
+      "CL6": 0.2562992397023994
+    }
+  },
+  "D6-T1/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.979955611348008,
+      "rmse": 8.569769675322561
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T1",
+    "test_metrics": {
+      "mae": 1.688164372548201,
+      "rmse": 2.0969361116218823
+    },
+    "validation": {
+      "RG1": 3.47297447718975,
+      "RG2": 3.4756338149867942,
+      "RG3": 3.2841060622442164,
+      "RG4": 3.419532079237767,
+      "RG5": 2.3160318343928643,
+      "RG6": 2.4686525687509135
+    }
+  },
+  "D6-T1/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.891526628936563,
+      "rmse": 8.297718889635469
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T1",
+    "test_metrics": {
+      "mae": 1.5676298240579165,
+      "rmse": 2.008128383091354
+    },
+    "validation": {
+      "RG1": 3.3758794762618103,
+      "RG2": 3.3790551028929396,
+      "RG3": 3.136877038970279,
+      "RG4": 3.233876620292103,
+      "RG5": 2.247218039434968,
+      "RG6": 2.404502855466473
+    }
+  },
+  "D6-T2/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.979955611348008,
+      "rmse": 8.569769675322561
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T2",
+    "test_metrics": {
+      "mae": 1.688164372548201,
+      "rmse": 2.0969361116218823
+    },
+    "validation": {
+      "RG1": 3.47297447718975,
+      "RG2": 3.4756338149867942,
+      "RG3": 3.312673238756946,
+      "RG4": 3.4427017012208543,
+      "RG5": 2.3160318343928643,
+      "RG6": 2.4686525687509135
+    }
+  },
+  "D6-T2/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.891526628936563,
+      "rmse": 8.297718889635469
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T2",
+    "test_metrics": {
+      "mae": 1.5676298240579165,
+      "rmse": 2.008128383091354
+    },
+    "validation": {
+      "RG1": 3.3758794762618103,
+      "RG2": 3.3790551028929396,
+      "RG3": 3.119926822584692,
+      "RG4": 3.2440263835771397,
+      "RG5": 2.247218039434968,
+      "RG6": 2.404502855466473
+    }
+  },
+  "D6-T3/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.979955611348008,
+      "rmse": 8.569769675322561
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T3",
+    "test_metrics": {
+      "mae": 1.688164372548201,
+      "rmse": 2.0969361116218823
+    },
+    "validation": {
+      "RG1": 3.47297447718975,
+      "RG2": 3.4756338149867942,
+      "RG3": 3.278455207339522,
+      "RG4": 3.4157152396648955,
+      "RG5": 2.3160318343928643,
+      "RG6": 2.4686525687509135
+    }
+  },
+  "D6-T3/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.891526628936563,
+      "rmse": 8.297718889635469
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T3",
+    "test_metrics": {
+      "mae": 1.5676298240579165,
+      "rmse": 2.008128383091354
+    },
+    "validation": {
+      "RG1": 3.3758794762618103,
+      "RG2": 3.3790551028929396,
+      "RG3": 3.142682547358959,
+      "RG4": 3.250143664293327,
+      "RG5": 2.247218039434968,
+      "RG6": 2.404502855466473
+    }
+  },
+  "D6-T4/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.979955611348008,
+      "rmse": 8.569769675322561
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T4",
+    "test_metrics": {
+      "mae": 1.688164372548201,
+      "rmse": 2.0969361116218823
+    },
+    "validation": {
+      "RG1": 3.47297447718975,
+      "RG2": 3.4756338149867942,
+      "RG3": 3.3095634037485246,
+      "RG4": 3.4350229529628105,
+      "RG5": 2.3160318343928643,
+      "RG6": 2.4686525687509135
+    }
+  },
+  "D6-T4/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.891526628936563,
+      "rmse": 8.297718889635469
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T4",
+    "test_metrics": {
+      "mae": 1.5676298240579165,
+      "rmse": 2.008128383091354
+    },
+    "validation": {
+      "RG1": 3.3758794762618103,
+      "RG2": 3.3790551028929396,
+      "RG3": 3.1494777121535407,
+      "RG4": 3.244402585959564,
+      "RG5": 2.247218039434968,
+      "RG6": 2.404502855466473
+    }
+  },
+  "D6-T5/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.979955611348008,
+      "rmse": 8.569769675322561
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T5",
+    "test_metrics": {
+      "mae": 1.688164372548201,
+      "rmse": 2.0969361116218823
+    },
+    "validation": {
+      "RG1": 3.47297447718975,
+      "RG2": 3.4756338149867942,
+      "RG3": 3.307271957639063,
+      "RG4": 3.446091806074863,
+      "RG5": 2.3160318343928643,
+      "RG6": 2.4686525687509135
+    }
+  },
+  "D6-T5/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.891526628936563,
+      "rmse": 8.297718889635469
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T5",
+    "test_metrics": {
+      "mae": 1.5676298240579165,
+      "rmse": 2.008128383091354
+    },
+    "validation": {
+      "RG1": 3.3758794762618103,
+      "RG2": 3.3790551028929396,
+      "RG3": 3.157492228998439,
+      "RG4": 3.2471922129874606,
+      "RG5": 2.247218039434968,
+      "RG6": 2.404502855466473
+    }
+  },
+  "D6-T6/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.979955611348008,
+      "rmse": 8.569769675322561
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T6",
+    "test_metrics": {
+      "mae": 1.7023012787889356,
+      "rmse": 2.108313158497138
+    },
+    "validation": {
+      "RG1": 3.4968045202350067,
+      "RG2": 3.499047572919594,
+      "RG3": 3.355123789714139,
+      "RG4": 3.4508146771249,
+      "RG5": 2.492216559235911,
+      "RG6": 2.538054663348397
+    }
+  },
+  "D6-T6/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.891526628936563,
+      "rmse": 8.297718889635469
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "development",
+    "task_type": "regression",
+    "template": "T6",
+    "test_metrics": {
+      "mae": 1.5855654388039653,
+      "rmse": 2.0168089176220274
+    },
+    "validation": {
+      "RG1": 3.3930721408882865,
+      "RG2": 3.3960437957051948,
+      "RG3": 3.1374625696670218,
+      "RG4": 3.2382463790214757,
+      "RG5": 2.3051449905601076,
+      "RG6": 2.4152449249061667
+    }
+  }
+}

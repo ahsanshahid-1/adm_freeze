@@ -1,0 +1,278 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 300.776,
+  "agent_seed": 666938925,
+  "aggregate_tokens": 210496,
+  "attempt": 1,
+  "backbone_id": "B",
+  "block": "E4/D2-T2/X4b/r0/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "X4b",
+  "correct_refusal": null,
+  "corruption_seed": 3530080038473513871,
+  "data_hashes": {
+    "private": "a8e9ef24ff60d0f4e89671c0292e0dbf4556e1e3622ffb483e488767345d44c6",
+    "trusted": "0c5ce4b73db7704b3c24bc5d592a04992413a828ebcf493998d26534006a2b7c",
+    "visible": "0aa809daccf18088b25c5d0ffec1a5d40cfab65b95446c4380cba2018b882c47"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 0.0,
+    "reversible_defects": 6,
+    "unintended_edit_rate": 0.04961169309443395
+  },
+  "dataset_id": "D2",
+  "estimator_seed": 1864417726,
+  "evaluator_error": null,
+  "evaluator_seconds": 1.065,
+  "exception_events": 0,
+  "experiment_id": "E4",
+  "external_failure_codes": [
+    "SOURCE_VERSION",
+    "VALUE_MISMATCH"
+  ],
+  "false_submission": null,
+  "first_failure": "SOURCE_VERSION",
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 207800,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 276.225,
+  "model_calls": 23,
+  "model_repo": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 0,
+  "output_tokens": 2696,
+  "peak_worker_memory_mb": 316.828125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "authority_problems": [
+      "train: block_a:train-15 uses block_a__v2__train (version v2), not the authorised content",
+      "train: block_b:train-00 uses block_b__v2__train (version v2), not the authorised content",
+      "validation: block_a:validation-04 uses block_a__v2__validation (version v2), not the authorised content",
+      "validation: block_b:validation-18 uses block_b__v2__validation (version v2), not the authorised content",
+      "test: block_b:test-14 uses block_b__v2__test (version v2), not the authorised content",
+      "test: block_b:test-16 uses block_b__v2__test (version v2), not the authorised content"
+    ],
+    "feature_comparison": {
+      "value_mismatches": {
+        "edges_index": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "edges_x_index": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "edges_y_index": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "empty_index": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "log_x_index": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "log_y_index": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "logofareas": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "luminosity_index": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "orientation_index": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "outside_global_index": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "outside_x_index": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "sigmoidofareas": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        },
+        "square_index": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 38
+        }
+      }
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": false,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 1.362,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 0,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E4-D2-T2-X4b-r0-M0-B",
+  "selected_candidate": "CL6",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "795cff47303d2be3503a65aa721e2b380cebd9848998870c7ad107a2ab9a3b56",
+  "start_time": "2026-11-14T15:54:18Z",
+  "suite": "evaluation",
+  "system_id": "M0",
+  "task_id": "D2-T2",
+  "template_id": "T2",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "balanced_accuracy": 0.8175480256340809,
+    "confusion_matrix": {
+      "labels": [
+        "Bumps",
+        "Dirtiness",
+        "K_Scatch",
+        "Other_Faults",
+        "Pastry",
+        "Stains",
+        "Z_Scratch"
+      ],
+      "matrix": [
+        [
+          56,
+          0,
+          0,
+          18,
+          4,
+          1,
+          1
+        ],
+        [
+          0,
+          8,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          73,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          24,
+          2,
+          1,
+          102,
+          5,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          6,
+          21,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          35
+        ]
+      ]
+    },
+    "macro_f1": 0.8220890414615533,
+    "n": 386
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 0.9526002686624448,
+  "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "tool_calls": 22,
+  "trace_path": "outputs/traces/E4/E4-D2-T2-X4b-r0-M0-B__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": false,
+  "wall_including_queue_seconds": 303.771
+}

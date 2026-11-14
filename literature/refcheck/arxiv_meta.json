@@ -1,0 +1,820 @@
+{
+ "2509.21825": {
+  "title": "DS-STAR: Data Science Agent for Solving Diverse Tasks across Heterogeneous Formats and Open-Ended Queries",
+  "authors": [
+   "Nam, Jaehyun",
+   "Yoon, Jinsung",
+   "Chen, Jiefeng",
+   "Sinha, Raj",
+   "Shin, Jinwoo",
+   "Pfister, Tomas"
+  ],
+  "date": "2025/09/26",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "While large language models (LLMs) have shown promise in automating data science, existing agents often struggle with the complexity of real-world workflows that require exploring multiple sources and synthesizing open-ended insights. In this paper, we introduce DS-STAR, a specialized agent to bridge this gap. Unlike prior approaches, DS-STAR is designed to (1) seamlessly process and integrate data across diverse, heterogeneous formats, and (2) move beyond simple QA to generate comprehensive research reports for open-ended queries. Extensive evaluation shows that DS-STAR achieves state-of-the-art performance on four benchmarks: DABStep, DABStep-Research, KramaBench, and DA-Code. Most notably, it significantly outperforms existing baseline models especially in hard-level QA tasks requiring multi-file processing, and generates high-quality data science reports that are preferred over the best baseline model in over 88% of cases.",
+  "fetched_at": "2026-11-11T23:24:04"
+ },
+ "2506.23719": {
+  "title": "DABstep: Data Agent Benchmark for Multi-step Reasoning",
+  "authors": [
+   "Egg, Alex",
+   "Goyanes, Martin Iglesias",
+   "Kingma, Friso",
+   "Mora, Andreu",
+   "von Werra, Leandro",
+   "Wolf, Thomas"
+  ],
+  "date": "2025/06/30",
+  "comments": "13 pages, 5 figures",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "We introduce DABstep, a novel benchmark for evaluating AI agents on realistic multi-step data analysis tasks. DABstep comprises over 450 real-world challenges derived from a financial analytics platform, requiring models to combine code-based data processing with contextual reasoning over heterogeneous documentation. Each task demands an iterative, multi-step problem-solving approach, testing capabilities in data manipulation, cross-referencing multiple sources, and precise result reporting. The benchmark provides a factoid-style answer format with automatic correctness checks for objective scoring at scale. We evaluate leading LLM-based agents, revealing a substantial performance gap: even the best agent achieves only 14.55% accuracy on the hardest tasks. We detail our benchmark's design, dataset composition, task formulation, evaluation protocol, report baseline results and analyze failure modes. DABstep is released with a public leaderboard and toolkit to accelerate research in autonomous data analysis.",
+  "fetched_at": "2026-11-11T23:24:09"
+ },
+ "2409.07703": {
+  "title": "DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?",
+  "authors": [
+   "Jing, Liqiang",
+   "Huang, Zhehui",
+   "Wang, Xiaoyang",
+   "Yao, Wenlin",
+   "Yu, Wenhao",
+   "Ma, Kaixin",
+   "Zhang, Hongming",
+   "Du, Xinya",
+   "Yu, Dong"
+  ],
+  "date": "2024/09/12",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Large Language Models (LLMs) and Large Vision-Language Models (LVLMs) have demonstrated impressive language/vision reasoning abilities, igniting the recent trend of building agents for targeted applications such as shopping assistants or AI software engineers. Recently, many data science benchmarks have been proposed to investigate their performance in the data science domain. However, existing data science benchmarks still fall short when compared to real-world data science applications due to their simplified settings. To bridge this gap, we introduce DSBench, a comprehensive benchmark designed to evaluate data science agents with realistic tasks. This benchmark includes 466 data analysis tasks and 74 data modeling tasks, sourced from Eloquence and Kaggle competitions. DSBench offers a realistic setting by encompassing long contexts, multimodal task backgrounds, reasoning with large data files and multi-table structures, and performing end-to-end data modeling tasks. Our evaluation of state-of-the-art LLMs, LVLMs, and agents shows that they struggle with most tasks, with the best agent solving only 34.12% of data analysis tasks and achieving a 34.74% Relative Performance Gap (RPG). These findings underscore the need for further advancements in developing more practical, intelligent, and autonomous data science agents.",
+  "fetched_at": "2026-11-11T23:24:14"
+ },
+ "2507.02825": {
+  "title": "Establishing Best Practices for Building Rigorous Agentic Benchmarks",
+  "authors": [
+   "Zhu, Yuxuan",
+   "Jin, Tengjun",
+   "Pruksachatkun, Yada",
+   "Zhang, Andy",
+   "Liu, Shu",
+   "Cui, Sasha",
+   "Kapoor, Sayash",
+   "Longpre, Shayne",
+   "Meng, Kevin",
+   "Weiss, Rebecca",
+   "Barez, Fazl",
+   "Gupta, Rahul",
+   "Dhamala, Jwala",
+   "Merizian, Jacob",
+   "Giulianelli, Mario",
+   "Coppock, Harry",
+   "Ududec, Cozmin",
+   "Sekhon, Jasjeet",
+   "Steinhardt, Jacob",
+   "Kellermann, Antony",
+   "Schwettmann, Sarah",
+   "Zaharia, Matei",
+   "Stoica, Ion",
+   "Liang, Percy",
+   "Kang, Daniel"
+  ],
+  "date": "2025/07/03",
+  "comments": "39 pages, 15 tables, 6 figures",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Benchmarks are essential for quantitatively tracking progress in AI. As AI agents become increasingly capable, researchers and practitioners have introduced agentic benchmarks to evaluate agents on complex, real-world tasks. These benchmarks typically measure agent capabilities by evaluating task outcomes via specific reward designs. However, we show that many agentic benchmarks have issues in task setup or reward design. For example, SWE-bench Verified uses insufficient test cases, while TAU-bench counts empty responses as successful. Such issues can lead to under- or overestimation of agents' performance by up to 100% in relative terms. To make agentic evaluation rigorous, we introduce the Agentic Benchmark Checklist (ABC), a set of guidelines that we synthesized from our benchmark-building experience, a survey of best practices, and previously reported issues. When applied to CVE-Bench, a benchmark with a particularly complex evaluation design, ABC reduces the performance overestimation by 33%.",
+  "fetched_at": "2026-11-11T23:24:19"
+ },
+ "2604.02460": {
+  "title": "Single-Agent LLMs Outperform Multi-Agent Systems on Multi-Hop Reasoning Under Equal Thinking Token Budgets",
+  "authors": [
+   "Tran, Dat",
+   "Kiela, Douwe"
+  ],
+  "date": "2026/04/02",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Recent work reports strong performance from multi-agent LLM systems (MAS), but these gains are often confounded by increased test-time computation. When computation is normalized, single-agent systems (SAS) can match or outperform MAS, yet the theoretical basis and evaluation methodology behind this comparison remain unclear. We present an information-theoretic argument, grounded in the Data Processing Inequality, suggesting that under a fixed reasoning-token budget and with perfect context utilization, single-agent systems are more information-efficient. This perspective further predicts that multi-agent systems become competitive when a single agent's effective context utilization is degraded, or when more compute is expended. We test these predictions in a controlled empirical study across three model families (Qwen3, DeepSeek-R1-Distill-Llama, and Gemini 2.5), comparing SAS with multiple MAS architectures under matched budgets. We find that SAS consistently match or outperform MAS on multi-hop reasoning tasks when reasoning tokens are held constant. Beyond aggregate performance, we conduct a detailed diagnostic analysis of system behavior and evaluation methodology. We identify significant artifacts in API-based budget control (particularly in Gemini 2.5) and in standard benchmarks, both of which can inflate apparent gains from MAS. Overall, our results suggest that, for multi-hop reasoning tasks, many reported advantages of multi-agent systems are better explained by unaccounted computation and context effects rather than inherent architectural benefits, and highlight the importance of understanding and explicitly controlling the trade-offs between compute, context, and coordination in agentic systems.",
+  "fetched_at": "2026-11-11T23:24:24"
+ },
+ "2606.05670": {
+  "title": "Do More Agents Help? Evaluating Accuracy and Cost in LLM Multi-Agent Workflows",
+  "authors": [
+   "Fu, Yuhang",
+   "Fang, Ruishan",
+   "Shao, Jiaqi",
+   "Zheng, Huiyu",
+   "Zhu, Zhengtao",
+   "Luo, Bing",
+   "Wen, Zhenyu",
+   "Lin, Tao"
+  ],
+  "date": "2026/06/04",
+  "comments": "27 pages, including supplementary material. Revised evaluation and results; updated author list. Code: this https URL",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Choosing whether to replace a single-agent controller requires evidence on both task performance and inference expenditure. We present BenchAgent, a shared evaluation framework, and compare six multi-agent workflow configurations against its single-agent reference, BenchAgent Core, across ten reasoning, coding, and tool-use benchmarks. All configurations use GPT-4.1 and common tool and scoring interfaces; Core executions share the same step limits. We measure accuracy and recorded token use over three runs on fixed task sets, with 3,302 instances per configuration per run. EvoAgent reaches 79.70% mean pooled accuracy versus 76.65% for Core and exceeds Core in all three runs; the other five MAS trail by 1.71-8.76 percentage points. LLM-Debate gains 9.67 points on HumanEval but loses 1.96 points in pooled accuracy while consuming 1.39 times the tokens of Core. ChatEval gains 22.25 points on IFEval but trails Core in pooled accuracy with 4.34 times its token consumption. The broad comparison and targeted analyses of retained responses provide evidence for workflow selection and identify answer preservation and resource allocation as directions for subsequent multi-agent optimization.",
+  "fetched_at": "2026-11-11T23:24:29"
+ },
+ "2605.06213": {
+  "title": "Beyond Fixed Benchmarks and Worst-Case Attacks: Dynamic Boundary Evaluation for Language Models",
+  "authors": [
+   "Wang, Haoxiang",
+   "Yu, Da",
+   "Zhang, Huishuai"
+  ],
+  "date": "2026/05/07",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Evaluating large language models (LLMs) today rests on fixed benchmarks that apply the same set of items to any model, producing ceiling and floor effects that mask capability gaps. We argue that the most informative evaluation signal lies at the boundary, where the per-prompt pass probability is near $0.5$ under random-sampling decoding strategy, and propose Dynamic Boundary Evaluation (DBE), which actively locates each model's boundary and places it on a globally comparable difficulty scale. DBE delivers three artifacts: (i) a calibrated item bank covering safety, capability, and truthfulness, with per-item difficulty labels validated across $9$ reference LLMs; (ii) Skill-Guided Boundary Search (SGBS), a search algorithm that finds boundary items for a given target LLM using only API-level query access; and (iii) an evaluation protocol that places a new LLM on a unified ability scale and grows the evaluation set adaptively when the target falls outside the bank's coverage. We instantiate DBE on four categories spanning safety (harmful request refusal, over-refusal), capability (constrained instruction following), and truthfulness (multi-turn sycophancy resistance). The resulting evaluation covers a broader model spectrum without saturation while remaining compatible with existing datasets.",
+  "fetched_at": "2026-11-11T23:24:35"
+ },
+ "2603.20576": {
+  "title": "Can AI Agents Answer Your Data Questions? A Benchmark for Data Agents",
+  "authors": [
+   "Ma, Ruiying",
+   "Shankar, Shreya",
+   "Chen, Ruiqi",
+   "Lin, Yiming",
+   "Zeighami, Sepanta",
+   "Ghosh, Rajoshi",
+   "Gupta, Abhinav",
+   "Gupta, Anushrut",
+   "Gopal, Tanmai",
+   "Parameswaran, Aditya G."
+  ],
+  "date": "2026/03/21",
+  "comments": "27 pages, 6 figures, 15 tables",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "However, building reliable data agents remains difficult because real enterprise data is fragmented across many heterogeneous database systems, with duplicated and inconsistent data, and key information often buried in unstructured text, requiring agents to go beyond just writing SQL or data science scripts to answer questions. Existing benchmarks tackle only individual pieces of this end-to-end workflow (e.g., text-to-SQL over a single database) and are increasingly saturated and contaminated. We present a new benchmark for LLM agents, the Data Agent Benchmark (DAB), grounded in a study of enterprises building production data agents across six industries. DAB comprises 104 queries across 17 datasets and 4 database management systems. On DAB, the best state-of-the-art agent achieves only 57% pass@1. We analyze agent failure modes and distill takeaways for future data-agent development. Our benchmark and experiment code are published at github.com/ucbepic/DataAgentBench.",
+  "fetched_at": "2026-11-11T23:24:40"
+ },
+ "2608.14765": {
+  "title": "Agentic Data Cleaning Without a Clean Reference: An Experimental Study of Capabilities and Trade-offs",
+  "authors": [
+   "Fadlallah, Hadi"
+  ],
+  "date": "2026/08/14",
+  "comments": "21 pages, 3 figures, Submitted to New Generation Computing",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Data cleaning without a trusted clean reference is challenging because unusual values may represent either genuine errors or valid observations. This paper studies how different agent capabilities affect reference-free data cleaning and proposes an evidence-grounded framework that combines structured context, profiling, LLM reasoning, executable checks, controlled evidence retrieval, source ranking, citation alignment, conservative repair, reversible scripts, and provenance logging. Seven configurations are evaluated across financial, clinical, and environmental-monitoring datasets using controlled synthetic corruption and original-data descriptive analysis, resulting in 126 completed runs. The evaluation includes two comparison baselines and a progressive LLM-based sequence that adds executable tools, evidence retrieval, evidence controls, and conservative repair. In the synthetic evaluation, the deterministic profiling baseline achieved the highest detection F1-score of 0.561. Among the LLM-based configurations, the full conservative configuration achieved the highest F1-score of 0.421, but no configuration performed best across all evaluation criteria. The source-ranked configurations achieved the lowest unsupported-rule rates, while decision-level citation alignment remained weak. The full conservative configuration produced no unsafe or unnecessary modifications, although these rates were already zero before the conservative policy was added, and it performed no direct repairs. Overall, the results show that additional capabilities introduce trade-offs among detection, repair, evidence grounding, conservative behaviour, reproducibility, and operational cost rather than producing consistent improvements. The study provides a structured framework and empirical methodology for evaluating these trade-offs in reference-free agentic data cleaning.",
+  "fetched_at": "2026-11-11T23:24:45"
+ },
+ "2609.04217": {
+  "title": "At Equal Inference Cost, Multi-Agent Structure Does Not Beat a Single Frozen Agent",
+  "authors": [
+   "Dylan, David",
+   "Brennan, Aoife",
+   "Murphy, Cian",
+   "O'Sullivan, Niamh",
+   "Kelly, Conor",
+   "Walsh, Saoirse"
+  ],
+  "date": "2026/06/25",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Multi-agent LLM pipelines, such as Planner-Executor-Critic teams, often report gains over single agents, but these gains usually come with higher inference cost because the team makes multiple model calls per environment step. Existing automated methods search over roles, topologies, and prompts, but typically compare teams against single agents at equal environment rollouts, giving the team extra compute. We instead fix the total number of language-model calls and ask whether evolving a multi-agent team still beats evolving a single agent under the same budget. We introduce MA-Evolve, which represents a Planner-Executor-Critic team as three evolvable role prompts and optimizes them by per-role coordinate ascent over a shared frozen 7B backbone. On ALFWorld, evolving a single executor significantly improves over the unevolved agent, while the full team achieves the highest mean but is not statistically better than the single agent: 0.769 versus 0.754, p = 0.80, despite using 1.8 times more evaluation calls. Leave-one-in analysis shows that the realized value comes entirely from the executor; the planner and critic evolve to empty or low-impact prompts and rarely change the executor's action. With 2-3 times free compute, the team only matches the single agent, and on WebShop evolution is null while the team trends worse. Under equal inference cost, multi-agent structure adds cost without clear benefit.",
+  "fetched_at": "2026-11-11T23:24:50"
+ },
+ "2512.04416": {
+  "title": "DataGovBench: Benchmarking LLM Agents for Real-World Data Governance Workflows",
+  "authors": [
+   "Liu, Zhou",
+   "Han, Zhaoyang",
+   "Yan, Guochen",
+   "Liang, Hao",
+   "Zeng, Bohan",
+   "Chen, Xing",
+   "Song, Yuanfeng",
+   "Zhang, Wentao"
+  ],
+  "date": "2025/12/04",
+  "comments": "Equal contribution: Zhou Liu and Zhaoyang Han. Corresponding authors: Yuanfeng Song and Wentao Zhang",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Data governance ensures data quality, security, and compliance through policies and standards, a critical foundation for scaling modern AI development. Recently, large language models (LLMs) have emerged as a promising solution for automating data governance by translating user intent into executable transformation code. However, existing benchmarks for automated data science often emphasize snippet-level coding or high-level analytics, failing to capture the unique challenge of data governance: ensuring the correctness and quality of the data itself. To bridge this gap, we introduce DataGovBench, a benchmark featuring 150 diverse tasks grounded in real-world scenarios, built on data from actual cases. DataGovBench employs a novel \"reversed-objective\" methodology to synthesize realistic noise and utilizes rigorous metrics to assess end-to-end pipeline reliability. Our analysis on DataGovBench reveals that current models struggle with complex, multi-step workflows and lack robust error-correction mechanisms. Consequently, we propose DataGovAgent, a framework utilizing a Planner-Executor-Evaluator architecture that integrates constraint-based planning, retrieval-augmented generation, and sandboxed feedback-driven debugging. Experimental results show that DataGovAgent significantly boosts the Average Task Score (ATS) on complex tasks from 39.7 to 54.9 and reduces debugging iterations by over 77.9 percent compared to general-purpose baselines.",
+  "fetched_at": "2026-11-11T23:24:55"
+ },
+ "2604.00594": {
+  "title": "Agent psychometrics: Task-level performance prediction in agentic coding benchmarks",
+  "authors": [
+   "Ge, Chris",
+   "Kryvosheieva, Daria",
+   "Fried, Daniel",
+   "Girit, Uzay",
+   "Hariharan, Kaivalya"
+  ],
+  "date": "2026/04/01",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "As the focus in LLM-based coding shifts from static single-step code generation to multi-step agentic interaction with tools and environments, understanding which tasks will challenge agents and why becomes increasingly difficult. This is compounded by current practice: agent performance is typically measured by aggregate pass rates on benchmarks, but single-number metrics obscure the diversity of tasks within a benchmark. We present a framework for predicting success or failure on individual tasks tailored to the agentic coding regime. Our approach augments Item Response Theory (IRT) with rich features extracted from tasks, including issue statements, repository contexts, solutions, and test cases, and introduces a novel decomposition of agent ability into LLM and scaffold ability components. This parameterization enables us to aggregate evaluation data across heterogeneous leaderboards and accurately predict task-level performance for unseen benchmarks, as well as unseen LLM-scaffold combinations. Our methods have practical utility for benchmark designers, who can better calibrate the difficulty of their new tasks without running computationally expensive agent evaluations.",
+  "fetched_at": "2026-11-11T23:25:00"
+ },
+ "2007.07797": {
+  "title": "Application of the hierarchical bootstrap to multi-level data in neuroscience",
+  "authors": [
+   "Saravanan, Varun",
+   "Berman, Gordon J",
+   "Sober, Samuel J"
+  ],
+  "date": "2020/07/15",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "A common feature in many neuroscience datasets is the presence of hierarchical data structures, most commonly recording the activity of multiple neurons in multiple animals across multiple trials. Accordingly, the measurements constituting the dataset are not independent, even though the traditional statistical analyses often applied in such cases (e.g., Students t-test) treat them as such. The hierarchical bootstrap has been shown to be an effective tool to accurately analyze such data and while it has been used extensively in the statistical literature, its use is not widespread in neuroscience - despite the ubiquity of hierarchical datasets. In this paper, we illustrate the intuitiveness and utility of this approach to analyze hierarchically nested datasets. We use simulated neural data to show that traditional statistical tests can result in a false positive rate of over 45%, even if the Type-I error rate is set at 5%. While summarizing data across non-independent points (or lower levels) can potentially fix this problem, this approach greatly reduces the statistical power of the analysis. The hierarchical bootstrap, when applied sequentially over the levels of the hierarchical structure, keeps the Type-I error rate within the intended bound and retains more statistical power than summarizing methods. We conclude by demonstrating the effectiveness of the method in two real-world examples, first analyzing singing data in male Bengalese finches (Lonchura striata var. domestica) and second quantifying changes in behavior under optogenetic control in flies (Drosophila melanogaster).",
+  "fetched_at": "2026-11-11T23:25:06"
+ },
+ "2310.06770": {
+  "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+  "authors": [
+   "Jimenez, Carlos E.",
+   "Yang, John",
+   "Wettig, Alexander",
+   "Yao, Shunyu",
+   "Pei, Kexin",
+   "Press, Ofir",
+   "Narasimhan, Karthik"
+  ],
+  "date": "2023/10/10",
+  "comments": "Data, code, and leaderboard are available at this https URL ICLR 2024, this https URL",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Language models have outpaced our ability to evaluate them effectively, but for their future development it is essential to study the frontier of their capabilities. We find real-world software engineering to be a rich, sustainable, and challenging testbed for evaluating the next generation of language models. To this end, we introduce SWE-bench, an evaluation framework consisting of $2,294$ software engineering problems drawn from real GitHub issues and corresponding pull requests across $12$ popular Python repositories. Given a codebase along with a description of an issue to be resolved, a language model is tasked with editing the codebase to address the issue. Resolving issues in SWE-bench frequently requires understanding and coordinating changes across multiple functions, classes, and even files simultaneously, calling for models to interact with execution environments, process extremely long contexts and perform complex reasoning that goes far beyond traditional code generation tasks. Our evaluations show that both state-of-the-art proprietary models and our fine-tuned model SWE-Llama can resolve only the simplest issues. The best-performing model, Claude 2, is able to solve a mere $1.96$% of the issues. Advances on SWE-bench represent steps towards LMs that are more practical, intelligent, and autonomous.",
+  "fetched_at": "2026-11-11T23:25:11"
+ },
+ "2210.03629": {
+  "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+  "authors": [
+   "Yao, Shunyu",
+   "Zhao, Jeffrey",
+   "Yu, Dian",
+   "Du, Nan",
+   "Shafran, Izhak",
+   "Narasimhan, Karthik",
+   "Cao, Yuan"
+  ],
+  "date": "2022/10/06",
+  "comments": "v3 is the ICLR camera ready version with some typos fixed. Project site with code: this https URL",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "While large language models (LLMs) have demonstrated impressive capabilities across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines, as well as improved human interpretability and trustworthiness over methods without reasoning or acting components. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes issues of hallucination and error propagation prevalent in chain-of-thought reasoning by interacting with a simple Wikipedia API, and generates human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. On two interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34% and 10% respectively, while being prompted with only one or two in-context examples. Project site with code: https://react-lm.github.io",
+  "fetched_at": "2026-11-11T23:25:16"
+ },
+ "2402.18679": {
+  "title": "Data Interpreter: An LLM Agent For Data Science",
+  "authors": [
+   "Hong, Sirui",
+   "Lin, Yizhang",
+   "Liu, Bang",
+   "Liu, Bangbang",
+   "Wu, Binhao",
+   "Zhang, Ceyao",
+   "Wei, Chenxing",
+   "Li, Danyang",
+   "Chen, Jiaqi",
+   "Zhang, Jiayi",
+   "Wang, Jinlin",
+   "Zhang, Li",
+   "Zhang, Lingyao",
+   "Yang, Min",
+   "Zhuge, Mingchen",
+   "Guo, Taicheng",
+   "Zhou, Tuo",
+   "Tao, Wei",
+   "Tang, Xiangru",
+   "Lu, Xiangtao",
+   "Zheng, Xiawu",
+   "Liang, Xinbing",
+   "Fei, Yaying",
+   "Cheng, Yuheng",
+   "Gou, Zhibin",
+   "Xu, Zongze",
+   "Wu, Chenglin"
+  ],
+  "date": "2024/02/28",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Large Language Model (LLM)-based agents have shown effectiveness across many applications. However, their use in data science scenarios requiring solving long-term interconnected tasks, dynamic data adjustments and domain expertise remains challenging. Previous approaches primarily focus on individual tasks, making it difficult to assess the complete data science workflow. Moreover, they struggle to handle real-time changes in intermediate data and fail to adapt dynamically to evolving task dependencies inherent to data science problems. In this paper, we present Data Interpreter, an LLM-based agent designed to automatically solve various data science problems end-to-end. Our Data Interpreter incorporates two key modules: 1) Hierarchical Graph Modeling, which breaks down complex problems into manageable subproblems, enabling dynamic node generation and graph optimization; and 2) Programmable Node Generation, a technique that refines and verifies each subproblem to iteratively improve code generation results and robustness. Extensive experiments consistently demonstrate the superiority of Data Interpreter. On InfiAgent-DABench, it achieves a 25% performance boost, raising accuracy from 75.9% to 94.9%. For machine learning and open-ended tasks, it improves performance from 88% to 95%, and from 60% to 97%, respectively. Moreover, on the MATH dataset, Data Interpreter achieves remarkable performance with a 26% improvement compared to state-of-the-art baselines. The code is available at https://github.com/geekan/MetaGPT.",
+  "fetched_at": "2026-11-11T23:25:21"
+ },
+ "2402.17453": {
+  "title": "DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning",
+  "authors": [
+   "Guo, Siyuan",
+   "Deng, Cheng",
+   "Wen, Ying",
+   "Chen, Hechang",
+   "Chang, Yi",
+   "Wang, Jun"
+  ],
+  "date": "2024/02/27",
+  "comments": "Accepted by ICML 2024",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "In this work, we investigate the potential of large language models (LLMs) based agents to automate data science tasks, with the goal of comprehending task requirements, then building and training the best-fit machine learning models. Despite their widespread success, existing LLM agents are hindered by generating unreasonable experiment plans within this scenario. To this end, we present DS-Agent, a novel automatic framework that harnesses LLM agent and case-based reasoning (CBR). In the development stage, DS-Agent follows the CBR framework to structure an automatic iteration pipeline, which can flexibly capitalize on the expert knowledge from Kaggle, and facilitate consistent performance improvement through the feedback mechanism. Moreover, DS-Agent implements a low-resource deployment stage with a simplified CBR paradigm to adapt past successful solutions from the development stage for direct code generation, significantly reducing the demand on foundational capabilities of LLMs. Empirically, DS-Agent with GPT-4 achieves 100\\% success rate in the development stage, while attaining 36\\% improvement on average one pass rate across alternative LLMs in the deployment stage. In both stages, DS-Agent achieves the best rank in performance, costing \\$1.60 and \\$0.13 per run with GPT-4, respectively. Our data and code are open-sourced at https://github.com/guosyjlu/DS-Agent.",
+  "fetched_at": "2026-11-11T23:25:26"
+ },
+ "2410.07095": {
+  "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+  "authors": [
+   "Chan, Jun Shern",
+   "Chowdhury, Neil",
+   "Jaffe, Oliver",
+   "Aung, James",
+   "Sherburn, Dane",
+   "Mays, Evan",
+   "Starace, Giulio",
+   "Liu, Kevin",
+   "Maksin, Leon",
+   "Patwardhan, Tejal",
+   "Weng, Lilian",
+   "Mądry, Aleksander"
+  ],
+  "date": "2024/10/09",
+  "comments": "10 pages, 17 pages appendix. Equal contribution by first seven authors, authors randomized. ICLR version",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "We introduce MLE-bench, a benchmark for measuring how well AI agents perform at machine learning engineering. To this end, we curate 75 ML engineering-related competitions from Kaggle, creating a diverse set of challenging tasks that test real-world ML engineering skills such as training models, preparing datasets, and running experiments. We establish human baselines for each competition using Kaggle's publicly available leaderboards. We use open-source agent scaffolds to evaluate several frontier language models on our benchmark, finding that the best-performing setup--OpenAI's o1-preview with AIDE scaffolding--achieves at least the level of a Kaggle bronze medal in 16.9% of competitions. In addition to our main results, we investigate various forms of resource scaling for AI agents and the impact of contamination from pre-training. We open-source our benchmark code (github.com/openai/mle-bench/) to facilitate future research in understanding the ML engineering capabilities of AI agents.",
+  "fetched_at": "2026-11-11T23:25:31"
+ },
+ "2401.05507": {
+  "title": "InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks",
+  "authors": [
+   "Hu, Xueyu",
+   "Zhao, Ziyu",
+   "Wei, Shuang",
+   "Chai, Ziwei",
+   "Ma, Qianli",
+   "Wang, Guoyin",
+   "Wang, Xuwu",
+   "Su, Jing",
+   "Xu, Jingjing",
+   "Zhu, Ming",
+   "Cheng, Yao",
+   "Yuan, Jianbo",
+   "Li, Jiwei",
+   "Kuang, Kun",
+   "Yang, Yang",
+   "Yang, Hongxia",
+   "Wu, Fei"
+  ],
+  "date": "2024/01/10",
+  "comments": "27 pages, 7 figures, work in progress",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "In this paper, we introduce InfiAgent-DABench, the first benchmark specifically designed to evaluate LLM-based agents on data analysis tasks. These tasks require agents to end-to-end solving complex tasks by interacting with an execution environment. This benchmark contains DAEval, a dataset consisting of 257 data analysis questions derived from 52 CSV files, and an agent framework which incorporates LLMs to serve as data analysis agents for both serving and evaluation. Since data analysis questions are often open-ended and hard to evaluate without human supervision, we adopt a format-prompting technique to convert each question into a closed-form format so that they can be automatically evaluated. Our extensive benchmarking of 34 LLMs uncovers the current challenges encountered in data analysis tasks. In addition, building on top of our agent framework, we develop a specialized agent, DAAgent, which surpasses GPT-3.5 by 3.9% on DABench. Evaluation datasets and toolkits for InfiAgent-DABench are released at https://github.com/InfiAgent/InfiAgent .",
+  "fetched_at": "2026-11-11T23:25:36"
+ },
+ "2308.08155": {
+  "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+  "authors": [
+   "Wu, Qingyun",
+   "Bansal, Gagan",
+   "Zhang, Jieyu",
+   "Wu, Yiran",
+   "Li, Beibin",
+   "Zhu, Erkang",
+   "Jiang, Li",
+   "Zhang, Xiaoyun",
+   "Zhang, Shaokun",
+   "Liu, Jiale",
+   "Awadallah, Ahmed Hassan",
+   "White, Ryen W",
+   "Burger, Doug",
+   "Wang, Chi"
+  ],
+  "date": "2023/08/16",
+  "comments": "43 pages (10 pages for the main text, 3 pages for references, and 30 pages for appendices)",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "AutoGen is an open-source framework that allows developers to build LLM applications via multiple agents that can converse with each other to accomplish tasks. AutoGen agents are customizable, conversable, and can operate in various modes that employ combinations of LLMs, human inputs, and tools. Using AutoGen, developers can also flexibly define agent interaction behaviors. Both natural language and computer code can be used to program flexible conversation patterns for different applications. AutoGen serves as a generic infrastructure to build diverse applications of various complexities and LLM capacities. Empirical studies demonstrate the effectiveness of the framework in many example applications, with domains ranging from mathematics, coding, question answering, operations research, online decision-making, entertainment, etc.",
+  "fetched_at": "2026-11-11T23:25:42"
+ },
+ "2308.00352": {
+  "title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+  "authors": [
+   "Hong, Sirui",
+   "Zhuge, Mingchen",
+   "Chen, Jiaqi",
+   "Zheng, Xiawu",
+   "Cheng, Yuheng",
+   "Zhang, Ceyao",
+   "Wang, Jinlin",
+   "Wang, Zili",
+   "Yau, Steven Ka Shing",
+   "Lin, Zijuan",
+   "Zhou, Liyang",
+   "Ran, Chenyu",
+   "Xiao, Lingfeng",
+   "Wu, Chenglin",
+   "Schmidhuber, Jürgen"
+  ],
+  "date": "2023/08/01",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Remarkable progress has been made on automated problem solving through societies of agents based on large language models (LLMs). Existing LLM-based multi-agent systems can already solve simple dialogue tasks. Solutions to more complex tasks, however, are complicated through logic inconsistencies due to cascading hallucinations caused by naively chaining LLMs. Here we introduce MetaGPT, an innovative meta-programming framework incorporating efficient human workflows into LLM-based multi-agent collaborations. MetaGPT encodes Standardized Operating Procedures (SOPs) into prompt sequences for more streamlined workflows, thus allowing agents with human-like domain expertise to verify intermediate results and reduce errors. MetaGPT utilizes an assembly line paradigm to assign diverse roles to various agents, efficiently breaking down complex tasks into subtasks involving many agents working together. On collaborative software engineering benchmarks, MetaGPT generates more coherent solutions than previous chat-based multi-agent systems. Our project can be found at https://github.com/geekan/MetaGPT",
+  "fetched_at": "2026-11-11T23:25:47"
+ },
+ "2503.13657": {
+  "title": "Why Do Multi-Agent LLM Systems Fail?",
+  "authors": [
+   "Cemri, Mert",
+   "Pan, Melissa Z.",
+   "Yang, Shuyi",
+   "Agrawal, Lakshya A.",
+   "Chopra, Bhavya",
+   "Tiwari, Rishabh",
+   "Keutzer, Kurt",
+   "Parameswaran, Aditya",
+   "Klein, Dan",
+   "Ramchandran, Kannan",
+   "Zaharia, Matei",
+   "Gonzalez, Joseph E.",
+   "Stoica, Ion"
+  ],
+  "date": "2025/03/17",
+  "comments": "ArXiv v3",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Despite enthusiasm for Multi-Agent LLM Systems (MAS), their performance gains on popular benchmarks are often minimal. This gap highlights a critical need for a principled understanding of why MAS fail. Addressing this question requires systematic identification and analysis of failure patterns. We introduce MAST-Data, a comprehensive dataset of 1600+ annotated traces collected across 7 popular MAS frameworks. MAST-Data is the first multi-agent system dataset to outline the failure dynamics in MAS for guiding the development of better future systems. To enable systematic classification of failures for MAST-Data, we build the first Multi-Agent System Failure Taxonomy (MAST). We develop MAST through rigorous analysis of 150 traces, guided closely by expert human annotators and validated by high inter-annotator agreement (kappa = 0.88). This process identifies 14 unique modes, clustered into 3 categories: (i) system design issues, (ii) inter-agent misalignment, and (iii) task verification. To enable scalable annotation, we develop an LLM-as-a-Judge pipeline with high agreement with human annotations. We leverage MAST and MAST-Data to analyze failure patterns across models (GPT4, Claude 3, Qwen2.5, CodeLlama) and tasks (coding, math, general agent), demonstrating improvement headrooms from better MAS design. Our analysis provides insights revealing that identified failures require more sophisticated solutions, highlighting a clear roadmap for future research. We publicly release our comprehensive dataset (MAST-Data), the MAST, and our LLM annotator to facilitate widespread research and development in MAS.",
+  "fetched_at": "2026-11-11T23:25:52"
+ },
+ "2207.07048": {
+  "title": "Leakage and the Reproducibility Crisis in ML-based Science",
+  "authors": [
+   "Kapoor, Sayash",
+   "Narayanan, Arvind"
+  ],
+  "date": "2022/07/14",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "The use of machine learning (ML) methods for prediction and forecasting has become widespread across the quantitative sciences. However, there are many known methodological pitfalls, including data leakage, in ML-based science. In this paper, we systematically investigate reproducibility issues in ML-based science. We show that data leakage is indeed a widespread problem and has led to severe reproducibility failures. Specifically, through a survey of literature in research communities that adopted ML methods, we find 17 fields where errors have been found, collectively affecting 329 papers and in some cases leading to wildly overoptimistic conclusions. Based on our survey, we present a fine-grained taxonomy of 8 types of leakage that range from textbook errors to open research problems. We argue for fundamental methodological changes to ML-based science so that cases of leakage can be caught before publication. To that end, we propose model info sheets for reporting scientific claims based on ML models that would address all types of leakage identified in our survey. To investigate the impact of reproducibility errors and the efficacy of model info sheets, we undertake a reproducibility study in a field where complex ML models are believed to vastly outperform older statistical models such as Logistic Regression (LR): civil war prediction. We find that all papers claiming the superior performance of complex ML models compared to LR models fail to reproduce due to data leakage, and complex ML models don't perform substantively better than decades-old LR models. While none of these errors could have been caught by reading the papers, model info sheets would enable the detection of leakage in each case.",
+  "fetched_at": "2026-11-11T23:25:57"
+ },
+ "1904.09483": {
+  "title": "CleanML: A Study for Evaluating the Impact of Data Cleaning on ML Classification Tasks",
+  "authors": [
+   "Li, Peng",
+   "Rao, Xi",
+   "Blase, Jennifer",
+   "Zhang, Yue",
+   "Chu, Xu",
+   "Zhang, Ce"
+  ],
+  "date": "2019/04/20",
+  "comments": "published in ICDE 2021",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Data quality affects machine learning (ML) model performances, and data scientists spend considerable amount of time on data cleaning before model training. However, to date, there does not exist a rigorous study on how exactly cleaning affects ML -- ML community usually focuses on developing ML algorithms that are robust to some particular noise types of certain distributions, while database (DB) community has been mostly studying the problem of data cleaning alone without considering how data is consumed by downstream ML analytics. We propose a CleanML study that systematically investigates the impact of data cleaning on ML classification tasks. The open-source and extensible CleanML study currently includes 14 real-world datasets with real errors, five common error types, seven different ML models, and multiple cleaning algorithms for each error type (including both commonly used algorithms in practice as well as state-of-the-art solutions in academic literature). We control the randomness in ML experiments using statistical hypothesis testing, and we also control false discovery rate in our experiments using the Benjamini-Yekutieli (BY) procedure. We analyze the results in a systematic way to derive many interesting and nontrivial observations. We also put forward multiple research directions for researchers.",
+  "fetched_at": "2026-11-11T23:26:02"
+ },
+ "2001.01861": {
+  "title": "Vamsa: Automated Provenance Tracking in Data Science Scripts",
+  "authors": [
+   "Namaki, Mohammad Hossein",
+   "Floratou, Avrilia",
+   "Psallidas, Fotis",
+   "Krishnan, Subru",
+   "Agrawal, Ashvin",
+   "Wu, Yinghui",
+   "Zhu, Yiwen",
+   "Weimer, Markus"
+  ],
+  "date": "2020/01/07",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": "https://doi.org/10.1145/3394486.3403205\n\n            \n            \n              \n                \n                Focus to learn more\n              \n              \n              \n                \n                DOI(s) linking to related resources",
+  "abstract": "There has recently been a lot of ongoing research in the areas of fairness, bias and explainability of machine learning (ML) models due to the self-evident or regulatory requirements of various ML applications. We make the following observation: All of these approaches require a robust understanding of the relationship between ML models and the data used to train them. In this work, we introduce the ML provenance tracking problem: the fundamental idea is to automatically track which columns in a dataset have been used to derive the features/labels of an ML model. We discuss the challenges in capturing such information in the context of Python, the most common language used by data scientists. We then present Vamsa, a modular system that extracts provenance from Python scripts without requiring any changes to the users' code. Using 26K real data science scripts, we verify the effectiveness of Vamsa in terms of coverage, and performance. We also evaluate Vamsa's accuracy on a smaller subset of manually labeled data. Our analysis shows that Vamsa's precision and recall range from 90.4% to 99.1% and its latency is in the order of milliseconds for average size scripts. Drawing from our experience in deploying ML models in production, we also present an example in which Vamsa helps automatically identify models that are affected by data corruption issues.",
+  "fetched_at": "2026-11-11T23:26:07"
+ },
+ "2303.11366": {
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "authors": [
+   "Shinn, Noah",
+   "Cassano, Federico",
+   "Berman, Edward",
+   "Gopinath, Ashwin",
+   "Narasimhan, Karthik",
+   "Yao, Shunyu"
+  ],
+  "date": "2023/03/20",
+  "comments": "v4 contains a few additional experiments",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Large language models (LLMs) have been increasingly used to interact with external environments (e.g., games, compilers, APIs) as goal-driven agents. However, it remains challenging for these language agents to quickly and efficiently learn from trial-and-error as traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning. We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback. Concretely, Reflexion agents verbally reflect on task feedback signals, then maintain their own reflective text in an episodic memory buffer to induce better decision-making in subsequent trials. Reflexion is flexible enough to incorporate various types (scalar values or free-form language) and sources (external or internally simulated) of feedback signals, and obtains significant improvements over a baseline agent across diverse tasks (sequential decision-making, coding, language reasoning). For example, Reflexion achieves a 91% pass@1 accuracy on the HumanEval coding benchmark, surpassing the previous state-of-the-art GPT-4 that achieves 80%. We also conduct ablation and analysis studies using different feedback signals, feedback incorporation methods, and agent types, and provide insights into how they affect performance.",
+  "fetched_at": "2026-11-11T23:26:13"
+ },
+ "2310.01798": {
+  "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+  "authors": [
+   "Huang, Jie",
+   "Chen, Xinyun",
+   "Mishra, Swaroop",
+   "Zheng, Huaixiu Steven",
+   "Yu, Adams Wei",
+   "Song, Xinying",
+   "Zhou, Denny"
+  ],
+  "date": "2023/10/03",
+  "comments": "ICLR 2024",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Large Language Models (LLMs) have emerged as a groundbreaking technology with their unparalleled text generation capabilities across various applications. Nevertheless, concerns persist regarding the accuracy and appropriateness of their generated content. A contemporary methodology, self-correction, has been proposed as a remedy to these issues. Building upon this premise, this paper critically examines the role and efficacy of self-correction within LLMs, shedding light on its true potential and limitations. Central to our investigation is the notion of intrinsic self-correction, whereby an LLM attempts to correct its initial responses based solely on its inherent capabilities, without the crutch of external feedback. In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance even degrades after self-correction. Drawing from these insights, we offer suggestions for future research and practical applications in this field.",
+  "fetched_at": "2026-11-11T23:26:18"
+ },
+ "2305.11738": {
+  "title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+  "authors": [
+   "Gou, Zhibin",
+   "Shao, Zhihong",
+   "Gong, Yeyun",
+   "Shen, Yelong",
+   "Yang, Yujiu",
+   "Duan, Nan",
+   "Chen, Weizhu"
+  ],
+  "date": "2023/05/19",
+  "comments": "ICLR 2024",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Recent developments in large language models (LLMs) have been impressive. However, these models sometimes show inconsistencies and problematic behavior, such as hallucinating facts, generating flawed code, or creating offensive and toxic content. Unlike these models, humans typically utilize external tools to cross-check and refine their initial content, like using a search engine for fact-checking, or a code interpreter for debugging. Inspired by this observation, we introduce a framework called CRITIC that allows LLMs, which are essentially \"black boxes\" to validate and progressively amend their own outputs in a manner similar to human interaction with tools. More specifically, starting with an initial output, CRITIC interacts with appropriate tools to evaluate certain aspects of the text, and then revises the output based on the feedback obtained during this validation process. Comprehensive evaluations involving free-form question answering, mathematical program synthesis, and toxicity reduction demonstrate that CRITIC consistently enhances the performance of LLMs. Meanwhile, our research highlights the crucial importance of external feedback in promoting the ongoing self-improvement of LLMs.",
+  "fetched_at": "2026-11-11T23:26:23"
+ },
+ "2205.09911": {
+  "title": "Can Foundation Models Wrangle Your Data?",
+  "authors": [
+   "Narayan, Avanika",
+   "Chami, Ines",
+   "Orr, Laurel",
+   "Arora, Simran",
+   "Ré, Christopher"
+  ],
+  "date": "2022/05/20",
+  "comments": "12 pages, 5 figures; additional experiments, typo corrections, modifications to Section 5 (Research Agenda)",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Foundation Models (FMs) are models trained on large corpora of data that, at very large scale, can generalize to new tasks without any task-specific finetuning. As these models continue to grow in size, innovations continue to push the boundaries of what these models can do on language and image tasks. This paper aims to understand an underexplored area of FMs: classical data tasks like cleaning and integration. As a proof-of-concept, we cast five data cleaning and integration tasks as prompting tasks and evaluate the performance of FMs on these tasks. We find that large FMs generalize and achieve SoTA performance on data cleaning and integration tasks, even though they are not trained for these data tasks. We identify specific research challenges and opportunities that these models present, including challenges with private and domain specific data, and opportunities to make data management systems more accessible to non-experts. We make our code and experiments publicly available at: https://github.com/HazyResearch/fm_data_tasks.",
+  "fetched_at": "2026-11-11T23:26:28"
+ },
+ "1702.00820": {
+  "title": "HoloClean: Holistic Data Repairs with Probabilistic Inference",
+  "authors": [
+   "Rekatsinas, Theodoros",
+   "Chu, Xu",
+   "Ilyas, Ihab F.",
+   "Ré, Christopher"
+  ],
+  "date": "2017/02/02",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "We introduce HoloClean, a framework for holistic data repairing driven by probabilistic inference. HoloClean unifies existing qualitative data repairing approaches, which rely on integrity constraints or external data sources, with quantitative data repairing methods, which leverage statistical properties of the input data. Given an inconsistent dataset as input, HoloClean automatically generates a probabilistic program that performs data repairing. Inspired by recent theoretical advances in probabilistic inference, we introduce a series of optimizations which ensure that inference over HoloClean's probabilistic model scales to instances with millions of tuples. We show that HoloClean scales to instances with millions of tuples and find data repairs with an average precision of ~90% and an average recall of above ~76% across a diverse array of datasets exhibiting different types of errors. This yields an average F1 improvement of more than 2x against state-of-the-art methods.",
+  "fetched_at": "2026-11-11T23:26:33"
+ },
+ "2411.07763": {
+  "title": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
+  "authors": [
+   "Lei, Fangyu",
+   "Chen, Jixuan",
+   "Ye, Yuxiao",
+   "Cao, Ruisheng",
+   "Shin, Dongchan",
+   "Su, Hongjin",
+   "Suo, Zhaoqing",
+   "Gao, Hongcheng",
+   "Hu, Wenjing",
+   "Yin, Pengcheng",
+   "Zhong, Victor",
+   "Xiong, Caiming",
+   "Sun, Ruoxi",
+   "Liu, Qian",
+   "Wang, Sida",
+   "Yu, Tao"
+  ],
+  "date": "2024/11/12",
+  "comments": "ICLR 2025 Oral",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Real-world enterprise text-to-SQL workflows often involve complex cloud or local data across various database systems, multiple SQL queries in various dialects, and diverse operations from data transformation to analytics. We introduce Spider 2.0, an evaluation framework comprising 632 real-world text-to-SQL workflow problems derived from enterprise-level database use cases. The databases in Spider 2.0 are sourced from real data applications, often containing over 1,000 columns and stored in local or cloud database systems such as BigQuery and Snowflake. We show that solving problems in Spider 2.0 frequently requires understanding and searching through database metadata, dialect documentation, and even project-level codebases. This challenge calls for models to interact with complex SQL workflow environments, process extremely long contexts, perform intricate reasoning, and generate multiple SQL queries with diverse operations, often exceeding 100 lines, which goes far beyond traditional text-to-SQL challenges. Our evaluations indicate that based on o1-preview, our code agent framework successfully solves only 21.3% of the tasks, compared with 91.2% on Spider 1.0 and 73.0% on BIRD. Our results on Spider 2.0 show that while language models have demonstrated remarkable performance in code generation -- especially in prior text-to-SQL benchmarks -- they require significant improvement in order to achieve adequate performance for real-world enterprise usage. Progress on Spider 2.0 represents crucial steps towards developing intelligent, autonomous, code agents for real-world enterprise settings. Our code, baseline models, and data are available at https://spider2-sql.github.io",
+  "fetched_at": "2026-11-11T23:26:39"
+ },
+ "2606.13003": {
+  "title": "The Illusion of Multi-Agent Advantage",
+  "authors": [
+   "Jwalapuram, Prathyusha",
+   "Lin, Hehai",
+   "Li, Chuyuan",
+   "Jiao, Fangkai",
+   "Wang, Sudong",
+   "Ming, Yifei",
+   "Ke, Zixuan",
+   "Qin, Chengwei",
+   "Carenini, Giuseppe",
+   "Joty, Shafiq"
+  ],
+  "date": "2026/06/11",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Prevailing wisdom posits that Multi-Agent Systems (MAS) are superior to Single-Agent Systems (SAS), citing advantages like context protection, parallel processing and distributed decision-making. However, empirical support for this claim relies primarily on comparisons with SAS baselines using benchmarks that prioritize isolated reasoning tasks, which do not adequately assess these advantages. Focusing on automatically generated MAS that are designed for enhanced generalizability over manually-designed counterparts, we perform a rigorous, systematic evaluation against SAS, specifically Chain-of-Thought with Self-Consistency (CoT-SC). Across traditional reasoning datasets and tasks with interactive multi-step workflows (e.g., BrowseComp-Plus), we demonstrate that automatic MAS consistently underperform CoT-SC despite being up to 10x more expensive. To isolate these failures from limitations inherent to task structure, we introduce a diagnostic synthetic dataset tailored for MAS featuring explicit task decomposition, context separation and parallelization potential. We show that expert-architected MAS consistently outperforms automatically generated architectures in both raw performance and cost-efficiency on this dataset, demonstrating that existing evaluation frameworks mask critical architectural gaps and inefficiencies of complex MAS by failing to account for the marginal utility of increased computational cost. Critically, systematic deconstruction of the generated MAS architectures reveals that current automated design paradigms produce architectural bloat that prioritizes superficial complexity which does not translate into functional utility, exposing a fundamental misalignment with multi-agent principles.",
+  "fetched_at": "2026-11-12T18:38:50"
+ },
+ "2512.08296": {
+  "title": "Towards a Science of Scaling Agent Systems",
+  "authors": [
+   "Kim, Yubin",
+   "Gu, Ken",
+   "Park, Chanwoo",
+   "Park, Chunjong",
+   "Schmidgall, Samuel",
+   "Heydari, A. Ali",
+   "Yan, Yao",
+   "Zhang, Zhihan",
+   "Zhuang, Yuchen",
+   "Liu, Yun",
+   "Malhotra, Mark",
+   "Liang, Paul Pu",
+   "Park, Hae Won",
+   "Yang, Yuzhe",
+   "Xu, Xuhai",
+   "Du, Yilun",
+   "Patel, Shwetak",
+   "Althoff, Tim",
+   "McDuff, Daniel",
+   "Liu, Xin"
+  ],
+  "date": "2025/12/09",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Agents, language model-based systems capable of reasoning, planning, and acting are widely adopted in real-world tasks, yet how their performance changes as these systems scale across key dimensions remains underexplored. We introduce quantitative scaling principles for agent systems as a predictive model, capturing how performance varies with coordination, model capability, and measurable system and task factors. Across 260 configurations spanning six agentic benchmarks, five canonical architectures (Single-Agent and four Multi-Agent: Independent, Centralized, Decentralized, Hybrid), and three LLM families, we perform controlled evaluations, standardizing tools, prompts, and compute to isolate architectural effects. The resulting model achieves a cross-validated R^2=0.373 across all six benchmarks (R^2=0.413 with a task-grounded capability metric). We identify a robust capability-saturation effect and additional patterns: (1) a coordination yields diminishing returns once single-agent baselines exceed certain performance; (2) tool-heavy tasks appear to incur multi-agent overhead; and (3) architectures without centralized verification tend to propagate errors more than those with centralized coordination. Relative performance change compared to single-agent baseline ranges from +80.8% on decomposable financial reasoning to -70.0% on sequential planning, demonstrating that architecture-task alignment determines collaborative success. The framework identifies the best-performing architecture for 87% of held-out configurations and shows consistent relative architecture preferences on unseen frontier models. Agent effectiveness depends on alignment between coordination and task structure, and that mismatched coordination degrades the performance.",
+  "fetched_at": "2026-11-12T18:38:56"
+ },
+ "2607.26313": {
+  "title": "SARC-DQ: Runtime Data-Quality Gating for Agentic AI: Silent Evidence Defects, the Incompetence Shield, and Downstream-Only Remediation",
+  "authors": [
+   "Besanson, Gaston"
+  ],
+  "date": "2026/07/28",
+  "comments": "this https URL",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Agentic systems act, so a defect in the evidence they retrieve becomes a wrong action with a currency cost. The most dangerous enterprise defects are metadata-borne: a stale price or a superseded record, perfectly well-formed in the payload and betrayed only by freshness, lineage, or provenance. Such a defect never enters the agent's context, and an agent cannot doubt data it cannot see. On a priced replenishment benchmark, a competent agent silently converts an injected metadata-borne defect into a costly action about 60% of the time, with zero data-quality flags and behavioral doubt markers at chance (AUC <= 0.50). Across four model tiers spanning roughly 15x in inference price, the rate stays flat: capability does not buy skepticism. A metadata-aware pre-action gate with downstream-only remediation recovers the loss fully on the signals its predicates cover and not at all on those they miss. A model-free oracle derived from the task's decision geometry tracks the measured rates with MAE 0.015 (Pearson r = 0.876, interval coverage 15/16 cells), giving the flat ladder an analytical form. Evidence integrity is a systems axis distinct from model capability; mitigation depends on enforcement placement and predicate coverage. Code, frozen results, and a deterministic analysis pipeline: https://github.com/besanson/dqSarc",
+  "fetched_at": "2026-11-12T21:34:37"
+ },
+ "2609.29095": {
+  "title": "Where Does Exactly-Once Live? Model, Harness, and Tool-Contract Effects on Duplicate Side Effects in LLM Agents",
+  "authors": [
+   "Li, Jiapeng"
+  ],
+  "date": "2026/09/24",
+  "comments": "23 pages, 6 figures, 13 tables",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "When a tool-using agent's write times out or returns a server error, the action may already have taken effect. Retrying blindly duplicates it -- a second charge, a second announcement, a second deployment -- while giving up skips required work. We ask where exactly-once behaviour should be enforced: in the model, in the agent harness, or in the tool contract. We introduce LIMBO, a deterministic sandbox of six services with realistic contracts (optional idempotency keys, eventually consistent and missing read paths) and twelve fault modes injected at the service boundary, including late commits, redelivery and partial batches; every episode is graded against a ledger of committed effects. Across 25,930 episodes spanning nine recent models, three production agent harnesses, two contract variants and fifteen recovery conditions, the answer depends on the fault. When an immediate read-back can reveal what happened, the model decides: frontier models instructed to act exactly once almost never duplicate a write whose acknowledgement was lost (0.5%), weaker models often do, and the model explains 53% of the explained variance. When it cannot -- the request is still in flight, or the transport delivered it twice -- the same frontier models duplicate in 56% and 74% of episodes, and the contract explains 81%. We prove that no verification-only policy is exactly-once under late commits without a bound on in-flight time. Waiting works when such a bound is short and known, but with heavy-tailed in-flight delays even an hour of waiting per episode falls short of offering an idempotency key on every write, which lowers the duplicate rate from 28% to 4% because agents use keys when they exist. The harness barely matters, a guard that attaches keys transfers across harnesses unchanged, and agents reported success in 90% of the episodes in which they had duplicated an effect.",
+  "fetched_at": "2026-11-12T21:34:42"
+ },
+ "2610.34577": {
+  "title": "Rethinking Verification in Agent Harnesses",
+  "authors": [
+   "Zhang, Zhengxin",
+   "Zhu, Erkang",
+   "Lin, Yin",
+   "Cardie, Claire",
+   "Ding, Bolin",
+   "Zhou, Jingren"
+  ],
+  "date": "2026/10/25",
+  "comments": "65 pages, including appendices",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Agent harnesses enable large language models to act through tools, observe the results, and iteratively work toward a task goal. Verification checks and revises agents' work to improve output quality. Yet there is limited guidance on how harnesses should organize this effort. We study verification as an axis of test-time scaling by examining when to intervene, who checks the work, and how checking leads to revision. Our framework spans four layers of the agent lifecycle: initial instructions, mid-turn reminders, completion gates, and independent review. We compare 17 designs across seven frontier coding models on Terminal-Bench (TB) and SWE-bench Verified (SWE), and introduce VisualBench for expert evaluation of visual and interactive artifacts. Initial instructions and execution-time reminders yield modest, model-dependent average gains on the coding benchmarks, without substantially increasing average output token use. Completion gates can yield larger gains but may substantially increase cost. Independent review by a critic offers a more favorable accuracy-cost tradeoff, improving average accuracy by 5.9-9.5 percentage points on TB and 3.9-6.6 on SWE at 1.13-1.25 and 1.00-1.04 times baseline cost, respectively. On VisualBench, independent review achieves net preferences of 13.2-23.8 points over the baseline across its four designs, exceeding the evaluated L0-L2 designs. Additional review rounds or independent critics further improve average TB accuracy by up to 3.5 percentage points. Together, these results provide empirical guidance for verification design in agent harnesses and support independent review as a practical axis of test-time scaling.",
+  "fetched_at": "2026-11-12T21:34:47"
+ },
+ "2610.27777": {
+  "title": "RITE: Evaluating End-to-End Resilience to Silent Tool Errors in E-Commerce Agentic Systems",
+  "authors": [
+   "Zhang, Wenshuo",
+   "Lin, Yuquan",
+   "Sun, Yushi",
+   "Lin, Yishi",
+   "Sheng, Rui",
+   "He, Peng",
+   "Gao, Han",
+   "Jikai, Wang",
+   "Rong, Yifeng"
+  ],
+  "date": "2026/10/20",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Tool-using LLM agents increasingly answer e-commerce queries through multi-step tool interactions. The expected output of a tool call can shift between agent development and execution, allowing a plausible but incorrect value to be returned without an explicit failure signal. These silent errors may propagate through subsequent decisions into final answers. To study agents' resilience across this end-to-end process, we formulate Silent-error Resilience Task, an interactive task that evaluates whether they complete the original query after a silent error corrupts an intermediate state. We introduce RITE, a benchmark built from human-authored industrial workflows and production-log-derived inputs. To enable controlled and reproducible evaluation, we use a semantic error taxonomy to inject errors into fixed workflow prefixes, freeze recorded tool behavior, and let agents continue freely. It contains 167 matched units across nine e-commerce workflows, yielding 501 silent-error, correct-value, and explicit-failure instances. Across 10 recent LLMs, silent errors roughly halve task success and are consistently harder than explicit failures. Recognition, use of an available verification path, and integration of the resulting evidence form successive bottlenecks. We also propose a light State Checker as an intervention to test whether resilience can be improved.",
+  "fetched_at": "2026-11-12T21:34:52"
+ },
+ "2609.05587": {
+  "title": "Agents' Overreliance on Unreliable Tools",
+  "authors": [
+   "Yang, Hoyeol",
+   "Song, Woojung",
+   "Kim, Taewon",
+   "Song, Jonghyun",
+   "Park, Seoyeon",
+   "Jo, Yohan"
+  ],
+  "date": "2026/09/04",
+  "comments": "49 pages, 4 figures",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "LLM agents use tools to access information and perform computations beyond their parametric knowledge. Existing tool-use benchmarks evaluate whether agents select and call the right tools, assuming that tool returns are reliable. However, tools can return plausible but incorrect outputs. We evaluate 14 models with three tools (web search, an LLM sub-agent, and a code executor), corrupting their returns to examine whether agents overrely on unreliable tools. Agents adopt corrupted returns at high rates, with mean adoption exceeding one third for every tool and reaching 68.0% for web search. Corrupted returns also frequently override correct answers that agents give without tools, and this reliance persists in more complex tasks and in tasks that combine multiple tools. Agents often make more tool calls under corrupted returns, and reasoning traces show them questioning a return and even stating the correct answer. Nevertheless, they still pass the corrupted content to users, rarely warning them of the conflict. We further test interventions spanning prompts, tool metadata, post-training, and activation steering. Verification prompts reduce adoption across all three tools while largely preserving accuracy with correct returns, and reliability labels provide partial mitigation in web search. The tested post-training methods offer limited gains, and the effect of activation steering depends on the model and intervention strength. Overall, our findings provide a basis for diagnosing tool overreliance and for developing agents that assess tool returns rather than assuming their reliability.",
+  "fetched_at": "2026-11-12T21:34:58"
+ },
+ "2603.00822": {
+  "title": "ContextCov: Deriving and Enforcing Executable Constraints from Agent Instruction Files",
+  "authors": [
+   "Sharma, Reshabh K"
+  ],
+  "date": "2026/02/28",
+  "comments": null,
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "As Large Language Model (LLM) agents increasingly execute complex, autonomous software engineering tasks, developers rely on natural language instruction files such as AGENTS.md to express project-specific coding conventions, tooling restrictions, and architectural boundaries. However, because these instructions remain passive text, agents frequently violate documented constraints due to context window saturation or conflicting local context. In autonomous settings without real-time human supervision, such violations rapidly compound into technical debt. To ground autonomous agents in repository constraints, we introduce ContextCov, a framework that transforms passive natural language instructions into executable guardrails. Unlike prompt-only or reflection-only compliance approaches, ContextCov compiles documented constraints into three complementary checks: static AST queries for code patterns, runtime shell shims that intercept prohibited commands, and architectural validators that enforce structural rules. Acting as an automated, continuous reviewer, ContextCov intercepts agent actions and returns immediate, reproducible violation traces, enabling self-correction before non-compliant changes are finalized. We evaluate ContextCov on SWE-bench Lite (12 repositories, 300 tasks). Compared to prompt-only and LLM reflection baselines, ContextCov achieves 88.3% constraint compliance (vs. 67.0% and 50.3%) with 3.4x lower feedback cost, while maintaining functional correctness. The source code and evaluation results are available at https://github.com/reSHARMA/ContextCov.",
+  "fetched_at": "2026-11-12T21:35:03"
+ },
+ "2505.18135": {
+  "title": "Tool Preferences in Agentic LLMs are Unreliable",
+  "authors": [
+   "Faghih, Kazem",
+   "Wang, Wenxiao",
+   "Cheng, Yize",
+   "Bharti, Siddhant",
+   "Sriramanan, Gaurang",
+   "Balasubramanian, Sriram",
+   "Hosseini, Parsa",
+   "Feizi, Soheil"
+  ],
+  "date": "2025/05/23",
+  "comments": "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2025, main",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Large language models (LLMs) can now access a wide range of external tools, thanks to the Model Context Protocol (MCP). This greatly expands their abilities as various agents. However, LLMs rely entirely on the text descriptions of tools to decide which ones to use--a process that is surprisingly fragile. In this work, we expose a vulnerability in prevalent tool/function-calling protocols by investigating a series of edits to tool descriptions, some of which can drastically increase a tool's usage from LLMs when competing with alternatives. Through controlled experiments, we show that tools with properly edited descriptions receive over 10 times more usage from GPT-4.1 and Qwen2.5-7B than tools with original descriptions. We further evaluate how various edits to tool descriptions perform when competing directly with one another and how these trends generalize or differ across a broader set of 17 different models. These phenomena, while giving developers a powerful way to promote their tools, underscore the need for a more reliable foundation for agentic LLMs to select and utilize tools and resources. Our code is publicly available at https://github.com/kazemf78/llm-unreliable-tool-preferences.",
+  "fetched_at": "2026-11-12T21:35:08"
+ },
+ "2610.14115": {
+  "title": "The Silent Failures in Agentic Data Science",
+  "authors": [
+   "Li, Xue",
+   "Xia, Hongqian",
+   "Gomm, Daniel",
+   "Santos, Aécio",
+   "Wolff, Cornelius",
+   "Hulsebos, Madelon"
+  ],
+  "date": "2026/10/09",
+  "comments": "preprint",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model development. Existing evaluations of agentic data science (agentic DS) assess downstream predictive performance and code correctness, providing preliminary insight in agentic DS capabilities. We argue that these evaluations overlook the fundamental principles of data science: methodological data science- and domain knowledge. As such, only assessing downstream performance masks methodological failures such as data leakage and inappropriate validation, limiting the development of robust agentic DS systems. In this paper, we evaluate agentic DS beyond accuracy from three different angles: 1) a large-scale analysis of failure modes in common agentic DS frameworks and models across 220 data science tasks, 2) a reusable and extensible test suite with curated data science tasks that test for six specific failures in a controlled manner, and 3) a qualitative assessment of agentic DS pipelines against expert solutions on Kaggle competitions. We find that the majority of agentic solutions contain at least one failure mode despite the complexity of agentic harness or model capacity. Moreover, we identify a positive correlation between the occurrence of data leakage failures and predictive performance, confirming the necessity to evaluate agents beyond accuracy. Our qualitative analysis shows that DS agents generally lack problem solving creativity and domain knowledge, compared to competition-winning data scientists. We believe that principled failure mode analysis, as presented here, should be integral part of agentic DS evaluations, and that the insights we surface will be key in developing trustworthy agentic DS pipelines.",
+  "fetched_at": "2026-11-12T22:32:18"
+ },
+ "2608.18360": {
+  "title": "One Gate Is Not Enough: Composing Stateful Pre-Action Controls for Agentic AI",
+  "authors": [
+   "Besanson, Gaston"
+  ],
+  "date": "2026/08/18",
+  "comments": "29 pages. Code and data: this https URL (Zenodo DOI: https://doi.org/10.5281/zenodo.22003399)",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "Agentic AI systems take consequential actions governed by more than one pre-action control at once: authority, resource, and evidence gates that can admit, degrade, or remediate an action before it executes. This paper's central object is remediation-induced control coupling: a remediation applied by one control can change the action, evidence, or context another control evaluates, invalidating that control's earlier judgment. We formalize this coupling and give a remediate-and-regate protocol that restores per-action soundness in the current bounded, idempotent setting under its stated assumptions. We further show that the two implemented remediation operators (evidence substitution and resource-budget downroute) do not commute -- a finite-model checker finds concrete counterexample instances -- making remediation order part of the control-plane semantics rather than an implementation detail. A governed evidence buffer that trusts its own most recent admitted write is a further instance of the same problem at the level of state -- current admissibility does not imply future reference trustworthiness -- and is vulnerable to poisoning from declared-uncovered defect classes; two mitigations reduce, not eliminate, that exposure. Supporting results establish the exact condition under which positive-weight linear aggregation of gate outcomes can compensate a member veto, a unified cross-control Evidence Set, and that composition manufactures no new detection coverage, reported honestly. Empirically, on a deterministic open-data artifact composing three published engines unmodified, CH1-CH5 meet their registered decision rules across all 30 pre-registered seeds; CH6 does so under W1 but not under the smaller W2 workflow, reported as such. This is a mechanism demonstration on open payload data with a synthetic metadata layer, not a claim about production prevalence.",
+  "fetched_at": "2026-11-12T22:32:23"
+ },
+ "2606.02866": {
+  "title": "When Helping Hurts and How to Fix It: Multi-Agent Debate for Data Cleaning",
+  "authors": [
+   "Parmar, Chirag",
+   "Mehta, Akshat",
+   "Wu, Henglin",
+   "Ramamurthy, Jagadish",
+   "Medhekar, Shweta"
+  ],
+  "date": "2026/06/01",
+  "comments": "27 pages, 4 figures, 12 tables. Includes appendix with full experimental results, prompt templates, and dataset statistics",
+  "journal_ref": null,
+  "doi_field": null,
+  "abstract": "When does multi-agent debate help data cleaning, and when does it hurt? Across three benchmarks, four model families, and over 6,000 task-condition pairs, we find debate's effect reverses sign: it degrades generation across all four models (-1.6 to -15.5pp) through critique-induced confusion (CIC), hallucinated Critic feedback that the Generator accepts uncritically, yet improves error detection (+27.4pp F1, d=1.0). We derive a debate benefit condition: debate helps when the probability of rescuing a wrong output (Critic verification odds weighted by fixability) exceeds the probability of destroying a correct one. A factorial experiment proves adversarial separation is essential: self-verification with identical tools fails, while a separate Critic with code-execution grounding and evidence-gated generation produces the first debate configuration to significantly exceed single-agent on a generative task (+5.3pp, p<0.05). The condition correctly predicts all nine task types and generalizes with zero false positives across 19 published comparisons in seven domains.",
+  "fetched_at": "2026-11-12T22:32:28"
+ }
+}

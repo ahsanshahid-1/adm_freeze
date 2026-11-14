@@ -1,0 +1,147 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 110.87,
+  "agent_seed": 1793093776,
+  "aggregate_tokens": 145855,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D1-T6/X3a/r0/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "X3a",
+  "correct_refusal": null,
+  "corruption_seed": 2308761570198256668,
+  "data_hashes": {
+    "private": "6596d4743ff48cfa2967c12d707e0fbd9055e87d83b8cecd4946dc26a126ee62",
+    "trusted": "b9ce16958af16a6770025b60b38744e998317fb26a6e112548ed89614c2b821c",
+    "visible": "3de6130128a1dbde3699ac35fe78e379ee29008472c8e14a464134af9867fb56"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 3,
+        "precision": null,
+        "recall": 0.0,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 0.0,
+    "reversible_defects": 3,
+    "unintended_edit_rate": 0.005555555555555556
+  },
+  "dataset_id": "D1",
+  "estimator_seed": 1706253855,
+  "evaluator_error": null,
+  "evaluator_seconds": 2.044,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "UNIT_MISMATCH"
+  ],
+  "false_submission": null,
+  "first_failure": "UNIT_MISMATCH",
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 144194,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 89.382,
+  "model_calls": 17,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 4,
+  "output_tokens": 1661,
+  "peak_worker_memory_mb": 363.61328125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {
+        "rotational_speed_rpm": {
+          "kind": "UNIT_MISMATCH",
+          "mismatches": 100
+        }
+      }
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 0,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E1-D1-T6-X3a-r0-S0-A",
+  "selected_candidate": "CL6",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "4c9d01e08186924eee710460250d0b335e48b6e884c463321e018adf88ab2adf",
+  "start_time": "2026-11-12T10:22:40Z",
+  "suite": "evaluation",
+  "system_id": "S0",
+  "task_id": "D1-T6",
+  "template_id": "T6",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "average_precision": 0.6931481221704393,
+    "macro_f1": 0.8009135854357228,
+    "n": 2000,
+    "prevalence": 0.0195,
+    "roc_auc": 0.9631009819689065
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 0.995,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 17,
+  "trace_path": "outputs/traces/E1/E1-D1-T6-X3a-r0-S0-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 112.559
+}

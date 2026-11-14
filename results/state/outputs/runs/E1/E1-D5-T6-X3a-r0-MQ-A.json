@@ -1,0 +1,133 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 291.667,
+  "agent_seed": 131696879,
+  "aggregate_tokens": 308241,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D5-T6/X3a/r0/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "X3a",
+  "correct_refusal": null,
+  "corruption_seed": 8351946515594081724,
+  "data_hashes": {
+    "private": "9abc84d20c7170521e84ea49d29230281deafc83c47ff8ba46d7687f1362cb32",
+    "trusted": "99e78cec976d62942e00fd2766b2a44d68810cb1eba521144d19f85c3fcd588e",
+    "visible": "1e36ebc0829549736ecc948a1a4158a2df3b647f9ba7aa9383a1046870384543"
+  },
+  "data_management": null,
+  "dataset_id": "D5",
+  "estimator_seed": 138429001,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.0,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "BUDGET"
+  ],
+  "false_submission": null,
+  "first_failure": "BUDGET",
+  "fit_count": 24,
+  "gate_calls": 7,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1/CL1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL3",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL4",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL5",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL6",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 303786,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 263.242,
+  "model_calls": 37,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 6,
+  "output_tokens": 4455,
+  "peak_worker_memory_mb": 334.12109375,
+  "pipeline_evaluations": 6,
+  "predicates": null,
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": null,
+  "repair_cycles": 0,
+  "repetition_id": 0,
+  "replay_status": null,
+  "run_error": "limit exceeded: aggregate_tokens",
+  "run_id": "E1-D5-T6-X3a-r0-MQ-A",
+  "selected_candidate": null,
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "4624ef374e08e30a84f3ae51b7dbc3200132e4210a0400f565d4bb15d2928c16",
+  "start_time": "2026-11-13T03:19:38Z",
+  "suite": "evaluation",
+  "system_id": "MQ",
+  "task_id": "D5-T6",
+  "template_id": "T6",
+  "terminal_state": "BUDGET_EXCEEDED",
+  "test_metrics": null,
+  "test_prediction_coverage": null,
+  "test_value_match_rate": null,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 31,
+  "trace_path": "outputs/traces/E1/E1-D5-T6-X3a-r0-MQ-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": null,
+  "wall_including_queue_seconds": 293.379
+}

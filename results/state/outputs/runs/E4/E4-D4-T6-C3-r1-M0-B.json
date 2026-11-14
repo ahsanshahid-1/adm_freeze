@@ -1,0 +1,165 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 252.907,
+  "agent_seed": 493410025,
+  "aggregate_tokens": 154588,
+  "attempt": 1,
+  "backbone_id": "B",
+  "block": "E4/D4-T6/C3/r1/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C3",
+  "correct_refusal": null,
+  "corruption_seed": 4174116943033815655,
+  "data_hashes": {
+    "private": "9d98fc80209dc6290454262ae3bd7b58477d7c7d4042c84b7938fa87d611d3dd",
+    "trusted": "227ebbe9721080700e1556d3a91c29fd835141da2fd9f7617c10ba2f7ee22216",
+    "visible": "faed3e5c807667718901673e02125ae82f3939aba4606253d964e23f5ea53b59"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 19,
+        "precision": 1.0,
+        "recall": 1.0,
+        "reported": 19,
+        "true_positive": 19
+      },
+      "duplicate": {
+        "injected": 19,
+        "precision": 1.0,
+        "recall": 0.5263157894736842,
+        "reported": 10,
+        "true_positive": 10
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 0.7631578947368421,
+    "reversible_defects": 38,
+    "unintended_edit_rate": 0.0029296875
+  },
+  "dataset_id": "D4",
+  "estimator_seed": 1270908230,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.717,
+  "exception_events": 0,
+  "experiment_id": "E4",
+  "external_failure_codes": [
+    "BAD_AGGREGATE"
+  ],
+  "false_submission": null,
+  "first_failure": "BAD_AGGREGATE",
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 151480,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 248.323,
+  "model_calls": 24,
+  "model_repo": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 1,
+  "output_tokens": 3108,
+  "peak_worker_memory_mb": 316.828125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {
+        "relative_compactness_count": {
+          "kind": "BAD_AGGREGATE",
+          "mismatches": 1
+        },
+        "relative_compactness_mean": {
+          "kind": "BAD_AGGREGATE",
+          "mismatches": 1
+        },
+        "relative_compactness_std": {
+          "kind": "BAD_AGGREGATE",
+          "mismatches": 1
+        },
+        "surface_area_count": {
+          "kind": "BAD_AGGREGATE",
+          "mismatches": 1
+        },
+        "surface_area_mean": {
+          "kind": "BAD_AGGREGATE",
+          "mismatches": 1
+        },
+        "surface_area_std": {
+          "kind": "BAD_AGGREGATE",
+          "mismatches": 1
+        }
+      }
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 1,
+  "repetition_id": 1,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E4-D4-T6-C3-r1-M0-B",
+  "selected_candidate": "RG4",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "3a3fa9b5067ab50732522ab862e03e59f56d0ea112d7528c0a5b7b02ed2fae18",
+  "start_time": "2026-11-14T17:33:47Z",
+  "suite": "evaluation",
+  "system_id": "M0",
+  "task_id": "D4-T6",
+  "template_id": "T6",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "mae": 4.379044898597837,
+    "n": 192,
+    "rmse": 6.038936348351179
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 0.9973958333333334,
+  "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "tool_calls": 21,
+  "trace_path": "outputs/traces/E4/E4-D4-T6-C3-r1-M0-B__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 254.517
+}

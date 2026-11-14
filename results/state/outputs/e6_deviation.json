@@ -1,0 +1,13 @@
+{
+  "all_passed": false,
+  "created": "2026-11-14T21:12:12Z",
+  "diff": [
+    "-            d.loc[d.index[0], numc[0]] = float(d[numc[0]].iloc[0]) + 1.2345",
+    "+            d[numc[0]] = d[numc[0]].astype(\"float64\"); d.loc[d.index[0], numc[0]] = float(d[numc[0]].iloc[0]) + 1.2345"
+  ],
+  "frozen_line": "d.loc[d.index[0], numc[0]] = float(d[numc[0]].iloc[0]) + 1.2345",
+  "frozen_package_modified": false,
+  "line_used": "d[numc[0]] = d[numc[0]].astype(\"float64\"); d.loc[d.index[0], numc[0]] = float(d[numc[0]].iloc[0]) + 1.2345",
+  "reason": "frozen E6 wrong-version check raised TypeError under pandas 3 (Invalid value for dtype int64) after all 8,352 formal runs were recorded; supervisor gave up after 4 attempts",
+  "submissions_checked": 146
+}

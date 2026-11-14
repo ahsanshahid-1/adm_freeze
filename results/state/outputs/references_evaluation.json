@@ -1,0 +1,5474 @@
+{
+  "D1-T1/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 0,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T1",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6678910556773681,
+      "CL4": 0.6463316057868447,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T1/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T1",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6549177923392401,
+      "CL4": 0.6360445438491029,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T1/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 2,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T1",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6445833599752364,
+      "CL4": 0.6340473175328438,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T2/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 0,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T2",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6628603474626976,
+      "CL4": 0.6390551255773089,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T2/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T2",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6660689224523823,
+      "CL4": 0.6468445926574761,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T2/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 2,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T2",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6511013853232682,
+      "CL4": 0.6186828913098323,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T3/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 0,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T3",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6649366509984782,
+      "CL4": 0.6316062256053587,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T3/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T3",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6653909519083312,
+      "CL4": 0.6153559568263495,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T3/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 2,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T3",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6659552853893667,
+      "CL4": 0.6447102037621725,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T4/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 0,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T4",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6428876953183074,
+      "CL4": 0.6223676486936093,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T4/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T4",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.646786933646254,
+      "CL4": 0.6382731709026599,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T4/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 2,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T4",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6710971320284914,
+      "CL4": 0.6332233754263245,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T5/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 0,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T5",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6718962176627739,
+      "CL4": 0.6492709432538624,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T5/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T5",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6653824290037504,
+      "CL4": 0.6356216695351908,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T5/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 2,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T5",
+    "test_metrics": {
+      "average_precision": 0.7196275023017764,
+      "macro_f1": 0.8305371970852398,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9590868081434119
+    },
+    "validation": {
+      "CL1": 0.48072101060709355,
+      "CL2": 0.4161031729876913,
+      "CL3": 0.6624819249996555,
+      "CL4": 0.6344690203480166,
+      "CL5": 0.7008954148178412,
+      "CL6": 0.7154662688656945
+    }
+  },
+  "D1-T6/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 0,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T6",
+    "test_metrics": {
+      "average_precision": 0.683273591201578,
+      "macro_f1": 0.7935721544715447,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9615057728265276
+    },
+    "validation": {
+      "CL1": 0.48345412388009656,
+      "CL2": 0.4184607357875987,
+      "CL3": 0.6277204831276939,
+      "CL4": 0.6123440296210478,
+      "CL5": 0.6354172786046821,
+      "CL6": 0.6496951905855977
+    }
+  },
+  "D1-T6/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T6",
+    "test_metrics": {
+      "average_precision": 0.683273591201578,
+      "macro_f1": 0.7935721544715447,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9615057728265276
+    },
+    "validation": {
+      "CL1": 0.48345412388009656,
+      "CL2": 0.4184607357875987,
+      "CL3": 0.6359039400502158,
+      "CL4": 0.6222202376287961,
+      "CL5": 0.6354172786046821,
+      "CL6": 0.6496951905855977
+    }
+  },
+  "D1-T6/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.0195,
+      "macro_f1": 0.4950770007573845,
+      "prevalence": 0.0195,
+      "roc_auc": 0.5
+    },
+    "family": "D1",
+    "repetition": 2,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T6",
+    "test_metrics": {
+      "average_precision": 0.683273591201578,
+      "macro_f1": 0.7935721544715447,
+      "prevalence": 0.0195,
+      "roc_auc": 0.9615057728265276
+    },
+    "validation": {
+      "CL1": 0.48345412388009656,
+      "CL2": 0.4184607357875987,
+      "CL3": 0.6472098545916363,
+      "CL4": 0.6090571576585968,
+      "CL5": 0.6354172786046821,
+      "CL6": 0.6496951905855977
+    }
+  },
+  "D2-T1/r0": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 0,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T1",
+    "test_metrics": {
+      "balanced_accuracy": 0.8176662531776816,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            57,
+            1,
+            0,
+            17,
+            4,
+            1,
+            0
+          ],
+          [
+            0,
+            8,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            75,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            25,
+            4,
+            2,
+            97,
+            6,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            6,
+            21,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            35
+          ]
+        ]
+      },
+      "macro_f1": 0.8086626973515338
+    },
+    "validation": {
+      "CL1": 0.7198278111159139,
+      "CL2": 0.7432918968220882,
+      "CL3": 0.7945011364125815,
+      "CL4": 0.7802224753170713,
+      "CL5": 0.8131660275044206,
+      "CL6": 0.8180668263710918
+    }
+  },
+  "D2-T1/r1": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T1",
+    "test_metrics": {
+      "balanced_accuracy": 0.816780258664474,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            59,
+            0,
+            0,
+            19,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            77,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            25,
+            1,
+            4,
+            97,
+            4,
+            1,
+            2
+          ],
+          [
+            8,
+            0,
+            0,
+            7,
+            15,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            36
+          ]
+        ]
+      },
+      "macro_f1": 0.8205113932546323
+    },
+    "validation": {
+      "CL1": 0.6751988398556474,
+      "CL2": 0.7134744024803709,
+      "CL3": 0.7866904008849697,
+      "CL4": 0.7739981577460272,
+      "CL5": 0.8283965600926643,
+      "CL6": 0.8325466646049237
+    }
+  },
+  "D2-T1/r2": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 2,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T1",
+    "test_metrics": {
+      "balanced_accuracy": 0.8519053448009053,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            61,
+            0,
+            0,
+            19,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            75,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            29,
+            1,
+            5,
+            91,
+            8,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            4,
+            21,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            37
+          ]
+        ]
+      },
+      "macro_f1": 0.8496494640898372
+    },
+    "validation": {
+      "CL1": 0.753559618969539,
+      "CL2": 0.7430483463314481,
+      "CL3": 0.8128748841618555,
+      "CL4": 0.778045536423886,
+      "CL5": 0.8433264136106386,
+      "CL6": 0.8595195828035992
+    }
+  },
+  "D2-T2/r0": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 0,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T2",
+    "test_metrics": {
+      "balanced_accuracy": 0.8176662531776816,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            57,
+            1,
+            0,
+            17,
+            4,
+            1,
+            0
+          ],
+          [
+            0,
+            8,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            75,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            25,
+            4,
+            2,
+            97,
+            6,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            6,
+            21,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            35
+          ]
+        ]
+      },
+      "macro_f1": 0.8086626973515338
+    },
+    "validation": {
+      "CL1": 0.7198278111159139,
+      "CL2": 0.7432918968220882,
+      "CL3": 0.7984214724029383,
+      "CL4": 0.7712118513094389,
+      "CL5": 0.8131660275044206,
+      "CL6": 0.8180668263710918
+    }
+  },
+  "D2-T2/r1": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T2",
+    "test_metrics": {
+      "balanced_accuracy": 0.816780258664474,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            59,
+            0,
+            0,
+            19,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            77,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            25,
+            1,
+            4,
+            97,
+            4,
+            1,
+            2
+          ],
+          [
+            8,
+            0,
+            0,
+            7,
+            15,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            36
+          ]
+        ]
+      },
+      "macro_f1": 0.8205113932546323
+    },
+    "validation": {
+      "CL1": 0.6751988398556474,
+      "CL2": 0.7134744024803709,
+      "CL3": 0.7828487277627442,
+      "CL4": 0.7647316772095692,
+      "CL5": 0.8283965600926643,
+      "CL6": 0.8325466646049237
+    }
+  },
+  "D2-T2/r2": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 2,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T2",
+    "test_metrics": {
+      "balanced_accuracy": 0.8519053448009053,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            61,
+            0,
+            0,
+            19,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            75,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            29,
+            1,
+            5,
+            91,
+            8,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            4,
+            21,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            37
+          ]
+        ]
+      },
+      "macro_f1": 0.8496494640898372
+    },
+    "validation": {
+      "CL1": 0.753559618969539,
+      "CL2": 0.7430483463314481,
+      "CL3": 0.8228892059363849,
+      "CL4": 0.7828259542372601,
+      "CL5": 0.8433264136106386,
+      "CL6": 0.8595195828035992
+    }
+  },
+  "D2-T3/r0": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 0,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T3",
+    "test_metrics": {
+      "balanced_accuracy": 0.8176662531776816,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            57,
+            1,
+            0,
+            17,
+            4,
+            1,
+            0
+          ],
+          [
+            0,
+            8,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            75,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            25,
+            4,
+            2,
+            97,
+            6,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            6,
+            21,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            35
+          ]
+        ]
+      },
+      "macro_f1": 0.8086626973515338
+    },
+    "validation": {
+      "CL1": 0.7198278111159139,
+      "CL2": 0.7432918968220882,
+      "CL3": 0.8001667868876211,
+      "CL4": 0.7797349007465068,
+      "CL5": 0.8131660275044206,
+      "CL6": 0.8180668263710918
+    }
+  },
+  "D2-T3/r1": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T3",
+    "test_metrics": {
+      "balanced_accuracy": 0.816780258664474,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            59,
+            0,
+            0,
+            19,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            77,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            25,
+            1,
+            4,
+            97,
+            4,
+            1,
+            2
+          ],
+          [
+            8,
+            0,
+            0,
+            7,
+            15,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            36
+          ]
+        ]
+      },
+      "macro_f1": 0.8205113932546323
+    },
+    "validation": {
+      "CL1": 0.6751988398556474,
+      "CL2": 0.7134744024803709,
+      "CL3": 0.790892577496692,
+      "CL4": 0.7568213022299888,
+      "CL5": 0.8283965600926643,
+      "CL6": 0.8325466646049237
+    }
+  },
+  "D2-T3/r2": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 2,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T3",
+    "test_metrics": {
+      "balanced_accuracy": 0.8519053448009053,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            61,
+            0,
+            0,
+            19,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            75,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            29,
+            1,
+            5,
+            91,
+            8,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            4,
+            21,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            37
+          ]
+        ]
+      },
+      "macro_f1": 0.8496494640898372
+    },
+    "validation": {
+      "CL1": 0.753559618969539,
+      "CL2": 0.7430483463314481,
+      "CL3": 0.7983153845179257,
+      "CL4": 0.7762999535312234,
+      "CL5": 0.8433264136106386,
+      "CL6": 0.8595195828035992
+    }
+  },
+  "D2-T4/r0": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 0,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T4",
+    "test_metrics": {
+      "balanced_accuracy": 0.8176662531776816,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            57,
+            1,
+            0,
+            17,
+            4,
+            1,
+            0
+          ],
+          [
+            0,
+            8,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            75,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            25,
+            4,
+            2,
+            97,
+            6,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            6,
+            21,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            35
+          ]
+        ]
+      },
+      "macro_f1": 0.8086626973515338
+    },
+    "validation": {
+      "CL1": 0.7198278111159139,
+      "CL2": 0.7432918968220882,
+      "CL3": 0.7955764093872097,
+      "CL4": 0.7704182836560746,
+      "CL5": 0.8131660275044206,
+      "CL6": 0.8180668263710918
+    }
+  },
+  "D2-T4/r1": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T4",
+    "test_metrics": {
+      "balanced_accuracy": 0.816780258664474,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            59,
+            0,
+            0,
+            19,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            77,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            25,
+            1,
+            4,
+            97,
+            4,
+            1,
+            2
+          ],
+          [
+            8,
+            0,
+            0,
+            7,
+            15,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            36
+          ]
+        ]
+      },
+      "macro_f1": 0.8205113932546323
+    },
+    "validation": {
+      "CL1": 0.6751988398556474,
+      "CL2": 0.7134744024803709,
+      "CL3": 0.8016467597777337,
+      "CL4": 0.7745680892277099,
+      "CL5": 0.8283965600926643,
+      "CL6": 0.8325466646049237
+    }
+  },
+  "D2-T4/r2": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 2,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T4",
+    "test_metrics": {
+      "balanced_accuracy": 0.8519053448009053,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            61,
+            0,
+            0,
+            19,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            75,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            29,
+            1,
+            5,
+            91,
+            8,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            4,
+            21,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            37
+          ]
+        ]
+      },
+      "macro_f1": 0.8496494640898372
+    },
+    "validation": {
+      "CL1": 0.753559618969539,
+      "CL2": 0.7430483463314481,
+      "CL3": 0.7979033451029309,
+      "CL4": 0.7707882888775452,
+      "CL5": 0.8433264136106386,
+      "CL6": 0.8595195828035992
+    }
+  },
+  "D2-T5/r0": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 0,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T5",
+    "test_metrics": {
+      "balanced_accuracy": 0.8176662531776816,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            57,
+            1,
+            0,
+            17,
+            4,
+            1,
+            0
+          ],
+          [
+            0,
+            8,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            75,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            25,
+            4,
+            2,
+            97,
+            6,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            6,
+            21,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            35
+          ]
+        ]
+      },
+      "macro_f1": 0.8086626973515338
+    },
+    "validation": {
+      "CL1": 0.7198278111159139,
+      "CL2": 0.7432918968220882,
+      "CL3": 0.8003219516164404,
+      "CL4": 0.7749169595230355,
+      "CL5": 0.8131660275044206,
+      "CL6": 0.8180668263710918
+    }
+  },
+  "D2-T5/r1": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T5",
+    "test_metrics": {
+      "balanced_accuracy": 0.816780258664474,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            59,
+            0,
+            0,
+            19,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            77,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            25,
+            1,
+            4,
+            97,
+            4,
+            1,
+            2
+          ],
+          [
+            8,
+            0,
+            0,
+            7,
+            15,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            36
+          ]
+        ]
+      },
+      "macro_f1": 0.8205113932546323
+    },
+    "validation": {
+      "CL1": 0.6751988398556474,
+      "CL2": 0.7134744024803709,
+      "CL3": 0.791752124973001,
+      "CL4": 0.7449706064362679,
+      "CL5": 0.8283965600926643,
+      "CL6": 0.8325466646049237
+    }
+  },
+  "D2-T5/r2": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 2,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T5",
+    "test_metrics": {
+      "balanced_accuracy": 0.8519053448009053,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            61,
+            0,
+            0,
+            19,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            75,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            29,
+            1,
+            5,
+            91,
+            8,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            4,
+            21,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            37
+          ]
+        ]
+      },
+      "macro_f1": 0.8496494640898372
+    },
+    "validation": {
+      "CL1": 0.753559618969539,
+      "CL2": 0.7430483463314481,
+      "CL3": 0.8142028848772739,
+      "CL4": 0.7737907110437545,
+      "CL5": 0.8433264136106386,
+      "CL6": 0.8595195828035992
+    }
+  },
+  "D2-T6/r0": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 0,
+    "selected_candidate": "CL5",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T6",
+    "test_metrics": {
+      "balanced_accuracy": 0.8040784866466969,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            58,
+            1,
+            0,
+            16,
+            4,
+            1,
+            0
+          ],
+          [
+            0,
+            8,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            75,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            21,
+            4,
+            2,
+            100,
+            7,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            6,
+            20,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            34
+          ]
+        ]
+      },
+      "macro_f1": 0.8012809298673869
+    },
+    "validation": {
+      "CL1": 0.7120622471456027,
+      "CL2": 0.7492817575308399,
+      "CL3": 0.7829432432691973,
+      "CL4": 0.7547394785529252,
+      "CL5": 0.8126614002676391,
+      "CL6": 0.8096068787920314
+    }
+  },
+  "D2-T6/r1": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 1,
+    "selected_candidate": "CL6",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T6",
+    "test_metrics": {
+      "balanced_accuracy": 0.7991849507465855,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            59,
+            0,
+            0,
+            18,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            9,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            77,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            25,
+            0,
+            4,
+            97,
+            3,
+            1,
+            4
+          ],
+          [
+            7,
+            0,
+            0,
+            10,
+            14,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            36
+          ]
+        ]
+      },
+      "macro_f1": 0.8128737735839112
+    },
+    "validation": {
+      "CL1": 0.6797147257922539,
+      "CL2": 0.6801978454099266,
+      "CL3": 0.8004712539374171,
+      "CL4": 0.7673469415810302,
+      "CL5": 0.8262384773444681,
+      "CL6": 0.8370088457547624
+    }
+  },
+  "D2-T6/r2": {
+    "dummy_test_metrics": {
+      "balanced_accuracy": 0.14285714285714285,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            80,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            78,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            134,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            31,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "macro_f1": 0.07362637362637361
+    },
+    "family": "D2",
+    "repetition": 2,
+    "selected_candidate": "CL5",
+    "suite": "evaluation",
+    "task_type": "multiclass",
+    "template": "T6",
+    "test_metrics": {
+      "balanced_accuracy": 0.8295896526635266,
+      "confusion_matrix": {
+        "labels": [
+          "Bumps",
+          "Dirtiness",
+          "K_Scatch",
+          "Other_Faults",
+          "Pastry",
+          "Stains",
+          "Z_Scratch"
+        ],
+        "matrix": [
+          [
+            60,
+            0,
+            0,
+            19,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            74,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            23,
+            2,
+            4,
+            96,
+            8,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            10,
+            18,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            37
+          ]
+        ]
+      },
+      "macro_f1": 0.8281860132368645
+    },
+    "validation": {
+      "CL1": 0.7403114416285727,
+      "CL2": 0.7287171984894654,
+      "CL3": 0.814300405020712,
+      "CL4": 0.782156991940678,
+      "CL5": 0.849126505843796,
+      "CL6": 0.84482350399946
+    }
+  },
+  "D3-T1/r0": {
+    "dummy_test_metrics": {
+      "mae": 15.050797025473003,
+      "rmse": 19.138778729656366
+    },
+    "family": "D3",
+    "repetition": 0,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T1",
+    "test_metrics": {
+      "mae": 5.99316057402244,
+      "rmse": 7.998575577292717
+    },
+    "validation": {
+      "RG1": 10.207277124425062,
+      "RG2": 10.155055111782739,
+      "RG3": 5.543641223502557,
+      "RG4": 5.706391179558883,
+      "RG5": 5.6609031015397635,
+      "RG6": 5.88078998228567
+    }
+  },
+  "D3-T1/r1": {
+    "dummy_test_metrics": {
+      "mae": 14.590860760729193,
+      "rmse": 18.250976267671426
+    },
+    "family": "D3",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T1",
+    "test_metrics": {
+      "mae": 4.137958007099338,
+      "rmse": 5.465793349234499
+    },
+    "validation": {
+      "RG1": 11.600151647422994,
+      "RG2": 11.672767438123296,
+      "RG3": 7.9397011913960505,
+      "RG4": 8.49907001002837,
+      "RG5": 7.853829270243917,
+      "RG6": 7.929048009217766
+    }
+  },
+  "D3-T1/r2": {
+    "dummy_test_metrics": {
+      "mae": 13.452882264574223,
+      "rmse": 16.683001205405645
+    },
+    "family": "D3",
+    "repetition": 2,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T1",
+    "test_metrics": {
+      "mae": 4.378152286401119,
+      "rmse": 5.647017030420304
+    },
+    "validation": {
+      "RG1": 9.645343280658388,
+      "RG2": 9.59088184130249,
+      "RG3": 6.032937133793596,
+      "RG4": 6.572561722023472,
+      "RG5": 6.0841158610746895,
+      "RG6": 6.282469734533393
+    }
+  },
+  "D3-T2/r0": {
+    "dummy_test_metrics": {
+      "mae": 15.050797025473003,
+      "rmse": 19.138778729656366
+    },
+    "family": "D3",
+    "repetition": 0,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T2",
+    "test_metrics": {
+      "mae": 5.996737142335093,
+      "rmse": 7.966944549368568
+    },
+    "validation": {
+      "RG1": 10.207277124425062,
+      "RG2": 10.155055111782739,
+      "RG3": 5.4324118625357025,
+      "RG4": 5.607105567606385,
+      "RG5": 5.6609031015397635,
+      "RG6": 5.88078998228567
+    }
+  },
+  "D3-T2/r1": {
+    "dummy_test_metrics": {
+      "mae": 14.590860760729193,
+      "rmse": 18.250976267671426
+    },
+    "family": "D3",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T2",
+    "test_metrics": {
+      "mae": 4.137958007099338,
+      "rmse": 5.465793349234499
+    },
+    "validation": {
+      "RG1": 11.600151647422994,
+      "RG2": 11.672767438123296,
+      "RG3": 7.952097744042323,
+      "RG4": 8.451239272589364,
+      "RG5": 7.853829270243917,
+      "RG6": 7.929048009217766
+    }
+  },
+  "D3-T2/r2": {
+    "dummy_test_metrics": {
+      "mae": 13.452882264574223,
+      "rmse": 16.683001205405645
+    },
+    "family": "D3",
+    "repetition": 2,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T2",
+    "test_metrics": {
+      "mae": 4.325738915489617,
+      "rmse": 5.630785703801501
+    },
+    "validation": {
+      "RG1": 9.645343280658388,
+      "RG2": 9.59088184130249,
+      "RG3": 5.880507687551675,
+      "RG4": 6.607491287449671,
+      "RG5": 6.0841158610746895,
+      "RG6": 6.282469734533393
+    }
+  },
+  "D3-T3/r0": {
+    "dummy_test_metrics": {
+      "mae": 15.050797025473003,
+      "rmse": 19.138778729656366
+    },
+    "family": "D3",
+    "repetition": 0,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T3",
+    "test_metrics": {
+      "mae": 5.962210672961891,
+      "rmse": 7.947889637527072
+    },
+    "validation": {
+      "RG1": 10.207277124425062,
+      "RG2": 10.155055111782739,
+      "RG3": 5.479581053691497,
+      "RG4": 5.694135030632075,
+      "RG5": 5.6609031015397635,
+      "RG6": 5.88078998228567
+    }
+  },
+  "D3-T3/r1": {
+    "dummy_test_metrics": {
+      "mae": 14.590860760729193,
+      "rmse": 18.250976267671426
+    },
+    "family": "D3",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T3",
+    "test_metrics": {
+      "mae": 4.137958007099338,
+      "rmse": 5.465793349234499
+    },
+    "validation": {
+      "RG1": 11.600151647422994,
+      "RG2": 11.672767438123296,
+      "RG3": 8.09888236821695,
+      "RG4": 8.618422842717036,
+      "RG5": 7.853829270243917,
+      "RG6": 7.929048009217766
+    }
+  },
+  "D3-T3/r2": {
+    "dummy_test_metrics": {
+      "mae": 13.452882264574223,
+      "rmse": 16.683001205405645
+    },
+    "family": "D3",
+    "repetition": 2,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T3",
+    "test_metrics": {
+      "mae": 4.227734444215044,
+      "rmse": 5.440079611729345
+    },
+    "validation": {
+      "RG1": 9.645343280658388,
+      "RG2": 9.59088184130249,
+      "RG3": 5.914681248376824,
+      "RG4": 6.641196395153497,
+      "RG5": 6.0841158610746895,
+      "RG6": 6.282469734533393
+    }
+  },
+  "D3-T4/r0": {
+    "dummy_test_metrics": {
+      "mae": 15.050797025473003,
+      "rmse": 19.138778729656366
+    },
+    "family": "D3",
+    "repetition": 0,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T4",
+    "test_metrics": {
+      "mae": 5.981510232234011,
+      "rmse": 7.911587159261587
+    },
+    "validation": {
+      "RG1": 10.207277124425062,
+      "RG2": 10.155055111782739,
+      "RG3": 5.614994730101183,
+      "RG4": 5.687962471675008,
+      "RG5": 5.6609031015397635,
+      "RG6": 5.88078998228567
+    }
+  },
+  "D3-T4/r1": {
+    "dummy_test_metrics": {
+      "mae": 14.590860760729193,
+      "rmse": 18.250976267671426
+    },
+    "family": "D3",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T4",
+    "test_metrics": {
+      "mae": 4.137958007099338,
+      "rmse": 5.465793349234499
+    },
+    "validation": {
+      "RG1": 11.600151647422994,
+      "RG2": 11.672767438123296,
+      "RG3": 7.980690968857808,
+      "RG4": 8.472858422765498,
+      "RG5": 7.853829270243917,
+      "RG6": 7.929048009217766
+    }
+  },
+  "D3-T4/r2": {
+    "dummy_test_metrics": {
+      "mae": 13.452882264574223,
+      "rmse": 16.683001205405645
+    },
+    "family": "D3",
+    "repetition": 2,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T4",
+    "test_metrics": {
+      "mae": 4.29549539611689,
+      "rmse": 5.558579234124369
+    },
+    "validation": {
+      "RG1": 9.645343280658388,
+      "RG2": 9.59088184130249,
+      "RG3": 6.083870796959018,
+      "RG4": 6.7676354043931015,
+      "RG5": 6.0841158610746895,
+      "RG6": 6.282469734533393
+    }
+  },
+  "D3-T5/r0": {
+    "dummy_test_metrics": {
+      "mae": 15.050797025473003,
+      "rmse": 19.138778729656366
+    },
+    "family": "D3",
+    "repetition": 0,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T5",
+    "test_metrics": {
+      "mae": 5.891447142835015,
+      "rmse": 7.859552254389413
+    },
+    "validation": {
+      "RG1": 10.207277124425062,
+      "RG2": 10.155055111782739,
+      "RG3": 5.43354454372771,
+      "RG4": 5.550213226540857,
+      "RG5": 5.6609031015397635,
+      "RG6": 5.88078998228567
+    }
+  },
+  "D3-T5/r1": {
+    "dummy_test_metrics": {
+      "mae": 14.590860760729193,
+      "rmse": 18.250976267671426
+    },
+    "family": "D3",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T5",
+    "test_metrics": {
+      "mae": 4.137958007099338,
+      "rmse": 5.465793349234499
+    },
+    "validation": {
+      "RG1": 11.600151647422994,
+      "RG2": 11.672767438123296,
+      "RG3": 8.019978590787556,
+      "RG4": 8.57165052214531,
+      "RG5": 7.853829270243917,
+      "RG6": 7.929048009217766
+    }
+  },
+  "D3-T5/r2": {
+    "dummy_test_metrics": {
+      "mae": 13.452882264574223,
+      "rmse": 16.683001205405645
+    },
+    "family": "D3",
+    "repetition": 2,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T5",
+    "test_metrics": {
+      "mae": 4.319675830939147,
+      "rmse": 5.57586273025048
+    },
+    "validation": {
+      "RG1": 9.645343280658388,
+      "RG2": 9.59088184130249,
+      "RG3": 5.900759309538091,
+      "RG4": 6.599857309817754,
+      "RG5": 6.0841158610746895,
+      "RG6": 6.282469734533393
+    }
+  },
+  "D3-T6/r0": {
+    "dummy_test_metrics": {
+      "mae": 15.050797025473003,
+      "rmse": 19.138778729656366
+    },
+    "family": "D3",
+    "repetition": 0,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T6",
+    "test_metrics": {
+      "mae": 6.57132958639988,
+      "rmse": 8.484165237598074
+    },
+    "validation": {
+      "RG1": 10.229187851271458,
+      "RG2": 10.172232770052526,
+      "RG3": 5.569322614907156,
+      "RG4": 5.77570719294785,
+      "RG5": 5.974452083467719,
+      "RG6": 5.940629366133692
+    }
+  },
+  "D3-T6/r1": {
+    "dummy_test_metrics": {
+      "mae": 14.590860760729193,
+      "rmse": 18.250976267671426
+    },
+    "family": "D3",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T6",
+    "test_metrics": {
+      "mae": 4.576031045864947,
+      "rmse": 5.937221777405833
+    },
+    "validation": {
+      "RG1": 11.622038113771366,
+      "RG2": 11.687177883153947,
+      "RG3": 8.141589379081854,
+      "RG4": 8.529354793501396,
+      "RG5": 7.649876748206688,
+      "RG6": 7.922518788980692
+    }
+  },
+  "D3-T6/r2": {
+    "dummy_test_metrics": {
+      "mae": 13.452882264574223,
+      "rmse": 16.683001205405645
+    },
+    "family": "D3",
+    "repetition": 2,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T6",
+    "test_metrics": {
+      "mae": 4.736590758022408,
+      "rmse": 6.051415557045067
+    },
+    "validation": {
+      "RG1": 9.722830078584488,
+      "RG2": 9.662553256009918,
+      "RG3": 6.100475198099769,
+      "RG4": 6.6492717453080825,
+      "RG5": 6.285434845178183,
+      "RG6": 6.285089376512367
+    }
+  },
+  "D4-T1/r0": {
+    "dummy_test_metrics": {
+      "mae": 10.797399305555553,
+      "rmse": 11.9323665587685
+    },
+    "family": "D4",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T1",
+    "test_metrics": {
+      "mae": 9.90964988175172,
+      "rmse": 13.78981594131685
+    },
+    "validation": {
+      "RG1": 3.8590226001458703,
+      "RG2": 3.2853046075891403,
+      "RG3": 3.252244057338885,
+      "RG4": 3.270486003350264,
+      "RG5": 3.1288918374020085,
+      "RG6": 3.140627077586391
+    }
+  },
+  "D4-T1/r1": {
+    "dummy_test_metrics": {
+      "mae": 10.611403935185182,
+      "rmse": 11.775644605812053
+    },
+    "family": "D4",
+    "repetition": 1,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T1",
+    "test_metrics": {
+      "mae": 5.601361614583332,
+      "rmse": 7.795526790915529
+    },
+    "validation": {
+      "RG1": 2.9685745454922166,
+      "RG2": 2.3878950909873584,
+      "RG3": 0.6211118772511909,
+      "RG4": 0.7830362187025143,
+      "RG5": 1.1515125965874702,
+      "RG6": 0.9783309776469384
+    }
+  },
+  "D4-T1/r2": {
+    "dummy_test_metrics": {
+      "mae": 7.078740234374997,
+      "rmse": 8.152921186706003
+    },
+    "family": "D4",
+    "repetition": 2,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T1",
+    "test_metrics": {
+      "mae": 4.2304152604166605,
+      "rmse": 5.5834559198547336
+    },
+    "validation": {
+      "RG1": 4.996722424343493,
+      "RG2": 2.4915482283881665,
+      "RG3": 0.8649288431240837,
+      "RG4": 1.2625802237255352,
+      "RG5": 16.60542220681991,
+      "RG6": 16.650476481615883
+    }
+  },
+  "D4-T2/r0": {
+    "dummy_test_metrics": {
+      "mae": 10.797399305555553,
+      "rmse": 11.9323665587685
+    },
+    "family": "D4",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T2",
+    "test_metrics": {
+      "mae": 9.90964988175172,
+      "rmse": 13.78981594131685
+    },
+    "validation": {
+      "RG1": 3.8590226001458703,
+      "RG2": 3.2853046075891403,
+      "RG3": 3.1989609054488057,
+      "RG4": 3.2689298313421613,
+      "RG5": 3.1288918374020085,
+      "RG6": 3.140627077586391
+    }
+  },
+  "D4-T2/r1": {
+    "dummy_test_metrics": {
+      "mae": 10.611403935185182,
+      "rmse": 11.775644605812053
+    },
+    "family": "D4",
+    "repetition": 1,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T2",
+    "test_metrics": {
+      "mae": 5.563740677083331,
+      "rmse": 7.778864964070347
+    },
+    "validation": {
+      "RG1": 2.9685745454922166,
+      "RG2": 2.3878950909873584,
+      "RG3": 0.7073888523145533,
+      "RG4": 0.7807335786293296,
+      "RG5": 1.1515125965874702,
+      "RG6": 0.9783309776469384
+    }
+  },
+  "D4-T2/r2": {
+    "dummy_test_metrics": {
+      "mae": 7.078740234374997,
+      "rmse": 8.152921186706003
+    },
+    "family": "D4",
+    "repetition": 2,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T2",
+    "test_metrics": {
+      "mae": 4.3979320833333295,
+      "rmse": 5.854732384208695
+    },
+    "validation": {
+      "RG1": 4.996722424343493,
+      "RG2": 2.4915482283881665,
+      "RG3": 0.8912467321538957,
+      "RG4": 1.299990414649218,
+      "RG5": 16.60542220681991,
+      "RG6": 16.650476481615883
+    }
+  },
+  "D4-T3/r0": {
+    "dummy_test_metrics": {
+      "mae": 10.797399305555553,
+      "rmse": 11.9323665587685
+    },
+    "family": "D4",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T3",
+    "test_metrics": {
+      "mae": 9.90964988175172,
+      "rmse": 13.78981594131685
+    },
+    "validation": {
+      "RG1": 3.8590226001458703,
+      "RG2": 3.2853046075891403,
+      "RG3": 3.2518610013903233,
+      "RG4": 3.2594038061671484,
+      "RG5": 3.1288918374020085,
+      "RG6": 3.140627077586391
+    }
+  },
+  "D4-T3/r1": {
+    "dummy_test_metrics": {
+      "mae": 10.611403935185182,
+      "rmse": 11.775644605812053
+    },
+    "family": "D4",
+    "repetition": 1,
+    "selected_candidate": "RG4",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T3",
+    "test_metrics": {
+      "mae": 5.519295105117739,
+      "rmse": 7.723169457610913
+    },
+    "validation": {
+      "RG1": 2.9685745454922166,
+      "RG2": 2.3878950909873584,
+      "RG3": 0.7409978956563784,
+      "RG4": 0.7064774361804136,
+      "RG5": 1.1515125965874702,
+      "RG6": 0.9783309776469384
+    }
+  },
+  "D4-T3/r2": {
+    "dummy_test_metrics": {
+      "mae": 7.078740234374997,
+      "rmse": 8.152921186706003
+    },
+    "family": "D4",
+    "repetition": 2,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T3",
+    "test_metrics": {
+      "mae": 4.439914739583329,
+      "rmse": 5.898710177270522
+    },
+    "validation": {
+      "RG1": 4.996722424343493,
+      "RG2": 2.4915482283881665,
+      "RG3": 0.8833942935309057,
+      "RG4": 1.2884633424586915,
+      "RG5": 16.60542220681991,
+      "RG6": 16.650476481615883
+    }
+  },
+  "D4-T4/r0": {
+    "dummy_test_metrics": {
+      "mae": 10.797399305555553,
+      "rmse": 11.9323665587685
+    },
+    "family": "D4",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T4",
+    "test_metrics": {
+      "mae": 9.90964988175172,
+      "rmse": 13.78981594131685
+    },
+    "validation": {
+      "RG1": 3.8590226001458703,
+      "RG2": 3.2853046075891403,
+      "RG3": 3.232902100866813,
+      "RG4": 3.2742049536849858,
+      "RG5": 3.1288918374020085,
+      "RG6": 3.140627077586391
+    }
+  },
+  "D4-T4/r1": {
+    "dummy_test_metrics": {
+      "mae": 10.611403935185182,
+      "rmse": 11.775644605812053
+    },
+    "family": "D4",
+    "repetition": 1,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T4",
+    "test_metrics": {
+      "mae": 5.587533072916666,
+      "rmse": 7.793695591983073
+    },
+    "validation": {
+      "RG1": 2.9685745454922166,
+      "RG2": 2.3878950909873584,
+      "RG3": 0.7255866331238222,
+      "RG4": 0.8153517621621627,
+      "RG5": 1.1515125965874702,
+      "RG6": 0.9783309776469384
+    }
+  },
+  "D4-T4/r2": {
+    "dummy_test_metrics": {
+      "mae": 7.078740234374997,
+      "rmse": 8.152921186706003
+    },
+    "family": "D4",
+    "repetition": 2,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T4",
+    "test_metrics": {
+      "mae": 4.326122031249994,
+      "rmse": 5.724621530411007
+    },
+    "validation": {
+      "RG1": 4.996722424343493,
+      "RG2": 2.4915482283881665,
+      "RG3": 0.866434317700912,
+      "RG4": 1.2810605523756309,
+      "RG5": 16.60542220681991,
+      "RG6": 16.650476481615883
+    }
+  },
+  "D4-T5/r0": {
+    "dummy_test_metrics": {
+      "mae": 10.797399305555553,
+      "rmse": 11.9323665587685
+    },
+    "family": "D4",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T5",
+    "test_metrics": {
+      "mae": 9.90964988175172,
+      "rmse": 13.78981594131685
+    },
+    "validation": {
+      "RG1": 3.8590226001458703,
+      "RG2": 3.2853046075891403,
+      "RG3": 3.240703986911059,
+      "RG4": 3.265639657158447,
+      "RG5": 3.1288918374020085,
+      "RG6": 3.140627077586391
+    }
+  },
+  "D4-T5/r1": {
+    "dummy_test_metrics": {
+      "mae": 10.611403935185182,
+      "rmse": 11.775644605812053
+    },
+    "family": "D4",
+    "repetition": 1,
+    "selected_candidate": "RG4",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T5",
+    "test_metrics": {
+      "mae": 5.514100090706712,
+      "rmse": 7.723102708445376
+    },
+    "validation": {
+      "RG1": 2.9685745454922166,
+      "RG2": 2.3878950909873584,
+      "RG3": 0.8112025947845278,
+      "RG4": 0.7883940707504006,
+      "RG5": 1.1515125965874702,
+      "RG6": 0.9783309776469384
+    }
+  },
+  "D4-T5/r2": {
+    "dummy_test_metrics": {
+      "mae": 7.078740234374997,
+      "rmse": 8.152921186706003
+    },
+    "family": "D4",
+    "repetition": 2,
+    "selected_candidate": "RG3",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T5",
+    "test_metrics": {
+      "mae": 4.593297968749995,
+      "rmse": 6.151525075715424
+    },
+    "validation": {
+      "RG1": 4.996722424343493,
+      "RG2": 2.4915482283881665,
+      "RG3": 0.8810204158650864,
+      "RG4": 1.296926404651794,
+      "RG5": 16.60542220681991,
+      "RG6": 16.650476481615883
+    }
+  },
+  "D4-T6/r0": {
+    "dummy_test_metrics": {
+      "mae": 10.797399305555553,
+      "rmse": 11.9323665587685
+    },
+    "family": "D4",
+    "repetition": 0,
+    "selected_candidate": "RG2",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T6",
+    "test_metrics": {
+      "mae": 4.584076048187321,
+      "rmse": 5.872029858929371
+    },
+    "validation": {
+      "RG1": 3.8680659156934136,
+      "RG2": 3.294079133019486,
+      "RG3": 3.780024531658687,
+      "RG4": 4.08155029032171,
+      "RG5": 3.5096295758311533,
+      "RG6": 3.4000341147856403
+    }
+  },
+  "D4-T6/r1": {
+    "dummy_test_metrics": {
+      "mae": 10.611403935185182,
+      "rmse": 11.775644605812053
+    },
+    "family": "D4",
+    "repetition": 1,
+    "selected_candidate": "RG4",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T6",
+    "test_metrics": {
+      "mae": 4.398042791731913,
+      "rmse": 6.0546755535496155
+    },
+    "validation": {
+      "RG1": 2.975154137069265,
+      "RG2": 2.389792355427835,
+      "RG3": 1.2924329277885251,
+      "RG4": 1.1676055605860827,
+      "RG5": 1.7346452541973827,
+      "RG6": 1.7174369429438092
+    }
+  },
+  "D4-T6/r2": {
+    "dummy_test_metrics": {
+      "mae": 7.078740234374997,
+      "rmse": 8.152921186706003
+    },
+    "family": "D4",
+    "repetition": 2,
+    "selected_candidate": "RG6",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T6",
+    "test_metrics": {
+      "mae": 3.5783078311054903,
+      "rmse": 4.719232369331873
+    },
+    "validation": {
+      "RG1": 4.707359013681506,
+      "RG2": 2.4816404872717706,
+      "RG3": 5.779680575991459,
+      "RG4": 5.791457519987331,
+      "RG5": 2.2213226410955587,
+      "RG6": 2.1866662902809115
+    }
+  },
+  "D5-T1/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.138,
+      "macro_f1": 0.46294307196562834,
+      "prevalence": 0.138,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL4",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T1",
+    "test_metrics": {
+      "average_precision": 0.3980189484936938,
+      "macro_f1": 0.5789135326261652,
+      "prevalence": 0.138,
+      "roc_auc": 0.7518704394902317
+    },
+    "validation": {
+      "CL1": 0.4508259857887041,
+      "CL2": 0.45043916938143924,
+      "CL3": 0.4427997836895692,
+      "CL4": 0.4574468319110777,
+      "CL5": 0.43085058935260034,
+      "CL6": 0.4043190231832378
+    }
+  },
+  "D5-T1/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1365,
+      "macro_f1": 0.4633753689294339,
+      "prevalence": 0.1365,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL4",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T1",
+    "test_metrics": {
+      "average_precision": 0.39018709547744534,
+      "macro_f1": 0.5537484707465283,
+      "prevalence": 0.1365,
+      "roc_auc": 0.7680599655121949
+    },
+    "validation": {
+      "CL1": 0.4073739961326902,
+      "CL2": 0.4071419871038527,
+      "CL3": 0.3892511076697325,
+      "CL4": 0.410957532602191,
+      "CL5": 0.3816788563034581,
+      "CL6": 0.36382450667761335
+    }
+  },
+  "D5-T1/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.142,
+      "macro_f1": 0.46178686759956944,
+      "prevalence": 0.142,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 2,
+    "selected_candidate": "CL2",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T1",
+    "test_metrics": {
+      "average_precision": 0.4085699391332025,
+      "macro_f1": 0.5904093973994861,
+      "prevalence": 0.142,
+      "roc_auc": 0.773909189402147
+    },
+    "validation": {
+      "CL1": 0.4184455450844223,
+      "CL2": 0.41847491363928546,
+      "CL3": 0.3911054939630906,
+      "CL4": 0.4124871125881929,
+      "CL5": 0.39673911436594433,
+      "CL6": 0.39099278789353964
+    }
+  },
+  "D5-T2/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.138,
+      "macro_f1": 0.46294307196562834,
+      "prevalence": 0.138,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL4",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T2",
+    "test_metrics": {
+      "average_precision": 0.39825494916456744,
+      "macro_f1": 0.5950458532695375,
+      "prevalence": 0.138,
+      "roc_auc": 0.747309929721914
+    },
+    "validation": {
+      "CL1": 0.4508259857887041,
+      "CL2": 0.45043916938143924,
+      "CL3": 0.444367462996864,
+      "CL4": 0.4593001550317882,
+      "CL5": 0.43085058935260034,
+      "CL6": 0.4043190231832378
+    }
+  },
+  "D5-T2/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1365,
+      "macro_f1": 0.4633753689294339,
+      "prevalence": 0.1365,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL4",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T2",
+    "test_metrics": {
+      "average_precision": 0.38977439367444633,
+      "macro_f1": 0.5430118610756057,
+      "prevalence": 0.1365,
+      "roc_auc": 0.7674151750584872
+    },
+    "validation": {
+      "CL1": 0.4073739961326902,
+      "CL2": 0.4071419871038527,
+      "CL3": 0.3908651515431434,
+      "CL4": 0.4112336327198572,
+      "CL5": 0.3816788563034581,
+      "CL6": 0.36382450667761335
+    }
+  },
+  "D5-T2/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.142,
+      "macro_f1": 0.46178686759956944,
+      "prevalence": 0.142,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 2,
+    "selected_candidate": "CL2",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T2",
+    "test_metrics": {
+      "average_precision": 0.4085699391332025,
+      "macro_f1": 0.5904093973994861,
+      "prevalence": 0.142,
+      "roc_auc": 0.773909189402147
+    },
+    "validation": {
+      "CL1": 0.4184455450844223,
+      "CL2": 0.41847491363928546,
+      "CL3": 0.38153999640966646,
+      "CL4": 0.41611852424092527,
+      "CL5": 0.39673911436594433,
+      "CL6": 0.39099278789353964
+    }
+  },
+  "D5-T3/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.138,
+      "macro_f1": 0.46294307196562834,
+      "prevalence": 0.138,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL4",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T3",
+    "test_metrics": {
+      "average_precision": 0.4018823292808998,
+      "macro_f1": 0.5939872342032708,
+      "prevalence": 0.138,
+      "roc_auc": 0.7492665355257406
+    },
+    "validation": {
+      "CL1": 0.4508259857887041,
+      "CL2": 0.45043916938143924,
+      "CL3": 0.4392625195283544,
+      "CL4": 0.45837601565893554,
+      "CL5": 0.43085058935260034,
+      "CL6": 0.4043190231832378
+    }
+  },
+  "D5-T3/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1365,
+      "macro_f1": 0.4633753689294339,
+      "prevalence": 0.1365,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL1",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T3",
+    "test_metrics": {
+      "average_precision": 0.41440413101813195,
+      "macro_f1": 0.5458208061417653,
+      "prevalence": 0.1365,
+      "roc_auc": 0.7778018160183766
+    },
+    "validation": {
+      "CL1": 0.4073739961326902,
+      "CL2": 0.4071419871038527,
+      "CL3": 0.38075753169191734,
+      "CL4": 0.4058015879419199,
+      "CL5": 0.3816788563034581,
+      "CL6": 0.36382450667761335
+    }
+  },
+  "D5-T3/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.142,
+      "macro_f1": 0.46178686759956944,
+      "prevalence": 0.142,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 2,
+    "selected_candidate": "CL2",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T3",
+    "test_metrics": {
+      "average_precision": 0.4085699391332025,
+      "macro_f1": 0.5904093973994861,
+      "prevalence": 0.142,
+      "roc_auc": 0.773909189402147
+    },
+    "validation": {
+      "CL1": 0.4184455450844223,
+      "CL2": 0.41847491363928546,
+      "CL3": 0.3993803312986305,
+      "CL4": 0.4149486179218081,
+      "CL5": 0.39673911436594433,
+      "CL6": 0.39099278789353964
+    }
+  },
+  "D5-T4/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.138,
+      "macro_f1": 0.46294307196562834,
+      "prevalence": 0.138,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL4",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T4",
+    "test_metrics": {
+      "average_precision": 0.3989623116359734,
+      "macro_f1": 0.5918638533747165,
+      "prevalence": 0.138,
+      "roc_auc": 0.7471586132687716
+    },
+    "validation": {
+      "CL1": 0.4508259857887041,
+      "CL2": 0.45043916938143924,
+      "CL3": 0.45089149131863204,
+      "CL4": 0.4562265823955504,
+      "CL5": 0.43085058935260034,
+      "CL6": 0.4043190231832378
+    }
+  },
+  "D5-T4/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1365,
+      "macro_f1": 0.4633753689294339,
+      "prevalence": 0.1365,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL4",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T4",
+    "test_metrics": {
+      "average_precision": 0.3975241764989587,
+      "macro_f1": 0.5593043157430847,
+      "prevalence": 0.1365,
+      "roc_auc": 0.7700325152554452
+    },
+    "validation": {
+      "CL1": 0.4073739961326902,
+      "CL2": 0.4071419871038527,
+      "CL3": 0.3932618600971607,
+      "CL4": 0.4145290585634417,
+      "CL5": 0.3816788563034581,
+      "CL6": 0.36382450667761335
+    }
+  },
+  "D5-T4/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.142,
+      "macro_f1": 0.46178686759956944,
+      "prevalence": 0.142,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 2,
+    "selected_candidate": "CL4",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T4",
+    "test_metrics": {
+      "average_precision": 0.39441276883522963,
+      "macro_f1": 0.601628380343123,
+      "prevalence": 0.142,
+      "roc_auc": 0.7530471289274105
+    },
+    "validation": {
+      "CL1": 0.4184455450844223,
+      "CL2": 0.41847491363928546,
+      "CL3": 0.39872392221674496,
+      "CL4": 0.4185146228719289,
+      "CL5": 0.39673911436594433,
+      "CL6": 0.39099278789353964
+    }
+  },
+  "D5-T5/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.138,
+      "macro_f1": 0.46294307196562834,
+      "prevalence": 0.138,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL4",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T5",
+    "test_metrics": {
+      "average_precision": 0.3998376216050486,
+      "macro_f1": 0.5908398484219008,
+      "prevalence": 0.138,
+      "roc_auc": 0.7518178990551129
+    },
+    "validation": {
+      "CL1": 0.4508259857887041,
+      "CL2": 0.45043916938143924,
+      "CL3": 0.4386102213508457,
+      "CL4": 0.46229870963328606,
+      "CL5": 0.43085058935260034,
+      "CL6": 0.4043190231832378
+    }
+  },
+  "D5-T5/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1365,
+      "macro_f1": 0.4633753689294339,
+      "prevalence": 0.1365,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL1",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T5",
+    "test_metrics": {
+      "average_precision": 0.41440413101813195,
+      "macro_f1": 0.5458208061417653,
+      "prevalence": 0.1365,
+      "roc_auc": 0.7778018160183766
+    },
+    "validation": {
+      "CL1": 0.4073739961326902,
+      "CL2": 0.4071419871038527,
+      "CL3": 0.3901427903125473,
+      "CL4": 0.40572276052083023,
+      "CL5": 0.3816788563034581,
+      "CL6": 0.36382450667761335
+    }
+  },
+  "D5-T5/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.142,
+      "macro_f1": 0.46178686759956944,
+      "prevalence": 0.142,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 2,
+    "selected_candidate": "CL2",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T5",
+    "test_metrics": {
+      "average_precision": 0.4085699391332025,
+      "macro_f1": 0.5904093973994861,
+      "prevalence": 0.142,
+      "roc_auc": 0.773909189402147
+    },
+    "validation": {
+      "CL1": 0.4184455450844223,
+      "CL2": 0.41847491363928546,
+      "CL3": 0.3920072869373311,
+      "CL4": 0.4176704846412853,
+      "CL5": 0.39673911436594433,
+      "CL6": 0.39099278789353964
+    }
+  },
+  "D5-T6/r0": {
+    "dummy_test_metrics": {
+      "average_precision": 0.138,
+      "macro_f1": 0.46294307196562834,
+      "prevalence": 0.138,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 0,
+    "selected_candidate": "CL4",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T6",
+    "test_metrics": {
+      "average_precision": 0.41108479314115054,
+      "macro_f1": 0.5754076086956521,
+      "prevalence": 0.138,
+      "roc_auc": 0.7502017552708564
+    },
+    "validation": {
+      "CL1": 0.4501345980206498,
+      "CL2": 0.4499925705016761,
+      "CL3": 0.4435900701016351,
+      "CL4": 0.4636101744379035,
+      "CL5": 0.4416387515218605,
+      "CL6": 0.42202723181967494
+    }
+  },
+  "D5-T6/r1": {
+    "dummy_test_metrics": {
+      "average_precision": 0.1365,
+      "macro_f1": 0.4633753689294339,
+      "prevalence": 0.1365,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 1,
+    "selected_candidate": "CL2",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T6",
+    "test_metrics": {
+      "average_precision": 0.41660491725254556,
+      "macro_f1": 0.551138574267069,
+      "prevalence": 0.1365,
+      "roc_auc": 0.7784932689391287
+    },
+    "validation": {
+      "CL1": 0.4089348588278105,
+      "CL2": 0.40902385058090057,
+      "CL3": 0.37851562077259227,
+      "CL4": 0.3968983612982359,
+      "CL5": 0.36727415135651165,
+      "CL6": 0.35124505084800905
+    }
+  },
+  "D5-T6/r2": {
+    "dummy_test_metrics": {
+      "average_precision": 0.142,
+      "macro_f1": 0.46178686759956944,
+      "prevalence": 0.142,
+      "roc_auc": 0.5
+    },
+    "family": "D5",
+    "repetition": 2,
+    "selected_candidate": "CL4",
+    "suite": "evaluation",
+    "task_type": "binary",
+    "template": "T6",
+    "test_metrics": {
+      "average_precision": 0.3947526248568668,
+      "macro_f1": 0.5830727538044611,
+      "prevalence": 0.142,
+      "roc_auc": 0.7572412915722774
+    },
+    "validation": {
+      "CL1": 0.4223149181424537,
+      "CL2": 0.42253440711542173,
+      "CL3": 0.4195906241120372,
+      "CL4": 0.4248700980043409,
+      "CL5": 0.3905357873618199,
+      "CL6": 0.38191868700497855
+    }
+  },
+  "D6-T1/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.848528957686186,
+      "rmse": 8.499770234235807
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T1",
+    "test_metrics": {
+      "mae": 1.3946423897960611,
+      "rmse": 1.7751599861873764
+    },
+    "validation": {
+      "RG1": 3.215929319314311,
+      "RG2": 3.2159891520749637,
+      "RG3": 2.6166205440101353,
+      "RG4": 2.6853823976910256,
+      "RG5": 1.7844629448458296,
+      "RG6": 1.8124696203873158
+    }
+  },
+  "D6-T1/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.800317529161662,
+      "rmse": 8.412796210127715
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T1",
+    "test_metrics": {
+      "mae": 1.3442061721273926,
+      "rmse": 1.7026145681953102
+    },
+    "validation": {
+      "RG1": 3.3524576016656495,
+      "RG2": 3.3522793267838136,
+      "RG3": 2.7471735396657397,
+      "RG4": 2.8321522725157546,
+      "RG5": 1.9207803901032874,
+      "RG6": 1.9530316810845751
+    }
+  },
+  "D6-T1/r2": {
+    "dummy_test_metrics": {
+      "mae": 6.751308668415303,
+      "rmse": 8.281926200129242
+    },
+    "family": "D6",
+    "repetition": 2,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T1",
+    "test_metrics": {
+      "mae": 1.3594676946971873,
+      "rmse": 1.709115075518849
+    },
+    "validation": {
+      "RG1": 3.233171018275588,
+      "RG2": 3.2330006247347884,
+      "RG3": 2.58487495842459,
+      "RG4": 2.65078522437024,
+      "RG5": 1.6880791341548766,
+      "RG6": 1.770064691720413
+    }
+  },
+  "D6-T2/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.848528957686186,
+      "rmse": 8.499770234235807
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T2",
+    "test_metrics": {
+      "mae": 1.3946423897960611,
+      "rmse": 1.7751599861873764
+    },
+    "validation": {
+      "RG1": 3.215929319314311,
+      "RG2": 3.2159891520749637,
+      "RG3": 2.6255777851198387,
+      "RG4": 2.7043316739236136,
+      "RG5": 1.7844629448458296,
+      "RG6": 1.8124696203873158
+    }
+  },
+  "D6-T2/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.800317529161662,
+      "rmse": 8.412796210127715
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T2",
+    "test_metrics": {
+      "mae": 1.3442061721273926,
+      "rmse": 1.7026145681953102
+    },
+    "validation": {
+      "RG1": 3.3524576016656495,
+      "RG2": 3.3522793267838136,
+      "RG3": 2.757181849017825,
+      "RG4": 2.84048546867632,
+      "RG5": 1.9207803901032874,
+      "RG6": 1.9530316810845751
+    }
+  },
+  "D6-T2/r2": {
+    "dummy_test_metrics": {
+      "mae": 6.751308668415303,
+      "rmse": 8.281926200129242
+    },
+    "family": "D6",
+    "repetition": 2,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T2",
+    "test_metrics": {
+      "mae": 1.3594676946971873,
+      "rmse": 1.709115075518849
+    },
+    "validation": {
+      "RG1": 3.233171018275588,
+      "RG2": 3.2330006247347884,
+      "RG3": 2.5864817797594295,
+      "RG4": 2.6570925682993196,
+      "RG5": 1.6880791341548766,
+      "RG6": 1.770064691720413
+    }
+  },
+  "D6-T3/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.848528957686186,
+      "rmse": 8.499770234235807
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T3",
+    "test_metrics": {
+      "mae": 1.3946423897960611,
+      "rmse": 1.7751599861873764
+    },
+    "validation": {
+      "RG1": 3.215929319314311,
+      "RG2": 3.2159891520749637,
+      "RG3": 2.619411886523107,
+      "RG4": 2.6939653127145142,
+      "RG5": 1.7844629448458296,
+      "RG6": 1.8124696203873158
+    }
+  },
+  "D6-T3/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.800317529161662,
+      "rmse": 8.412796210127715
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T3",
+    "test_metrics": {
+      "mae": 1.3442061721273926,
+      "rmse": 1.7026145681953102
+    },
+    "validation": {
+      "RG1": 3.3524576016656495,
+      "RG2": 3.3522793267838136,
+      "RG3": 2.7540665517268144,
+      "RG4": 2.8396931027102035,
+      "RG5": 1.9207803901032874,
+      "RG6": 1.9530316810845751
+    }
+  },
+  "D6-T3/r2": {
+    "dummy_test_metrics": {
+      "mae": 6.751308668415303,
+      "rmse": 8.281926200129242
+    },
+    "family": "D6",
+    "repetition": 2,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T3",
+    "test_metrics": {
+      "mae": 1.3594676946971873,
+      "rmse": 1.709115075518849
+    },
+    "validation": {
+      "RG1": 3.233171018275588,
+      "RG2": 3.2330006247347884,
+      "RG3": 2.5854006999702808,
+      "RG4": 2.6467454095072167,
+      "RG5": 1.6880791341548766,
+      "RG6": 1.770064691720413
+    }
+  },
+  "D6-T4/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.848528957686186,
+      "rmse": 8.499770234235807
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T4",
+    "test_metrics": {
+      "mae": 1.3946423897960611,
+      "rmse": 1.7751599861873764
+    },
+    "validation": {
+      "RG1": 3.215929319314311,
+      "RG2": 3.2159891520749637,
+      "RG3": 2.6158267035165705,
+      "RG4": 2.6909507397089065,
+      "RG5": 1.7844629448458296,
+      "RG6": 1.8124696203873158
+    }
+  },
+  "D6-T4/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.800317529161662,
+      "rmse": 8.412796210127715
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T4",
+    "test_metrics": {
+      "mae": 1.3442061721273926,
+      "rmse": 1.7026145681953102
+    },
+    "validation": {
+      "RG1": 3.3524576016656495,
+      "RG2": 3.3522793267838136,
+      "RG3": 2.7529360316746514,
+      "RG4": 2.843195806125527,
+      "RG5": 1.9207803901032874,
+      "RG6": 1.9530316810845751
+    }
+  },
+  "D6-T4/r2": {
+    "dummy_test_metrics": {
+      "mae": 6.751308668415303,
+      "rmse": 8.281926200129242
+    },
+    "family": "D6",
+    "repetition": 2,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T4",
+    "test_metrics": {
+      "mae": 1.3594676946971873,
+      "rmse": 1.709115075518849
+    },
+    "validation": {
+      "RG1": 3.233171018275588,
+      "RG2": 3.2330006247347884,
+      "RG3": 2.5944730124155924,
+      "RG4": 2.6543936441153866,
+      "RG5": 1.6880791341548766,
+      "RG6": 1.770064691720413
+    }
+  },
+  "D6-T5/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.848528957686186,
+      "rmse": 8.499770234235807
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T5",
+    "test_metrics": {
+      "mae": 1.3946423897960611,
+      "rmse": 1.7751599861873764
+    },
+    "validation": {
+      "RG1": 3.215929319314311,
+      "RG2": 3.2159891520749637,
+      "RG3": 2.6193030637610133,
+      "RG4": 2.696912867555589,
+      "RG5": 1.7844629448458296,
+      "RG6": 1.8124696203873158
+    }
+  },
+  "D6-T5/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.800317529161662,
+      "rmse": 8.412796210127715
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T5",
+    "test_metrics": {
+      "mae": 1.3442061721273926,
+      "rmse": 1.7026145681953102
+    },
+    "validation": {
+      "RG1": 3.3524576016656495,
+      "RG2": 3.3522793267838136,
+      "RG3": 2.746941831411198,
+      "RG4": 2.8331355833620795,
+      "RG5": 1.9207803901032874,
+      "RG6": 1.9530316810845751
+    }
+  },
+  "D6-T5/r2": {
+    "dummy_test_metrics": {
+      "mae": 6.751308668415303,
+      "rmse": 8.281926200129242
+    },
+    "family": "D6",
+    "repetition": 2,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T5",
+    "test_metrics": {
+      "mae": 1.3594676946971873,
+      "rmse": 1.709115075518849
+    },
+    "validation": {
+      "RG1": 3.233171018275588,
+      "RG2": 3.2330006247347884,
+      "RG3": 2.5925725998008313,
+      "RG4": 2.650573064737494,
+      "RG5": 1.6880791341548766,
+      "RG6": 1.770064691720413
+    }
+  },
+  "D6-T6/r0": {
+    "dummy_test_metrics": {
+      "mae": 6.848528957686186,
+      "rmse": 8.499770234235807
+    },
+    "family": "D6",
+    "repetition": 0,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T6",
+    "test_metrics": {
+      "mae": 1.418916014345376,
+      "rmse": 1.79769206519243
+    },
+    "validation": {
+      "RG1": 3.219203723496995,
+      "RG2": 3.2192630776900435,
+      "RG3": 2.6493841977581694,
+      "RG4": 2.714709886653498,
+      "RG5": 1.791617528265028,
+      "RG6": 1.8199298887158961
+    }
+  },
+  "D6-T6/r1": {
+    "dummy_test_metrics": {
+      "mae": 6.800317529161662,
+      "rmse": 8.412796210127715
+    },
+    "family": "D6",
+    "repetition": 1,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T6",
+    "test_metrics": {
+      "mae": 1.362882394477954,
+      "rmse": 1.7296709227070513
+    },
+    "validation": {
+      "RG1": 3.352878456896384,
+      "RG2": 3.352709801692098,
+      "RG3": 2.8044036504220635,
+      "RG4": 2.880167903414407,
+      "RG5": 1.9406253509907028,
+      "RG6": 1.9733573800122384
+    }
+  },
+  "D6-T6/r2": {
+    "dummy_test_metrics": {
+      "mae": 6.751308668415303,
+      "rmse": 8.281926200129242
+    },
+    "family": "D6",
+    "repetition": 2,
+    "selected_candidate": "RG5",
+    "suite": "evaluation",
+    "task_type": "regression",
+    "template": "T6",
+    "test_metrics": {
+      "mae": 1.3704852529024194,
+      "rmse": 1.7355568777880157
+    },
+    "validation": {
+      "RG1": 3.2315404717806224,
+      "RG2": 3.2313663122680145,
+      "RG3": 2.644431354589713,
+      "RG4": 2.690145327665714,
+      "RG5": 1.7442702215424766,
+      "RG6": 1.7824846108386878
+    }
+  }
+}

@@ -1,0 +1,9 @@
+contrast,estimate_pp,ci_low_pp,ci_high_pp,p_sign_flip,families,blocks,paired_cells,lofo_min_pp,lofo_max_pp,role,note,p_holm
+H1: MQP - M0,1.1904761904761905,0.0,2.380952380952381,0.607696151924038,2.0,4.0,168.0,0.0,2.380952380952381,primary,,
+Q main effect,,,,,,,,,,,insufficient paired data,
+P main effect,,,,,,,,,,,insufficient paired data,
+Q x P interaction,,,,,,,,,,,insufficient paired data,
+MQP - SQP,1.1904761904761905,0.0,2.380952380952381,1.0,2.0,4.0,168.0,0.0,2.380952380952381,secondary,,1.0
+MQP - F,,,,,,,,,,,insufficient paired data,
+M0 - S0,,,,,,,,,,,insufficient paired data,
+SQP - S0,,,,,,,,,,,insufficient paired data,

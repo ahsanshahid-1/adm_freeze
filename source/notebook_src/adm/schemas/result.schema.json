@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ADM run record (Section 18.3)",
+  "type": "object",
+  "required": ["run_id", "protocol_hash", "code_hash", "experiment_id", "dataset_id", "task_id", "condition_id",
+               "repetition_id", "system_id", "backbone_id", "model_revision", "tokenizer_hash", "data_hashes",
+               "split_hash", "corruption_seed", "estimator_seed", "agent_seed", "start_time", "terminal_state",
+               "abstention_reason", "verified_completion", "external_failure_codes", "selected_candidate",
+               "test_metrics", "input_tokens", "output_tokens", "model_calls", "tool_calls", "gate_calls",
+               "repair_cycles", "fit_count", "active_seconds", "queue_seconds", "peak_worker_memory_mb",
+               "server_gpu_seconds", "monetary_cost", "replay_status", "infrastructure_retry_count"],
+  "properties": {
+    "terminal_state": {"enum": ["SUBMITTED", "ABSTAINED", "BUDGET_EXCEEDED", "EXECUTION_ERROR", "INFRASTRUCTURE_ERROR"]},
+    "verified_completion": {"enum": [0, 1, null]},
+    "external_failure_codes": {"type": ["array", "null"], "items": {"type": "string"}}
+  }
+}

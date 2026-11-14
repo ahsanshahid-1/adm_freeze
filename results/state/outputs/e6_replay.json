@@ -1,0 +1,4779 @@
+{
+  "all_passed": false,
+  "results": [
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T1-C1-r2-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T1-C2-r0-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T1-C2-r0-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T1-C5-r0-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T1-C5-r1-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T1-X3a-r1-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T2-C2-r1-SQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "replay_matches_record": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T2-X4b-r1-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T3-C4-r1-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T4-C0-r1-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T4-C4-r0-F-none"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D1-T4-X4b-r2-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T5-C0-r2-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T5-X3a-r0-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T5-X3a-r1-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T6-C0-r0-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T6-C2-r0-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T6-C2-r2-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T6-C3-r0-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T6-C3-r0-SQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T6-C3-r2-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T6-C5-r2-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D1-T6-C6-r2-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T1-C0-r1-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T1-C0-r1-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T1-C5-r0-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T2-C3-r0-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T2-C5-r0-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T3-C0-r1-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T3-C4-r0-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T4-C5-r2-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T4-X2b-r1-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T5-C0-r1-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T5-C0-r2-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T5-C1-r2-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T5-C4-r2-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T5-C6-r1-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T5-X3a-r2-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "replay_matches_record": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D2-T5-X4b-r0-S0-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "EXECUTION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D2-T6-C4-r0-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T1-C0-r1-F-none"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D3-T1-C1-r0-MP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D3-T2-C1-r2-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T2-C4-r0-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T2-C4-r2-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T2-C6-r1-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T2-C6-r1-S0-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D3-T2-X4b-r0-MP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D3-T3-C1-r0-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "replay_matches_record": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T3-X4b-r0-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "replay_matches_record": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T3-X4b-r1-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T4-C0-r2-MQ-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D3-T4-C1-r1-M0-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "ROW_MULTIPLICITY",
+            "VALUE_MISMATCH",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T4-C4-r2-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T5-C3-r0-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T5-C4-r0-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T5-X3a-r2-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T5-X3a-r2-SQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T6-C0-r2-SQP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D3-T6-C1-r1-MQ-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D3-T6-C2-r2-SQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T6-C4-r1-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T6-C6-r0-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D3-T6-X2b-r0-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T1-C1-r0-SQP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D4-T1-X4b-r2-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T2-C1-r1-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T2-C4-r2-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T2-X2b-r1-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T2-X3a-r0-SQP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D4-T2-X3a-r1-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T2-X3a-r1-SQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "replay_matches_record": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T2-X4b-r2-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T3-C0-r0-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T3-C6-r1-MP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D4-T4-X3a-r0-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T5-C3-r1-MQ-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D4-T5-X3a-r0-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T6-C2-r1-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T6-C4-r2-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T6-C5-r1-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "replay_matches_record": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D4-T6-X4b-r1-S0-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D5-T1-X4b-r1-MQP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D5-T2-C1-r1-MP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D5-T2-C2-r0-M0-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D5-T2-C2-r1-SQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T2-X2b-r0-MQ-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D5-T2-X3a-r2-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T3-C3-r1-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T3-C4-r2-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T3-C4-r2-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T3-C6-r0-F-none"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D5-T3-X4b-r2-SQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T4-C0-r0-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T4-C0-r0-SQP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D5-T4-C2-r2-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T4-C3-r2-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T4-C5-r0-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T4-C6-r2-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T5-C5-r1-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T5-C5-r1-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T5-C6-r2-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T5-X3a-r2-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T6-C0-r2-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T6-C4-r0-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T6-C5-r0-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "replay_matches_record": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D5-T6-X4b-r2-MQ-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D6-T1-C1-r1-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T1-C3-r1-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T2-C3-r1-SQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T2-C6-r1-MP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T2-C6-r2-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T2-C6-r2-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T2-X3a-r0-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T2-X3a-r2-MQ-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D6-T3-C1-r0-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T3-C4-r0-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "replay_matches_record": {
+          "detail": [
+            "UNIT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [
+            "UNIT_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T3-C5-r0-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T3-X3a-r2-SQP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D6-T4-C1-r1-M0-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D6-T4-C2-r1-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T4-C3-r0-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T4-C4-r2-MQ-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D6-T4-X2b-r2-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T5-C5-r0-F-none"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T5-C5-r2-S0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T5-X3a-r0-S0-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D6-T5-X4b-r1-MQP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D6-T6-C1-r1-SQP-A"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E1-D6-T6-C1-r2-M0-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T6-C3-r1-MQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T6-C6-r2-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T6-C6-r2-SQP-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "replay_matches_record": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E1-D6-T6-X4b-r1-MQ-A"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E4-D1-T5-C3-r1-M0-B"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E4-D1-T5-C4-r2-MQP-B"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E4-D1-T5-C6-r2-M0-B"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [],
+          "passed": false
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E4-D1-T5-X4b-r0-MQP-B"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E4-D3-T4-C2-r1-M0-B"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E4-D3-T4-X2b-r2-MQP-B"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E4-D4-T6-C6-r1-SQP-B"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E4-D4-T6-X2b-r1-MQP-B"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E4-D4-T6-X3a-r2-M0-B"
+    },
+    {
+      "all_passed": false,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [],
+          "passed": false
+        }
+      },
+      "run_id": "E4-D5-T3-C1-r1-M0-B"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E4-D5-T3-C4-r2-M0-B"
+    },
+    {
+      "all_passed": true,
+      "checks": {
+        "changed_artifact_detected": {
+          "detail": [
+            "ARTIFACT_MISMATCH"
+          ],
+          "passed": true
+        },
+        "missing_record_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "MISSING_RECORD",
+            "INVALID_PREDICTION"
+          ],
+          "passed": true
+        },
+        "replay_matches_record": {
+          "detail": [],
+          "passed": true
+        },
+        "row_column_reorder_invariant": {
+          "detail": [],
+          "passed": true
+        },
+        "wrong_version_detected": {
+          "detail": [
+            "SOURCE_VERSION",
+            "VALUE_MISMATCH"
+          ],
+          "passed": true
+        }
+      },
+      "run_id": "E4-D6-T1-C3-r0-MQP-B"
+    }
+  ],
+  "submissions_checked": 146
+}

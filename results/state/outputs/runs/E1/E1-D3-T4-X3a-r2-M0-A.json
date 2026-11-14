@@ -1,0 +1,145 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 153.257,
+  "agent_seed": 1994346057,
+  "aggregate_tokens": 113437,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D3-T4/X3a/r2/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "X3a",
+  "correct_refusal": null,
+  "corruption_seed": 12753627077987959492,
+  "data_hashes": {
+    "private": "191eaf7e8ba8deed6682088a0140a0e44b7b0e77d949240b9e3d0b241760dd6e",
+    "trusted": "840c43c21aeaad361345d451222c686ad1f054f5635f8a3441548ef3a08e5b06",
+    "visible": "e581953bfae2e7fba854a03f1d780307389b652a9071a2f726ec4879f63ae9a0"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 3,
+        "precision": null,
+        "recall": 0.0,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 0.0,
+    "reversible_defects": 3,
+    "unintended_edit_rate": 0.006310679611650485
+  },
+  "dataset_id": "D3",
+  "estimator_seed": 727503350,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.689,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "UNIT_MISMATCH"
+  ],
+  "false_submission": null,
+  "first_failure": "UNIT_MISMATCH",
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 110845,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 147.605,
+  "model_calls": 21,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 6,
+  "output_tokens": 2592,
+  "peak_worker_memory_mb": 316.328125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {
+        "water_kg_m3": {
+          "kind": "UNIT_MISMATCH",
+          "mismatches": 11
+        }
+      }
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 2,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E1-D3-T4-X3a-r2-M0-A",
+  "selected_candidate": "RG3",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "5fd5b442c89f44e2d9d9faf720d66170373e386f70f6e559cb0dee92f0402750",
+  "start_time": "2026-11-14T06:16:14Z",
+  "suite": "evaluation",
+  "system_id": "M0",
+  "task_id": "D3-T4",
+  "template_id": "T4",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "mae": 4.430861784906575,
+    "n": 208,
+    "rmse": 5.83860446290229
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 0.9933894230769231,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 17,
+  "trace_path": "outputs/traces/E1/E1-D3-T4-X3a-r2-M0-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 154.823
+}

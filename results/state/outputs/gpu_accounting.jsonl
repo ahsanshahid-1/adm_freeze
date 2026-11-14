@@ -1,0 +1,12 @@
+{"time": "2026-11-11T05:15:36Z", "experiment": "E0", "backbone": "A", "gpu_seconds_total": 5253.762491941452}
+{"time": "2026-11-11T05:35:13Z", "experiment": "E0B", "backbone": "B", "gpu_seconds_total": 339.46819138526917}
+{"time": "2026-11-11T09:50:58Z", "experiment": "E0S", "backbone": "A", "gpu_seconds_total": 12977.225491285324}
+{"time": "2026-11-11T14:15:03Z", "experiment": "E0X", "backbone": "A", "gpu_seconds_total": 14198.767624378204}
+{"time": "2026-11-11T18:38:25Z", "experiment": "E0SB", "backbone": "B", "gpu_seconds_total": 9924.616151571274}
+{"time": "2026-11-12T03:22:51Z", "experiment": "E0X2", "backbone": "A", "gpu_seconds_total": 30538.741320610046}
+{"time": "2026-11-12T07:31:03Z", "experiment": "E0SB", "backbone": "B", "gpu_seconds_total": 10900.903288125992}
+{"time": "2026-11-12T13:26:53Z", "experiment": "E1", "backbone": "A", "gpu_seconds_total": 18262.848830223083}
+{"time": "2026-11-12T14:24:54Z", "experiment": "E1", "backbone": "A", "gpu_seconds_total": 2821.3743484020233}
+{"time": "2026-11-14T14:59:56Z", "experiment": "E1", "backbone": "A", "gpu_seconds_total": 82109.07646036148}
+{"time": "2026-11-14T15:23:05Z", "experiment": "E5", "backbone": "A", "gpu_seconds_total": 83380.5343272686}
+{"time": "2026-11-14T19:35:58Z", "experiment": "E4", "backbone": "B", "gpu_seconds_total": 14635.78255367279}

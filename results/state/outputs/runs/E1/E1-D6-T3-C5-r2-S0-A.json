@@ -1,0 +1,145 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 153.957,
+  "agent_seed": 980919598,
+  "aggregate_tokens": 244146,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D6-T3/C5/r2/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C5",
+  "correct_refusal": null,
+  "corruption_seed": 17347467399466157084,
+  "data_hashes": {
+    "private": "10688100061f09ebfd4c91ac481dbf314f17547bfdd5b60feace662b1c2f39d5",
+    "trusted": "92e0f2e30a6f97ccc8ed329f0c1fb18a8fc8c0fcb0ed03819a3a6a9c812c5c32",
+    "visible": "cf8e9ae9fce4c072e55cdf7468d2a7b2f429370cef79c798829825c67192d799"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 3,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "reported": 2,
+        "true_positive": 2
+      }
+    },
+    "exact_reversible_repair_rate": 0.6666666666666666,
+    "reversible_defects": 3,
+    "unintended_edit_rate": 0.00125
+  },
+  "dataset_id": "D6",
+  "estimator_seed": 1865323203,
+  "evaluator_error": null,
+  "evaluator_seconds": 1.332,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "UNIT_MISMATCH"
+  ],
+  "false_submission": null,
+  "first_failure": "UNIT_MISMATCH",
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 242122,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 118.34,
+  "model_calls": 22,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 6,
+  "output_tokens": 2024,
+  "peak_worker_memory_mb": 369.31640625,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {
+        "x1": {
+          "kind": "UNIT_MISMATCH",
+          "mismatches": 90
+        }
+      }
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 2,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E1-D6-T3-C5-r2-S0-A",
+  "selected_candidate": "RG5",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "8b67c6ee8c8e859747a2a6ef8e2bf40112a956d398bd2a9235c4112ba5c2803c",
+  "start_time": "2026-11-14T13:32:18Z",
+  "suite": "evaluation",
+  "system_id": "S0",
+  "task_id": "D6-T3",
+  "template_id": "T3",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "mae": 1.7668660643529257,
+    "n": 1800,
+    "rmse": 2.899891534429282
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 0.99375,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 21,
+  "trace_path": "outputs/traces/E1/E1-D6-T3-C5-r2-S0-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 155.419
+}

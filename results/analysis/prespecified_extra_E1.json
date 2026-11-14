@@ -1,0 +1,493 @@
+{
+ "experiments": [
+  "E1"
+ ],
+ "records": 7560,
+ "systems": [
+  "F",
+  "M0",
+  "MP",
+  "MQ",
+  "MQP",
+  "S0",
+  "SQP"
+ ],
+ "H1_MQP_minus_M0": {
+  "all recoverable": {
+   "estimate_pp": 0.09259259259259295,
+   "percentile_ci_pp": [
+    -11.11111111111111,
+    9.907407407407408
+   ],
+   "bootstrap_sd_pp": 5.48748211564331,
+   "reps_per_family_min": 3,
+   "inflation_factor": 1.224744871391589,
+   "inflated_normal_ci_pp": [
+    -13.080107940262339,
+    13.265293125447528
+   ],
+   "families": 6,
+   "blocks": 18,
+   "paired_cells": 1080,
+   "per_family_pp": {
+    "D1": 12.222,
+    "D2": -21.667,
+    "D3": 12.222,
+    "D4": -18.333,
+    "D5": 10.0,
+    "D6": 6.111
+   },
+   "lofo_range_pp": [
+    -2.333,
+    4.444
+   ]
+  },
+  "Tier 1": {
+   "estimate_pp": -10.317460317460318,
+   "percentile_ci_pp": [
+    -21.296296296296294,
+    -0.6613756613756614
+   ],
+   "bootstrap_sd_pp": 5.4627175880231835,
+   "reps_per_family_min": 3,
+   "inflation_factor": 1.224744871391589,
+   "inflated_normal_ci_pp": [
+    -23.430713603052688,
+    2.7957929681320506
+   ],
+   "families": 6,
+   "blocks": 18,
+   "paired_cells": 756,
+   "per_family_pp": {
+    "D1": 0.794,
+    "D2": -30.159,
+    "D3": 0.794,
+    "D4": -30.952,
+    "D5": 0.0,
+    "D6": -2.381
+   },
+   "lofo_range_pp": [
+    -12.54,
+    -6.19
+   ]
+  },
+  "Tier 2": {
+   "estimate_pp": 24.382716049382715,
+   "percentile_ci_pp": [
+    12.345679012345679,
+    34.876543209876544
+   ],
+   "bootstrap_sd_pp": 5.840693330278747,
+   "reps_per_family_min": 3,
+   "inflation_factor": 1.224744871391589,
+   "inflated_normal_ci_pp": [
+    10.362132014188003,
+    38.403300084577424
+   ],
+   "families": 6,
+   "blocks": 18,
+   "paired_cells": 324,
+   "per_family_pp": {
+    "D1": 38.889,
+    "D2": -1.852,
+    "D3": 38.889,
+    "D4": 11.111,
+    "D5": 33.333,
+    "D6": 25.926
+   },
+   "lofo_range_pp": [
+    21.481,
+    29.63
+   ]
+  },
+  "all excluding X4": {
+   "estimate_pp": -8.127572016460906,
+   "percentile_ci_pp": [
+    -19.135802469135808,
+    1.4403292181069958
+   ],
+   "bootstrap_sd_pp": 5.405443183974952,
+   "reps_per_family_min": 3,
+   "inflation_factor": 1.224744871391589,
+   "inflated_normal_ci_pp": [
+    -21.103338098117913,
+    4.848194065196103
+   ],
+   "families": 6,
+   "blocks": 18,
+   "paired_cells": 972,
+   "per_family_pp": {
+    "D1": 2.469,
+    "D2": -29.63,
+    "D3": 5.556,
+    "D4": -26.543,
+    "D5": 1.852,
+    "D6": -2.469
+   },
+   "lofo_range_pp": [
+    -10.864,
+    -3.827
+   ]
+  }
+ },
+ "mixed_effects_logistic": {
+  "model": "V ~ is_MQP + (1|task) + (1|family-repetition block), M0 and MQP, variational Bayes",
+  "n": 2160,
+  "log_odds_MQP_vs_M0": 0.010813909108844045,
+  "posterior_sd": 0.08155703836231967,
+  "approx_95_interval_log_odds": [
+   -0.1490378860813025,
+   0.1706657042989906
+  ],
+  "odds_ratio": 1.0108725907592064,
+  "odds_ratio_95": [
+   0.8615364740397445,
+   1.1860941765549549
+  ],
+  "random_effect_sd_log": {
+   "task": -1.1723239790748854,
+   "block": -0.19436915534537388
+  }
+ },
+ "traces_missing": 0,
+ "operation_use": {
+  "M0": {
+   "Tier 1": {
+    "runs": 756,
+    "verified": 709,
+    "authoritative_verified": 99,
+    "normalize_key": 624,
+    "infer_representation": 124,
+    "dedupe_key": 98
+   },
+   "X2": {
+    "runs": 108,
+    "verified": 75,
+    "authoritative_verified": 18,
+    "normalize_key": 90,
+    "infer_representation": 23,
+    "dedupe_key": 20
+   },
+   "X3": {
+    "runs": 108,
+    "verified": 60,
+    "authoritative_verified": 22,
+    "normalize_key": 96,
+    "infer_representation": 71,
+    "dedupe_key": 12
+   },
+   "X4": {
+    "runs": 108,
+    "verified": 11,
+    "authoritative_verified": 12,
+    "normalize_key": 90,
+    "infer_representation": 20,
+    "dedupe_key": 23
+   }
+  },
+  "MP": {
+   "Tier 1": {
+    "runs": 756,
+    "verified": 709,
+    "authoritative_verified": 228,
+    "normalize_key": 639,
+    "infer_representation": 151,
+    "dedupe_key": 101
+   },
+   "X2": {
+    "runs": 108,
+    "verified": 79,
+    "authoritative_verified": 31,
+    "normalize_key": 97,
+    "infer_representation": 27,
+    "dedupe_key": 17
+   },
+   "X3": {
+    "runs": 108,
+    "verified": 61,
+    "authoritative_verified": 40,
+    "normalize_key": 93,
+    "infer_representation": 70,
+    "dedupe_key": 14
+   },
+   "X4": {
+    "runs": 108,
+    "verified": 99,
+    "authoritative_verified": 104,
+    "normalize_key": 87,
+    "infer_representation": 27,
+    "dedupe_key": 21
+   }
+  },
+  "MQ": {
+   "Tier 1": {
+    "runs": 756,
+    "verified": 636,
+    "authoritative_verified": 175,
+    "normalize_key": 616,
+    "infer_representation": 157,
+    "dedupe_key": 97
+   },
+   "X2": {
+    "runs": 108,
+    "verified": 71,
+    "authoritative_verified": 33,
+    "normalize_key": 95,
+    "infer_representation": 22,
+    "dedupe_key": 17
+   },
+   "X3": {
+    "runs": 108,
+    "verified": 72,
+    "authoritative_verified": 32,
+    "normalize_key": 92,
+    "infer_representation": 100,
+    "dedupe_key": 13
+   },
+   "X4": {
+    "runs": 108,
+    "verified": 31,
+    "authoritative_verified": 38,
+    "normalize_key": 94,
+    "infer_representation": 36,
+    "dedupe_key": 20
+   }
+  },
+  "MQP": {
+   "Tier 1": {
+    "runs": 756,
+    "verified": 631,
+    "authoritative_verified": 321,
+    "normalize_key": 656,
+    "infer_representation": 188,
+    "dedupe_key": 110
+   },
+   "X2": {
+    "runs": 108,
+    "verified": 66,
+    "authoritative_verified": 38,
+    "normalize_key": 91,
+    "infer_representation": 21,
+    "dedupe_key": 14
+   },
+   "X3": {
+    "runs": 108,
+    "verified": 68,
+    "authoritative_verified": 40,
+    "normalize_key": 93,
+    "infer_representation": 96,
+    "dedupe_key": 17
+   },
+   "X4": {
+    "runs": 108,
+    "verified": 91,
+    "authoritative_verified": 107,
+    "normalize_key": 97,
+    "infer_representation": 36,
+    "dedupe_key": 22
+   }
+  },
+  "S0": {
+   "Tier 1": {
+    "runs": 756,
+    "verified": 724,
+    "authoritative_verified": 3,
+    "normalize_key": 580,
+    "infer_representation": 62,
+    "dedupe_key": 190
+   },
+   "X2": {
+    "runs": 108,
+    "verified": 81,
+    "authoritative_verified": 1,
+    "normalize_key": 98,
+    "infer_representation": 11,
+    "dedupe_key": 35
+   },
+   "X3": {
+    "runs": 108,
+    "verified": 57,
+    "authoritative_verified": 0,
+    "normalize_key": 90,
+    "infer_representation": 63,
+    "dedupe_key": 24
+   },
+   "X4": {
+    "runs": 108,
+    "verified": 1,
+    "authoritative_verified": 1,
+    "normalize_key": 97,
+    "infer_representation": 11,
+    "dedupe_key": 42
+   }
+  },
+  "SQP": {
+   "Tier 1": {
+    "runs": 756,
+    "verified": 649,
+    "authoritative_verified": 12,
+    "normalize_key": 600,
+    "infer_representation": 89,
+    "dedupe_key": 181
+   },
+   "X2": {
+    "runs": 108,
+    "verified": 70,
+    "authoritative_verified": 5,
+    "normalize_key": 92,
+    "infer_representation": 18,
+    "dedupe_key": 34
+   },
+   "X3": {
+    "runs": 108,
+    "verified": 82,
+    "authoritative_verified": 8,
+    "normalize_key": 94,
+    "infer_representation": 99,
+    "dedupe_key": 28
+   },
+   "X4": {
+    "runs": 108,
+    "verified": 90,
+    "authoritative_verified": 106,
+    "normalize_key": 91,
+    "infer_representation": 17,
+    "dedupe_key": 34
+   }
+  }
+ },
+ "budget_exhausted_composition": {
+  "M0": {
+   "Tier 1": {
+    "budget_exceeded_runs": 27,
+    "of_runs": 756,
+    "mean_tokens": 305637.8,
+    "mean_explore_calls": 24.22,
+    "mean_materialize": 0.7,
+    "mean_fit_evaluate": 1.63,
+    "mean_gate_check_calls": 0.0,
+    "runs_never_fitted": 17
+   },
+   "Tier 2": {
+    "budget_exceeded_runs": 50,
+    "of_runs": 324,
+    "mean_tokens": 305415.5,
+    "mean_explore_calls": 25.88,
+    "mean_materialize": 0.68,
+    "mean_fit_evaluate": 2.28,
+    "mean_gate_check_calls": 0.06,
+    "runs_never_fitted": 27
+   }
+  },
+  "MP": {
+   "Tier 1": {
+    "budget_exceeded_runs": 28,
+    "of_runs": 756,
+    "mean_tokens": 305036.8,
+    "mean_explore_calls": 24.14,
+    "mean_materialize": 1.0,
+    "mean_fit_evaluate": 3.89,
+    "mean_gate_check_calls": 0.43,
+    "runs_never_fitted": 8
+   },
+   "Tier 2": {
+    "budget_exceeded_runs": 48,
+    "of_runs": 324,
+    "mean_tokens": 305415.1,
+    "mean_explore_calls": 25.21,
+    "mean_materialize": 0.79,
+    "mean_fit_evaluate": 2.42,
+    "mean_gate_check_calls": 0.42,
+    "runs_never_fitted": 25
+   }
+  },
+  "MQ": {
+   "Tier 1": {
+    "budget_exceeded_runs": 96,
+    "of_runs": 756,
+    "mean_tokens": 305809.9,
+    "mean_explore_calls": 22.45,
+    "mean_materialize": 1.52,
+    "mean_fit_evaluate": 3.07,
+    "mean_gate_check_calls": 1.3,
+    "runs_never_fitted": 41
+   },
+   "Tier 2": {
+    "budget_exceeded_runs": 85,
+    "of_runs": 324,
+    "mean_tokens": 305842.4,
+    "mean_explore_calls": 24.55,
+    "mean_materialize": 1.26,
+    "mean_fit_evaluate": 2.0,
+    "mean_gate_check_calls": 0.89,
+    "runs_never_fitted": 50
+   }
+  },
+  "MQP": {
+   "Tier 1": {
+    "budget_exceeded_runs": 104,
+    "of_runs": 756,
+    "mean_tokens": 305719.5,
+    "mean_explore_calls": 22.32,
+    "mean_materialize": 1.47,
+    "mean_fit_evaluate": 3.19,
+    "mean_gate_check_calls": 1.88,
+    "runs_never_fitted": 39
+   },
+   "Tier 2": {
+    "budget_exceeded_runs": 94,
+    "of_runs": 324,
+    "mean_tokens": 305343.9,
+    "mean_explore_calls": 23.87,
+    "mean_materialize": 1.32,
+    "mean_fit_evaluate": 2.22,
+    "mean_gate_check_calls": 1.5,
+    "runs_never_fitted": 47
+   }
+  },
+  "S0": {
+   "Tier 1": {
+    "budget_exceeded_runs": 20,
+    "of_runs": 756,
+    "mean_tokens": 308894.3,
+    "mean_explore_calls": 22.7,
+    "mean_materialize": 0.65,
+    "mean_fit_evaluate": 2.05,
+    "mean_gate_check_calls": 0.0,
+    "runs_never_fitted": 11
+   },
+   "Tier 2": {
+    "budget_exceeded_runs": 32,
+    "of_runs": 324,
+    "mean_tokens": 306789.5,
+    "mean_explore_calls": 23.0,
+    "mean_materialize": 0.75,
+    "mean_fit_evaluate": 2.16,
+    "mean_gate_check_calls": 0.0,
+    "runs_never_fitted": 17
+   }
+  },
+  "SQP": {
+   "Tier 1": {
+    "budget_exceeded_runs": 83,
+    "of_runs": 756,
+    "mean_tokens": 307948.3,
+    "mean_explore_calls": 19.16,
+    "mean_materialize": 1.24,
+    "mean_fit_evaluate": 3.24,
+    "mean_gate_check_calls": 1.18,
+    "runs_never_fitted": 30
+   },
+   "Tier 2": {
+    "budget_exceeded_runs": 73,
+    "of_runs": 324,
+    "mean_tokens": 307362.5,
+    "mean_explore_calls": 21.14,
+    "mean_materialize": 1.15,
+    "mean_fit_evaluate": 2.11,
+    "mean_gate_check_calls": 1.0,
+    "runs_never_fitted": 41
+   }
+  }
+ }
+}

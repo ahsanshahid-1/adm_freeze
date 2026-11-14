@@ -1,0 +1,301 @@
+{
+  "created": "2026-11-11T03:28:55Z",
+  "sessions": [
+    {
+      "accounting": {
+        "E0": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 336,
+          "scheduled": 336
+        },
+        "E0B": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 6,
+          "scheduled": 6
+        },
+        "E1": {
+          "infrastructure_attempts": 0,
+          "pending": 5292,
+          "recorded": 0,
+          "scheduled": 5292
+        },
+        "E4": {
+          "infrastructure_attempts": 0,
+          "pending": 378,
+          "recorded": 0,
+          "scheduled": 378
+        },
+        "E5": {
+          "infrastructure_attempts": 0,
+          "pending": 252,
+          "recorded": 0,
+          "scheduled": 252
+        }
+      },
+      "ended": "2026-11-11T05:38:46Z",
+      "hours": 2.19
+    },
+    {
+      "accounting": {
+        "E0": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 336,
+          "scheduled": 336
+        },
+        "E0B": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 6,
+          "scheduled": 6
+        },
+        "E1": {
+          "infrastructure_attempts": 0,
+          "pending": 5292,
+          "recorded": 0,
+          "scheduled": 5292
+        },
+        "E4": {
+          "infrastructure_attempts": 0,
+          "pending": 378,
+          "recorded": 0,
+          "scheduled": 378
+        },
+        "E5": {
+          "infrastructure_attempts": 0,
+          "pending": 252,
+          "recorded": 0,
+          "scheduled": 252
+        }
+      },
+      "ended": "2026-11-11T14:15:05Z",
+      "hours": 4.06
+    },
+    {
+      "accounting": {
+        "E0": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 336,
+          "scheduled": 336
+        },
+        "E0B": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 6,
+          "scheduled": 6
+        },
+        "E1": {
+          "infrastructure_attempts": 0,
+          "pending": 5292,
+          "recorded": 0,
+          "scheduled": 5292
+        },
+        "E4": {
+          "infrastructure_attempts": 0,
+          "pending": 378,
+          "recorded": 0,
+          "scheduled": 378
+        },
+        "E5": {
+          "infrastructure_attempts": 0,
+          "pending": 252,
+          "recorded": 0,
+          "scheduled": 252
+        }
+      },
+      "ended": "2026-11-11T18:38:32Z",
+      "hours": 2.87
+    },
+    {
+      "accounting": {
+        "E0": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 336,
+          "scheduled": 336
+        },
+        "E0B": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 6,
+          "scheduled": 6
+        },
+        "E1": {
+          "infrastructure_attempts": 0,
+          "pending": 5292,
+          "recorded": 0,
+          "scheduled": 5292
+        },
+        "E4": {
+          "infrastructure_attempts": 0,
+          "pending": 378,
+          "recorded": 0,
+          "scheduled": 378
+        },
+        "E5": {
+          "infrastructure_attempts": 0,
+          "pending": 252,
+          "recorded": 0,
+          "scheduled": 252
+        }
+      },
+      "ended": "2026-11-12T03:22:54Z",
+      "hours": 8.69
+    },
+    {
+      "accounting": {
+        "E0": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 336,
+          "scheduled": 336
+        },
+        "E0B": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 6,
+          "scheduled": 6
+        },
+        "E1": {
+          "infrastructure_attempts": 0,
+          "pending": 5292,
+          "recorded": 0,
+          "scheduled": 5292
+        },
+        "E4": {
+          "infrastructure_attempts": 0,
+          "pending": 378,
+          "recorded": 0,
+          "scheduled": 378
+        },
+        "E5": {
+          "infrastructure_attempts": 0,
+          "pending": 252,
+          "recorded": 0,
+          "scheduled": 252
+        }
+      },
+      "ended": "2026-11-12T07:31:07Z",
+      "hours": 3.13
+    },
+    {
+      "accounting": {
+        "E0": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 336,
+          "scheduled": 336
+        },
+        "E0B": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 6,
+          "scheduled": 6
+        },
+        "E1": {
+          "infrastructure_attempts": 0,
+          "pending": 6668,
+          "recorded": 892,
+          "scheduled": 7560
+        },
+        "E4": {
+          "infrastructure_attempts": 0,
+          "pending": 540,
+          "recorded": 0,
+          "scheduled": 540
+        },
+        "E5": {
+          "infrastructure_attempts": 0,
+          "pending": 252,
+          "recorded": 0,
+          "scheduled": 252
+        }
+      },
+      "ended": "2026-11-12T13:26:54Z",
+      "hours": 5.38
+    },
+    {
+      "accounting": {
+        "E0": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 336,
+          "scheduled": 336
+        },
+        "E0B": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 6,
+          "scheduled": 6
+        },
+        "E1": {
+          "infrastructure_attempts": 0,
+          "pending": 6524,
+          "recorded": 1036,
+          "scheduled": 7560
+        },
+        "E4": {
+          "infrastructure_attempts": 0,
+          "pending": 540,
+          "recorded": 0,
+          "scheduled": 540
+        },
+        "E5": {
+          "infrastructure_attempts": 0,
+          "pending": 252,
+          "recorded": 0,
+          "scheduled": 252
+        }
+      },
+      "ended": "2026-11-12T14:24:55Z",
+      "hours": 0.9
+    },
+    {
+      "accounting": {
+        "E0": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 336,
+          "scheduled": 336
+        },
+        "E0B": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 6,
+          "scheduled": 6
+        },
+        "E1": {
+          "infrastructure_attempts": 10,
+          "pending": 0,
+          "recorded": 7560,
+          "scheduled": 7560
+        },
+        "E4": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 540,
+          "scheduled": 540
+        },
+        "E5": {
+          "infrastructure_attempts": 0,
+          "pending": 0,
+          "recorded": 252,
+          "scheduled": 252
+        }
+      },
+      "ended": "2026-11-14T21:18:24Z",
+      "hours": 0.05
+    }
+  ],
+  "stages": {
+    "formal": "done",
+    "freeze": "done",
+    "pilot": "done",
+    "pilot_supplement": "done",
+    "tier2_calibration_v2": "done"
+  },
+  "updated": "2026-11-14T21:18:24Z"
+}

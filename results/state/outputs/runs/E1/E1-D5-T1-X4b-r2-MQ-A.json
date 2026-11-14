@@ -1,0 +1,233 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 156.645,
+  "agent_seed": 1990642898,
+  "aggregate_tokens": 121581,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D5-T1/X4b/r2/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "X4b",
+  "correct_refusal": null,
+  "corruption_seed": 10080333448994880064,
+  "data_hashes": {
+    "private": "6072ff979d0f8d98863aa1aa99ddce75767de1f9460e85f07920c6549908ae4a",
+    "trusted": "6c8de6994d72553774bcc1dbbedd8ef8a3bfa31409303e209c0eca70bec6cfe5",
+    "visible": "a32f45f682f0214f60cb6b0bb35e928d5d57280c452a851db08f7607e61192f9"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "duplicate": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 0.0,
+    "reversible_defects": 6,
+    "unintended_edit_rate": 0.1
+  },
+  "dataset_id": "D5",
+  "estimator_seed": 1231507529,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.921,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "SOURCE_VERSION",
+    "VALUE_MISMATCH"
+  ],
+  "false_submission": null,
+  "first_failure": "SOURCE_VERSION",
+  "fit_count": 25,
+  "gate_calls": 8,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1/CL1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL3",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL4",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL5",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1/CL6",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "submit"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 119167,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 130.373,
+  "model_calls": 22,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 5,
+  "output_tokens": 2414,
+  "peak_worker_memory_mb": 316.828125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "authority_problems": [
+      "train: observations:train-02 uses observations__v2__train (version v2), not the authorised content",
+      "train: observations:train-13 uses observations__v2__train (version v2), not the authorised content",
+      "validation: observations:validation-14 uses observations__v2__validation (version v2), not the authorised content",
+      "validation: observations:validation-15 uses observations__v2__validation (version v2), not the authorised content",
+      "test: observations:test-04 uses observations__v2__test (version v2), not the authorised content",
+      "test: observations:test-14 uses observations__v2__test (version v2), not the authorised content"
+    ],
+    "feature_comparison": {
+      "value_mismatches": {
+        "sensor_1": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 200
+        },
+        "sensor_2": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 200
+        },
+        "sensor_3": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 200
+        },
+        "sensor_4": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 200
+        },
+        "sensor_5": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 200
+        },
+        "sensor_6": {
+          "kind": "VALUE_MISMATCH",
+          "mismatches": 200
+        }
+      }
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": false,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 2,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E1-D5-T1-X4b-r2-MQ-A",
+  "selected_candidate": "CL2",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "0413c49b4a4c161330860bdedeae30221ef3c03cc244dc8ce5c95d7126dce956",
+  "start_time": "2026-11-14T10:42:02Z",
+  "suite": "evaluation",
+  "system_id": "MQ",
+  "task_id": "D5-T1",
+  "template_id": "T1",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "average_precision": 0.4072134894402251,
+    "macro_f1": 0.5904093973994861,
+    "n": 2000,
+    "prevalence": 0.142,
+    "roc_auc": 0.7743359926458516
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 0.9142857142857143,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 18,
+  "trace_path": "outputs/traces/E1/E1-D5-T1-X4b-r2-MQ-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": false,
+  "wall_including_queue_seconds": 158.127
+}

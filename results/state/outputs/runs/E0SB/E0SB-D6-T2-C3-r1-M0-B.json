@@ -1,0 +1,138 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 143.077,
+  "agent_seed": 772289036,
+  "aggregate_tokens": 61127,
+  "attempt": 1,
+  "backbone_id": "B",
+  "block": "E0SB/D6-T2/C3/r1/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C3",
+  "correct_refusal": null,
+  "corruption_seed": 4880346732151913587,
+  "data_hashes": {
+    "private": "734ecb732a93b80fe8164cf52180436e80a0e4e4731849ad8096904d6deef1b0",
+    "trusted": "c2be253ac9a3dc300373cce2cc0fe5389be327e46807af4e71902a8539cf0a84",
+    "visible": "a44abc914e6e620d45ba8055a70ba5c9c9e26d34b763089ccdd5b0fb2665b1ce"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 45,
+        "precision": 1.0,
+        "recall": 1.0,
+        "reported": 45,
+        "true_positive": 45
+      },
+      "duplicate": {
+        "injected": 45,
+        "precision": 1.0,
+        "recall": 1.0,
+        "reported": 45,
+        "true_positive": 45
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 1.0,
+    "reversible_defects": 90,
+    "unintended_edit_rate": 0.0
+  },
+  "dataset_id": "D6",
+  "estimator_seed": 709361869,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.763,
+  "exception_events": 0,
+  "experiment_id": "E0SB",
+  "external_failure_codes": [],
+  "false_submission": null,
+  "first_failure": null,
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 59262,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 1200
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 134.431,
+  "model_calls": 15,
+  "model_repo": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 2,
+  "output_tokens": 1865,
+  "peak_worker_memory_mb": 312.40234375,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {}
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 1,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E0SB-D6-T2-C3-r1-M0-B",
+  "selected_candidate": "RG5",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "84992fc676a1b4388450310ec41ab31a259100a041c841b318b295a1ca52c595",
+  "start_time": "2026-11-12T06:17:56Z",
+  "suite": "development",
+  "system_id": "M0",
+  "task_id": "D6-T2",
+  "template_id": "T2",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "mae": 1.5676298240579172,
+    "n": 360,
+    "rmse": 2.008128383091355
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 1.0,
+  "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "tool_calls": 11,
+  "trace_path": "outputs/traces/E0SB/E0SB-D6-T2-C3-r1-M0-B__a1.jsonl.gz",
+  "verified_completion": 1,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 144.746
+}

@@ -1,0 +1,140 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 212.86,
+  "agent_seed": 352712352,
+  "aggregate_tokens": 90551,
+  "attempt": 1,
+  "backbone_id": "B",
+  "block": "E4/D5-T3/C3/r2/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "C3",
+  "correct_refusal": null,
+  "corruption_seed": 13849324152736715381,
+  "data_hashes": {
+    "private": "83781c239e98d38ee35305951ad595eb2b04e15dbe2a80f902eaa822ba743ae0",
+    "trusted": "6c8de6994d72553774bcc1dbbedd8ef8a3bfa31409303e209c0eca70bec6cfe5",
+    "visible": "a68ab8f690571d0a20cb02579e71f0b674debd6951d361b70d5b658ce13242ed"
+  },
+  "data_management": {
+    "detection": {
+      "alias": {
+        "injected": 250,
+        "precision": 1.0,
+        "recall": 1.0,
+        "reported": 250,
+        "true_positive": 250
+      },
+      "duplicate": {
+        "injected": 250,
+        "precision": 1.0,
+        "recall": 1.0,
+        "reported": 250,
+        "true_positive": 250
+      },
+      "encoded": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "key_format": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      },
+      "unit": {
+        "injected": 0,
+        "precision": null,
+        "recall": null,
+        "reported": 0,
+        "true_positive": 0
+      }
+    },
+    "exact_reversible_repair_rate": 1.0,
+    "reversible_defects": 500,
+    "unintended_edit_rate": 0.0
+  },
+  "dataset_id": "D5",
+  "estimator_seed": 1908622237,
+  "evaluator_error": null,
+  "evaluator_seconds": 1.529,
+  "exception_events": 0,
+  "experiment_id": "E4",
+  "external_failure_codes": [],
+  "false_submission": null,
+  "first_failure": null,
+  "fit_count": 25,
+  "gate_calls": 0,
+  "gate_log": [],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 88237,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 186.625,
+  "model_calls": 19,
+  "model_repo": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 0,
+  "output_tokens": 2314,
+  "peak_worker_memory_mb": 316.828125,
+  "pipeline_evaluations": 6,
+  "predicates": {
+    "artifacts": true,
+    "feature_comparison": {
+      "value_mismatches": {}
+    },
+    "fit_scope": true,
+    "permitted_estimator": true,
+    "predictions_valid": true,
+    "provenance_consistent": true,
+    "source_authority": true,
+    "visible_replay_identical": true,
+    "within_limits": true
+  },
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": 1.0,
+  "repair_cycles": 0,
+  "repetition_id": 2,
+  "replay_status": "identical",
+  "run_error": null,
+  "run_id": "E4-D5-T3-C3-r2-M0-B",
+  "selected_candidate": "CL2",
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "0413c49b4a4c161330860bdedeae30221ef3c03cc244dc8ce5c95d7126dce956",
+  "start_time": "2026-11-14T19:10:22Z",
+  "suite": "evaluation",
+  "system_id": "M0",
+  "task_id": "D5-T3",
+  "template_id": "T3",
+  "terminal_state": "SUBMITTED",
+  "test_metrics": {
+    "average_precision": 0.4085699391332025,
+    "macro_f1": 0.5904093973994861,
+    "n": 2000,
+    "prevalence": 0.142,
+    "roc_auc": 0.773909189402147
+  },
+  "test_prediction_coverage": 1.0,
+  "test_value_match_rate": 1.0,
+  "tokenizer_hash": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+  "tool_calls": 15,
+  "trace_path": "outputs/traces/E4/E4-D5-T3-C3-r2-M0-B__a1.jsonl.gz",
+  "verified_completion": 1,
+  "version_selection_correct": true,
+  "wall_including_queue_seconds": 214.433
+}

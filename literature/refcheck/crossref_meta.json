@@ -1,0 +1,847 @@
+{
+ "matzka": {
+  "query": "Explainable Artificial Intelligence for Predictive Maintenance Applications Matzka 2020",
+  "results": [
+   {
+    "doi": "10.1109/ai4i49448.2020.00023",
+    "title": "Explainable Artificial Intelligence for Predictive Maintenance Applications",
+    "authors": [
+     "Stephan Matzka"
+    ],
+    "venue": "2020 Third International Conference on Artificial Intelligence for Industries (AI4I)",
+    "issued": [
+     [
+      2020,
+      9
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "69-74",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/ai4i51902.2021.00029",
+    "title": "Explainable Artificial Intelligence for Predictive Maintenance Applications using a Local Surrogate Model",
+    "authors": [
+     "Andrea Torcianti",
+     "Stephan Matzka"
+    ],
+    "venue": "2021 4th International Conference on Artificial Intelligence for Industries (AI4I)",
+    "issued": [
+     [
+      2021,
+      9
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "86-88",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1201/9781003480860-14",
+    "title": "Applications of Human Computer Interaction, Explainable Artificial Intelligence and Conversational Artificial Intelligence in Real-life Sectors",
+    "authors": [
+     "Amit Kumar Tyagi"
+    ],
+    "venue": "Data Analytics and Artificial Intelligence for Predictive Maintenance in Smart Manufacturing",
+    "issued": [
+     [
+      2024,
+      9,
+      20
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "282-325",
+    "type": "book-chapter"
+   }
+  ],
+  "fetched_at": "2026-11-11T23:28:17"
+ },
+ "yeh": {
+  "query": "Modeling of strength of high-performance concrete using artificial neural networks Yeh 1998",
+  "results": [
+   {
+    "doi": "10.1016/s0008-8846(98)00165-3",
+    "title": "Modeling of strength of high-performance concrete using artificial neural networks",
+    "authors": [
+     "I.-C. Yeh"
+    ],
+    "venue": "Cement and Concrete Research",
+    "issued": [
+     [
+      1998,
+      12
+     ]
+    ],
+    "volume": "28",
+    "issue": "12",
+    "page": "1797-1808",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.2139/ssrn.5398559",
+    "title": "&lt;p&gt;Modeling of Strength of High-Performance Concrete using Artificial Neural Networks&lt;/p&gt;",
+    "authors": [
+     "I-Cheng Yeh"
+    ],
+    "venue": null,
+    "issued": [
+     [
+      2025
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "posted-content"
+   },
+   {
+    "doi": "10.2139/ssrn.5398547",
+    "title": "Estimating Distribution of Concrete Strength using Quantile Regression Neural Networks",
+    "authors": [
+     "I-Cheng Yeh"
+    ],
+    "venue": null,
+    "issued": [
+     [
+      2025
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "posted-content"
+   }
+  ],
+  "fetched_at": "2026-11-11T23:28:20"
+ },
+ "tsanas": {
+  "query": "Accurate quantitative estimation of energy performance of residential buildings using statistical machine learning tools",
+  "results": [
+   {
+    "doi": "10.1016/j.enbuild.2012.03.003",
+    "title": "Accurate quantitative estimation of energy performance of residential buildings using statistical machine learning tools",
+    "authors": [
+     "Athanasios Tsanas",
+     "Angeliki Xifara"
+    ],
+    "venue": "Energy and Buildings",
+    "issued": [
+     [
+      2012,
+      6
+     ]
+    ],
+    "volume": "49",
+    "issue": null,
+    "page": "560-567",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.31224/osf.io/4esdw",
+    "title": "Estimation of Energy Performance of Buildings Using Machine Learning Tools",
+    "authors": [
+     "Rasoul Rashidifar"
+    ],
+    "venue": null,
+    "issued": [
+     [
+      2020,
+      6,
+      9
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "posted-content"
+   },
+   {
+    "doi": "10.7287/peerj-cs.856v0.2/reviews/2",
+    "title": "Peer Review #2 of \"The use of statistical and machine learning tools to accurately quantify the energy performance of residential buildings (v0.2)\"",
+    "authors": [],
+    "venue": null,
+    "issued": [
+     [
+      2022,
+      1,
+      26
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "peer-review"
+   }
+  ],
+  "fetched_at": "2026-11-11T23:28:24"
+ },
+ "cheney": {
+  "query": "Provenance in Databases: Why, How, and Where Cheney Chiticariu Tan",
+  "results": [
+   {
+    "doi": "10.1561/9781601982339",
+    "title": "Provenance in Databases: Why, How, and Where",
+    "authors": [
+     "James Cheney",
+     "Laura Chiticariu",
+     "Wang-Chiew Tan"
+    ],
+    "venue": null,
+    "issued": [
+     [
+      2007
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "monograph"
+   },
+   {
+    "doi": "10.1561/1900000006",
+    "title": "Provenance in Databases: Why, How, and Where",
+    "authors": [
+     "James Cheney",
+     "Laura Chiticariu",
+     "Wang-Chiew Tan"
+    ],
+    "venue": "Foundations and Trends in Databases",
+    "issued": [
+     [
+      2009,
+      6,
+      2
+     ]
+    ],
+    "volume": "1",
+    "issue": "4",
+    "page": "379-474",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/978-1-4899-7993-3_283-2",
+    "title": "Provenance in Databases",
+    "authors": [
+     "James Cheney",
+     "Wang-Chiew Tan"
+    ],
+    "venue": "Encyclopedia of Database Systems",
+    "issued": [
+     [
+      2016
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1-4",
+    "type": "book-chapter"
+   }
+  ],
+  "fetched_at": "2026-11-11T23:28:27"
+ },
+ "vamsa": {
+  "query": "Vamsa: Automated Provenance Tracking in Data Science Scripts KDD 2020",
+  "results": [
+   {
+    "doi": "10.1145/3394486.3403205",
+    "title": "Vamsa: Automated Provenance Tracking in Data Science Scripts",
+    "authors": [
+     "Mohammad Hossein Namaki",
+     "Avrilia Floratou",
+     "Fotis Psallidas",
+     "Subru Krishnan",
+     "Ashvin Agrawal",
+     "Yinghui Wu",
+     "Yiwen Zhu",
+     "Markus Weimer"
+    ],
+    "venue": "Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining",
+    "issued": [
+     [
+      2020,
+      8,
+      20
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1542-1551",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1007/978-3-319-40593-3_2",
+    "title": "Tracking and Analyzing the Evolution of Provenance from Scripts",
+    "authors": [
+     "João Felipe Pimentel",
+     "Juliana Freire",
+     "Vanessa Braganholo",
+     "Leonardo Murta"
+    ],
+    "venue": "Lecture Notes in Computer Science",
+    "issued": [
+     [
+      2016
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "16-28",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.23889/ijpds.v10i2.2464",
+    "title": "Semi-automated data provenance tracking for transparent data production and linkage to enhance auditing and quality assurance in Trusted Research Environments",
+    "authors": [
+     "Katherine O'Sullivan",
+     "Milan Markovic",
+     "Jaroslaw Dymiter",
+     "Bernhard Scheliga",
+     "Chinasa Odo",
+     "Katie Wilde"
+    ],
+    "venue": "International Journal of Population Data Science",
+    "issued": [
+     [
+      2025,
+      2,
+      6
+     ]
+    ],
+    "volume": "10",
+    "issue": "2",
+    "page": null,
+    "type": "journal-article"
+   }
+  ],
+  "fetched_at": "2026-11-11T23:28:31"
+ },
+ "holoclean": {
+  "query": "HoloClean: holistic data repairs with probabilistic inference PVLDB",
+  "results": [
+   {
+    "doi": "10.14778/3137628.3137631",
+    "title": "HoloClean",
+    "authors": [
+     "Theodoros Rekatsinas",
+     "Xu Chu",
+     "Ihab F. Ilyas",
+     "Christopher Ré"
+    ],
+    "venue": "Proceedings of the VLDB Endowment",
+    "issued": [
+     [
+      2017,
+      8
+     ]
+    ],
+    "volume": "10",
+    "issue": "11",
+    "page": "1190-1201",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1017/cbo9781107706804.006",
+    "title": "Bayesian inference",
+    "authors": [],
+    "venue": "Probabilistic Forecasting and Bayesian Data Assimilation",
+    "issued": [
+     [
+      2015,
+      5,
+      14
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "131-168",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.3384/diss.diva-147613",
+    "title": "Scalable and Efficient Probabilistic Topic Model Inference for Textual Data",
+    "authors": [
+     "Måns Magnusson"
+    ],
+    "venue": null,
+    "issued": [
+     [
+      null
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "dissertation"
+   }
+  ],
+  "fetched_at": "2026-11-11T23:28:34"
+ },
+ "wrangle": {
+  "query": "Can foundation models wrangle your data? Narayan PVLDB",
+  "results": [
+   {
+    "doi": "10.14778/3574245.3574258",
+    "title": "Can Foundation Models Wrangle Your Data?",
+    "authors": [
+     "Avanika Narayan",
+     "Ines Chami",
+     "Laurel Orr",
+     "Christopher Ré"
+    ],
+    "venue": "Proceedings of the VLDB Endowment",
+    "issued": [
+     [
+      2022,
+      12
+     ]
+    ],
+    "volume": "16",
+    "issue": "4",
+    "page": "738-746",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.64898/2026.06.06.26354838",
+    "title": "General-purpose large language models can achieve physician-level accuracy in complex medical data extraction",
+    "authors": [
+     "Manu Rajeev",
+     "Ananthu Narayan"
+    ],
+    "venue": null,
+    "issued": [
+     [
+      2026,
+      6,
+      10
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "posted-content"
+   },
+   {
+    "doi": "10.5703/1288284316489",
+    "title": "Wrangle Your Data Like a Pro With the Data Processing Power of Python",
+    "authors": [
+     "Geoffrey Timms",
+     "Jeremy Brown"
+    ],
+    "venue": "\"Roll With the Times, or the Times Roll Over You\"",
+    "issued": [
+     [
+      2017
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "proceedings-article"
+   }
+  ],
+  "fetched_at": "2026-11-11T23:28:37"
+ },
+ "chu": {
+  "query": "Data Cleaning: Overview and Emerging Challenges Chu Ilyas SIGMOD 2016",
+  "results": [
+   {
+    "doi": "10.1145/2882903.2912574",
+    "title": "Data Cleaning",
+    "authors": [
+     "Xu Chu",
+     "Ihab F. Ilyas",
+     "Sanjay Krishnan",
+     "Jiannan Wang"
+    ],
+    "venue": "Proceedings of the 2016 International Conference on Management of Data",
+    "issued": [
+     [
+      2016,
+      6,
+      26
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "2201-2206",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1145/3310205",
+    "title": "Data Cleaning",
+    "authors": [
+     "Ihab F. Ilyas",
+     "Xu Chu"
+    ],
+    "venue": null,
+    "issued": [
+     [
+      2019,
+      7,
+      9
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "monograph"
+   },
+   {
+    "doi": "10.14778/3007263.3007320",
+    "title": "Qualitative data cleaning",
+    "authors": [
+     "Xu Chu",
+     "Ihab F. Ilyas"
+    ],
+    "venue": "Proceedings of the VLDB Endowment",
+    "issued": [
+     [
+      2016,
+      9
+     ]
+    ],
+    "volume": "9",
+    "issue": "13",
+    "page": "1605-1608",
+    "type": "journal-article"
+   }
+  ],
+  "fetched_at": "2026-11-11T23:28:41"
+ },
+ "efron": {
+  "query": "Bootstrap methods: another look at the jackknife Efron 1979",
+  "results": [
+   {
+    "doi": "10.1214/aos/1176344552",
+    "title": "Bootstrap Methods: Another Look at the Jackknife",
+    "authors": [
+     "B. Efron"
+    ],
+    "venue": "The Annals of Statistics",
+    "issued": [
+     [
+      1979,
+      1,
+      1
+     ]
+    ],
+    "volume": "7",
+    "issue": "1",
+    "page": "1-26",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/978-1-4612-4380-9_40",
+    "title": "Introduction to Efron (1979) Bootstrap Methods: Another Look at the Jackknife",
+    "authors": [
+     "Rudolf J. Beran"
+    ],
+    "venue": "Springer Series in Statistics",
+    "issued": [
+     [
+      1992
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "565-568",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1007/978-0-387-75692-9_9",
+    "title": "Bootstrap Methods: Another Look at the Jackknife",
+    "authors": [
+     "David Hinkley"
+    ],
+    "venue": "Springer Series in Statistics",
+    "issued": [
+     [
+      null
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "178-206",
+    "type": "book-chapter"
+   }
+  ],
+  "fetched_at": "2026-11-11T23:28:44"
+ },
+ "reflexion": {
+  "query": "Reflexion: language agents with verbal reinforcement learning NeurIPS 2023",
+  "results": [
+   {
+    "doi": "10.52202/075280-0377",
+    "title": "Reflexion: language agents with verbal reinforcement learning",
+    "authors": [
+     "Noah Shinn",
+     "Federico Cassano",
+     "Ashwin Gopinath",
+     "Karthik Narasimhan",
+     "Shunyu Yao"
+    ],
+    "venue": "Advances in Neural Information Processing Systems 36",
+    "issued": [
+     [
+      2023
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "8634-8652",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/isaics66888.2025.11350204",
+    "title": "Robust Verbal Reinforcement Learning for Language Agents",
+    "authors": [
+     "Yi Wang",
+     "Peilin Cai"
+    ],
+    "venue": "2025 2nd International Symposium on AI and Cybersecurity (ISAICS)",
+    "issued": [
+     [
+      2025,
+      10,
+      24
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1-5",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.21203/rs.3.rs-2409910/v1",
+    "title": "A Policy-Graph Approach to Explain Reinforcement Learning Agents: A Novel Policy-Graph Approach with Natural Language and Counterfactual Abstractions for Explaining Reinforcement Learning Agents",
+    "authors": [
+     "Tongtong Liu",
+     "Joe McCalmon",
+     "Thai Le",
+     "Dongwon Lee",
+     "Sarra Alqahtani"
+    ],
+    "venue": null,
+    "issued": [
+     [
+      2023,
+      1,
+      2
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "posted-content"
+   }
+  ],
+  "fetched_at": "2026-11-11T23:28:48"
+ },
+ "mlinspect": {
+  "query": "mlinspect a data distribution debugger for machine learning pipelines Grafberger SIGMOD",
+  "results": [
+   {
+    "doi": "10.1145/3448016.3452759",
+    "title": "MLINSPECT: A Data Distribution Debugger for Machine Learning Pipelines",
+    "authors": [
+     "Stefan Grafberger",
+     "Shubha Guha",
+     "Julia Stoyanovich",
+     "Sebastian Schelter"
+    ],
+    "venue": "Proceedings of the 2021 International Conference on Management of Data",
+    "issued": [
+     [
+      2021,
+      6,
+      9
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "2736-2739",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1007/s00778-021-00726-w",
+    "title": "Data distribution debugging in machine learning pipelines",
+    "authors": [
+     "Stefan Grafberger",
+     "Paul Groth",
+     "Julia Stoyanovich",
+     "Sebastian Schelter"
+    ],
+    "venue": "The VLDB Journal",
+    "issued": [
+     [
+      2022,
+      1,
+      31
+     ]
+    ],
+    "volume": "31",
+    "issue": "5",
+    "page": "1103-1126",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1145/3533028.3533303",
+    "title": "Towards data-centric what-if analysis for native machine learning pipelines",
+    "authors": [
+     "Stefan Grafberger",
+     "Paul Groth",
+     "Sebastian Schelter"
+    ],
+    "venue": "Proceedings of the Sixth Workshop on Data Management for End-To-End Machine Learning",
+    "issued": [
+     [
+      2022,
+      6,
+      12
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1-5",
+    "type": "proceedings-article"
+   }
+  ],
+  "fetched_at": "2026-11-12T22:32:18"
+ },
+ "jenga": {
+  "query": "JENGA a framework to study the impact of data errors on the predictions of machine learning models Schelter EDBT 2021",
+  "results": [
+   {
+    "doi": "10.1145/3328519.3329126",
+    "title": "Learning to Validate the Predictions of Black Box Machine Learning Models on Unseen Data",
+    "authors": [
+     "Sergey Redyuk",
+     "Sebastian Schelter",
+     "Tammo Rukat",
+     "Volker Markl",
+     "Felix Biessmann"
+    ],
+    "venue": "Proceedings of the Workshop on Human-In-the-Loop Data Analytics",
+    "issued": [
+     [
+      2019,
+      7,
+      5
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1-4",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/icde65448.2025.00344",
+    "title": "Navigating Data Errors in Machine Learning Pipelines: Identify, Debug, and Learn",
+    "authors": [
+     "Bojan Karlaš",
+     "Babak Salimi",
+     "Sebastian Schelter"
+    ],
+    "venue": "2025 IEEE 41st International Conference on Data Engineering (ICDE)",
+    "issued": [
+     [
+      2025,
+      5,
+      19
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "4523-4529",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1145/3722212.3725636",
+    "title": "Navigating Data Errors in Machine Learning Pipelines: Identify, Debug, and Learn",
+    "authors": [
+     "Bojan Karlaš",
+     "Babak Salimi",
+     "Sebastian Schelter"
+    ],
+    "venue": "Companion of the 2025 International Conference on Management of Data",
+    "issued": [
+     [
+      2025,
+      6,
+      22
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "813-820",
+    "type": "proceedings-article"
+   }
+  ],
+  "fetched_at": "2026-11-12T22:32:22"
+ },
+ "wangstrong": {
+  "query": "Beyond accuracy what data quality means to data consumers Wang Strong 1996",
+  "results": [
+   {
+    "doi": "10.1080/07421222.1996.11518099",
+    "title": "Beyond Accuracy: What Data Quality Means to Data Consumers",
+    "authors": [
+     "Richard Y. Wang",
+     "Diane M. Strong"
+    ],
+    "venue": "Journal of Management Information Systems",
+    "issued": [
+     [
+      1996,
+      3
+     ]
+    ],
+    "volume": "12",
+    "issue": "4",
+    "page": "5-33",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.55640/ijdsml-05-01-29",
+    "title": "Beyond Accuracy: Rethinking Data Quality as a Strategic Pillar in ERP Implementation",
+    "authors": [
+     "",
+     "Rushabh Mehta"
+    ],
+    "venue": "International journal of data science and machine learning",
+    "issued": [
+     [
+      2025,
+      6,
+      25
+     ]
+    ],
+    "volume": "05",
+    "issue": "01",
+    "page": "400-409",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.3403/30455523u",
+    "title": "Data quality",
+    "authors": [],
+    "venue": null,
+    "issued": [
+     [
+      null
+     ]
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "type": "standard"
+   }
+  ],
+  "fetched_at": "2026-11-12T22:32:25"
+ }
+}

@@ -1,0 +1,73 @@
+{
+  "assumptions": {
+    "baseline_vcr_M0_pilot": 0.8333333333333334,
+    "effect_pp": 10.0,
+    "note": "Development pilot tasks differ from the evaluation portfolio; the variance model is an assumption.",
+    "sd_cell_logit": 0.5,
+    "sd_family_logit": 0.5,
+    "sims": 200
+  },
+  "grid": [
+    {
+      "power": 1.0,
+      "reps": 3,
+      "sd_block_logit": 0.25
+    },
+    {
+      "power": 1.0,
+      "reps": 4,
+      "sd_block_logit": 0.25
+    },
+    {
+      "power": 1.0,
+      "reps": 5,
+      "sd_block_logit": 0.25
+    },
+    {
+      "power": 1.0,
+      "reps": 6,
+      "sd_block_logit": 0.25
+    },
+    {
+      "power": 1.0,
+      "reps": 3,
+      "sd_block_logit": 0.5
+    },
+    {
+      "power": 1.0,
+      "reps": 4,
+      "sd_block_logit": 0.5
+    },
+    {
+      "power": 1.0,
+      "reps": 5,
+      "sd_block_logit": 0.5
+    },
+    {
+      "power": 1.0,
+      "reps": 6,
+      "sd_block_logit": 0.5
+    },
+    {
+      "power": 1.0,
+      "reps": 3,
+      "sd_block_logit": 1.0
+    },
+    {
+      "power": 1.0,
+      "reps": 4,
+      "sd_block_logit": 1.0
+    },
+    {
+      "power": 1.0,
+      "reps": 5,
+      "sd_block_logit": 1.0
+    },
+    {
+      "power": 1.0,
+      "reps": 6,
+      "sd_block_logit": 1.0
+    }
+  ],
+  "time": "2026-11-12T08:07:10Z"
+}

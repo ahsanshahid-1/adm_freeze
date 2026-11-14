@@ -1,0 +1,89 @@
+{
+  "all_passed": true,
+  "fixtures": [
+    {
+      "codes": [],
+      "expected": "VERIFIED",
+      "fixture": "oracle_T2_X1b",
+      "passed": true,
+      "verified": 1
+    },
+    {
+      "codes": [
+        "ROW_MULTIPLICITY",
+        "INVALID_PREDICTION"
+      ],
+      "expected": "ROW_MULTIPLICITY",
+      "fixture": "spec_graph_near_duplicates_T1_X1b",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [],
+      "expected": "VERIFIED",
+      "fixture": "oracle_T6_X2b",
+      "passed": true,
+      "verified": 1
+    },
+    {
+      "codes": [
+        "MISSING_RECORD",
+        "INVALID_PREDICTION"
+      ],
+      "expected": "MISSING_RECORD",
+      "fixture": "spec_graph_key_variants_T1_X2b",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [],
+      "expected": "VERIFIED",
+      "fixture": "oracle_T4_X3b",
+      "passed": true,
+      "verified": 1
+    },
+    {
+      "codes": [
+        "UNIT_MISMATCH"
+      ],
+      "expected": "UNIT_MISMATCH",
+      "fixture": "spec_graph_undeclared_rep_T1_X3b",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [],
+      "expected": "VERIFIED",
+      "fixture": "oracle_T3_X4b",
+      "passed": true,
+      "verified": 1
+    },
+    {
+      "codes": [
+        "SOURCE_VERSION",
+        "VALUE_MISMATCH"
+      ],
+      "expected": "SOURCE_VERSION",
+      "fixture": "spec_graph_content_drift_T1_X4b",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [
+        "SOURCE_VERSION",
+        "VALUE_MISMATCH"
+      ],
+      "expected": "SOURCE_VERSION",
+      "fixture": "latest_modified_content_drift_T2_X4c",
+      "passed": true,
+      "verified": 0
+    },
+    {
+      "codes": [],
+      "expected": "equal",
+      "fixture": "equivalent_numeric_representations",
+      "passed": true,
+      "verified": null
+    }
+  ]
+}

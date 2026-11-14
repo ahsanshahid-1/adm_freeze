@@ -1,0 +1,171 @@
+{
+  "abstention_reason": null,
+  "active_seconds": 253.194,
+  "agent_seed": 2025655282,
+  "aggregate_tokens": 313834,
+  "attempt": 1,
+  "backbone_id": "A",
+  "block": "E1/D6-T3/X2b/r0/standard",
+  "budget_profile": "standard",
+  "code_hash": null,
+  "condition_id": "X2b",
+  "correct_refusal": null,
+  "corruption_seed": 4230865828838442843,
+  "data_hashes": {
+    "private": "e45ffa2478f1d298c55103c05e203ae31c23f8aad8d673da8c3378bf02754d65",
+    "trusted": "2be8065cdd8db7d1ee6840ee7129d8303f1cdbe0814c8d7223aed89762d954f8",
+    "visible": "5a53165216ba64cc7b68723907eda50fd17424ec1de37e777c519da2e781f0a3"
+  },
+  "data_management": null,
+  "dataset_id": "D6",
+  "estimator_seed": 1194301073,
+  "evaluator_error": null,
+  "evaluator_seconds": 0.0,
+  "exception_events": 0,
+  "experiment_id": "E1",
+  "external_failure_codes": [
+    "BUDGET"
+  ],
+  "false_submission": null,
+  "first_failure": "BUDGET",
+  "fit_count": 16,
+  "gate_calls": 12,
+  "gate_log": [
+    {
+      "artifact": "H1",
+      "failures": [
+        "train:record_coverage",
+        "validation:record_coverage"
+      ],
+      "gate": "quality",
+      "passed": false,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H1",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "materialize"
+    },
+    {
+      "artifact": "H2/RG1",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG2",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG3",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2/RG4",
+      "failures": [],
+      "gate": "quality",
+      "passed": true,
+      "stage": "fit"
+    },
+    {
+      "artifact": "H2",
+      "failures": [],
+      "gate": "provenance",
+      "passed": true,
+      "stage": "fit"
+    }
+  ],
+  "infrastructure_retry_count": 0,
+  "input_tokens": 310256,
+  "limits": {
+    "aggregate_tokens": 300000,
+    "model_calls": 48,
+    "pipeline_evaluations": 6,
+    "repair_cycles": 2,
+    "tool_calls": 40,
+    "wall_seconds": 600
+  },
+  "llm_mode": "vllm",
+  "llm_seconds": 222.491,
+  "model_calls": 27,
+  "model_repo": "Qwen/Qwen3.8-27B",
+  "model_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "monetary_cost": null,
+  "monetary_cost_reason": "crc compute has no per-run tariff; GPU-seconds reported instead",
+  "order_in_block": 4,
+  "output_tokens": 3578,
+  "peak_worker_memory_mb": 374.69921875,
+  "pipeline_evaluations": 4,
+  "predicates": null,
+  "protocol_hash": null,
+  "queue_seconds": 0.0,
+  "record_integrity_rate": null,
+  "repair_cycles": 2,
+  "repetition_id": 0,
+  "replay_status": null,
+  "run_error": "limit exceeded: aggregate_tokens",
+  "run_id": "E1-D6-T3-X2b-r0-SQP-A",
+  "selected_candidate": null,
+  "server_gpu_seconds": null,
+  "server_gpu_seconds_reason": "shared server; see per-experiment GPU accounting",
+  "split_hash": "ee2edfee74ff47779f95b30061b46afb338cc951b77253f8c95cf8fbb7ff5115",
+  "start_time": "2026-11-13T04:27:48Z",
+  "suite": "evaluation",
+  "system_id": "SQP",
+  "task_id": "D6-T3",
+  "template_id": "T3",
+  "terminal_state": "BUDGET_EXCEEDED",
+  "test_metrics": null,
+  "test_prediction_coverage": null,
+  "test_value_match_rate": null,
+  "tokenizer_hash": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "tool_calls": 26,
+  "trace_path": "outputs/traces/E1/E1-D6-T3-X2b-r0-SQP-A__a1.jsonl.gz",
+  "verified_completion": 0,
+  "version_selection_correct": null,
+  "wall_including_queue_seconds": 254.811
+}
