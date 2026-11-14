@@ -6,7 +6,7 @@ Submission to the 4th International Workshop on Trustworthy and Aligned AI at IE
 | File | Content |
 |---|---|
 | `main.tex` | LaTeX source (IEEEtran conference class) |
-| `refs.bib` | Bibliography (68 entries, all cited) |
+| `refs.bib` | Bibliography (58 entries, all cited) |
 | `figures/fig_main.pdf` | Fig. 1, generated from the E1 run records by `analysis_postfreeze/make_figure.py` |
 | `main.pdf` | Compiled paper |
 | `overleaf_upload.zip` | The three source items above, ready to upload to Overleaf |

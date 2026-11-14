@@ -1,7 +1,5 @@
-% Draft v0.3 (2026-11-13). IEEEtran conference format, 10-page limit including references (IEEE BigData 2026
-% workshop: 4th Int. Workshop on Trustworthy and Aligned AI). Condensed from v0.2 (versions/main_v0.2_20261112.tex).
-% Protocol frozen 2026-11-12 02:16 CST (hash 22d4f2fa...); registered on OSF (osf.io/bn6va, embargoed).
-% Every confirmatory number is marked \tbd and is filled only from the frozen formal experiments (E1, E4, E5, E6).
+% IEEE BigData 2026 workshop paper (4th Int. Workshop on Trustworthy and Aligned AI), 10 pages including references.
+% Protocol frozen 2026-11-12 02:16 CST (hash 22d4f2fa...); registered on OSF (osf.io/bn6va).
 \documentclass[conference]{IEEEtran}
 \IEEEoverridecommandlockouts
 \usepackage{iftex}
@@ -20,8 +18,6 @@
 \usepackage{url}
 \usepackage[hidelinks]{hyperref}
 
-\newcommand{\TBD}[1]{\textcolor{red}{\textbf{[TBD: #1]}}}
-\newcommand{\tbd}{\textcolor{red}{TBD}}
 \newcommand{\vcr}{\mathrm{VCR}}
 \newcommand{\sys}[1]{\textsf{#1}}
 
@@ -37,20 +33,20 @@
 
 \begin{abstract}
 A data-mining workflow can score well while loading a tampered source, dropping records, or mis-converting units.
-We ask whether LLM agents check such properties when a verifying operation is available to them, and what enforcing
-checks changes. We built a benchmark of 36 classification and regression tasks from six dataset families with
-declared and undeclared defects, a hidden corruption ledger, an oracle solver verified on every defective instance,
-and an independent evaluator that scores verified completion without LLM or human judgment. Seven systems (a
-deterministic workflow, a single agent, and a three-role team, with and without quality and provenance checks) share
-tools and budgets, and all can use the same hash-verifying load. In 8,352 runs under a protocol frozen and
-registered before analysis, agents almost never verified on their own: on a content-drift defect, the ungated single
-agent and team used the hash-verifying load in 1 and 12 of 108 runs, about as often as on tasks without the defect,
-against 104--107 of 108 when the check was enforced. Enforcement cut both ways. The primary contrast, a fully gated
-versus an ungated team, was $+0.1$ points (95\% CI $-11.1$ to $+9.9$): a gain of 74 points on content drift was
-cancelled by a range predicate that rejected correct data in 2 of 18 family--repetition blocks, where every system with that
-check, and the deterministic baseline, verified no run, and by more budget exhaustion. Without content drift, neither gate's main
-effect was distinguishable from zero. A second model from another vendor showed the same pattern. Verification that
-is available is not used, and verification that is enforced is only as good as its predicates.
+We ask whether LLM agents check such properties when a verifying operation is available, and what enforcing checks
+changes. Our benchmark has 36 classification and regression tasks from six dataset families with declared and
+undeclared defects, a hidden corruption ledger, an oracle verified on every undeclared-defect instance, and an
+independent evaluator that scores verified completion without LLM or human judgment. Seven systems (a deterministic
+workflow, a single agent, and a three-role team, with and without quality and provenance checks) share data tools
+and budgets, and all can use the same hash-verifying load. In 8,352 runs under a protocol frozen before the
+evaluation runs, the ungated single agent and team used that load on a content-drift defect in 1 and 12 of 108 runs,
+about as often as without the defect, against 104--107 of 108 when the check was enforced with feedback. The primary
+contrast, fully gated versus ungated team, was $+0.1$ points (95\% CI $-11.1$ to $+9.9$): content drift contributed
+$+7.4$, and two of 18 family--repetition blocks, where a range predicate rejected correct data and no quality-gated
+system verified any run, contributed $-8.3$. Without content drift, neither gate's main effect was distinguishable
+from zero. A second model from another vendor showed the same uptake pattern. For these models and this tool
+description, a verifying operation that is merely available is rarely used, and an enforced check is only as good
+as its predicate.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -106,10 +102,10 @@ that is \emph{enforced} (Section~\ref{sec:systems}).
 rule, sensitivity analyses, and a second-backbone replication, registered on OSF (Section~\ref{sec:protocol}).
 (4)~Pilot evidence that declared-defect benchmarks saturate even for a workflow without an LLM, and that agents
 rarely used a documented hash-verifying operation unless provenance checks were enforced (Section~\ref{sec:pilot}).
-(5)~Confirmatory evidence (Section~\ref{sec:results}): agents used the verifying operation at a rate that did
-not respond to the defect unless it was enforced; the primary hypothesis was not supported; and one enforced
-predicate with false alarms removed every quality-gated system's completions in two blocks, so enforcement both recovered
-and destroyed reliability.
+(5)~Confirmatory evidence (Section~\ref{sec:results}): the ungated single agent and team used the verifying
+operation at about the same rate with and without the defect; enforced checking with feedback recovered the defect;
+the primary hypothesis was not supported; and one enforced range predicate with false alarms removed every
+quality-gated system's completions in two blocks.
 
 % =====================================================================
 \section{Related Work}
@@ -153,7 +149,9 @@ the best accuracy--cost trade-off~\cite{zhang2026rethinking}; we do not test an 
 guardrails compiled from instruction files raised constraint compliance on SWE-bench Lite from 67.0\% to
 88.3\%~\cite{sharma2026contextcov}, verification prompts reduced adoption of corrupted tool
 returns~\cite{yang2026overreliance}, and edited tool descriptions received over ten times the usage of the
-originals~\cite{faghih2025toolprefs}. Table~\ref{tab:position} summarises how our setting differs.
+originals~\cite{faghih2025toolprefs}. When several pre-action gates are composed, a remediation by one gate can invalidate another gate's earlier
+judgment~\cite{besanson2026onegate}, which bears on our Q$\times$P interaction. Table~\ref{tab:position} summarises
+how our setting differs.
 
 \begin{table}[t]
 \caption{Closest related work (summarised from each published abstract)}
@@ -226,7 +224,7 @@ benchmark portfolio and its defect generators.
 \textbf{Prespecified secondary outcome: available versus enforced verification.} For each system we report how often
 the trusted traces show the content-verifying load policy (\texttt{authoritative\_verified}) on the content-drift
 defect X4, where it is available to every system but enforced only by provenance gates, and on Tier~1, where it is
-never needed (a false-alarm measure). This outcome was fixed before the freeze but after the development pilots.
+not needed because the declared authoritative policy suffices (a false-alarm measure). This outcome was fixed before the freeze but after the development pilots.
 
 % =====================================================================
 \section{Benchmark}
@@ -281,7 +279,8 @@ values fall outside the contract ranges; only choices with a unique in-range rep
 \emph{X4 content drift:} for $k$ shards, the primary authorised file no longer matches the authorised SHA-256 while
 its catalog entry still declares it; a replica with the authorised content exists but has an earlier modification
 time, so neither ``latest modified'' nor ``latest snapshot'' selects it. Drifted values stay inside the value ranges
-and are independent of labels, so quality checks cannot flag X4. To avoid revealing which defect is present, every
+and are independent of labels, so quality checks rarely flag X4 (on the evaluation tasks the range check fired on
+drifted data only in T4, whose shards are stored in an affine representation). To avoid revealing which defect is present, every
 Tier~2 instance carries an ingest-batch column, a replica of each observation-grain table, and published value
 ranges. A near-duplicate defect (X1) was dropped before the freeze because no provenance check could detect it and
 both baseline agents completed every X1 pilot run.
@@ -323,7 +322,7 @@ this check passes~\cite{zhu2025abc}.
 \label{sec:systems}
 % =====================================================================
 \begin{table}[t]
-\caption{System key. All systems share tools, candidate models, and budgets.}
+\caption{System key. All systems share the data tools, candidate models, and budgets; gated systems also have the two check tools.}
 \label{tab:systems}
 \centering\footnotesize\setlength{\tabcolsep}{5pt}
 \begin{tabular}{@{}lllcc@{}}
@@ -405,7 +404,8 @@ frozen submissions under invariance checks (row and column order, equivalent num
 checks (wrong version, missing prediction, changed hash). Run order is randomised within paired blocks and agent
 state is reset before every run. A verified infrastructure failure may be retried once; agent failures are never
 retried. Each run is stored as its own record, so an interrupted session resumes only runs without a record, and
-every session first verifies the freeze manifest and the content digest of every task instance.
+every session first verifies the freeze manifest and the content digest of every task instance. Eight runs execute
+concurrently against one vLLM server, so active time includes waiting for the shared server.
 
 \textbf{Freeze and registration.} The protocol was frozen on 12 Nov.\ 2026 at 02:16 CST, before any evaluation-task
 run. The manifest records the protocol hash (\texttt{22d4f2fa\ldots}), the code hash, the model lock, the dataset,
@@ -445,69 +445,26 @@ Tier~1 difference, and analyses excluding X4. Three repetition blocks give only 
 so we also prespecified (a)~a mixed-effects logistic regression of $V$ on system with random intercepts for task
 and family--repetition block, (b)~the bootstrap interval with variance inflation $n/(n-1)$, and (c)~per-family and
 leave-one-family-out estimates. Predictive metrics (average precision and macro-F1; RMSE and MAE) are reported only
-for verified runs. We describe the terminal state and tool-call composition of budget-exhausted runs. Failure to
-reject a difference is not evidence of equivalence.
+for verified runs. We describe the terminal state and tool-call composition of budget-exhausted runs. The paired sign-flip test
+flips the sign of each of the 18 family--repetition block differences at random (10,000 draws, two-sided) and
+compares the family-weighted mean with the observed one; Holm adjustment uses these $p$ values. All intervals are
+conditional on the 36 tasks. Failure to reject a difference is not evidence of equivalence.
 
 % =====================================================================
 \section{Pre-Freeze Pilot Results (Development Tasks)}
 \label{sec:pilot}
 % =====================================================================
 These results come from the 12 development tasks (two synthetic families) and were used to design the frozen
-protocol. They are not confirmatory. Runs are clustered within tasks and repetitions, so we report counts without
-significance tests.
-
-\begin{table}[t]
-\caption{Pilot VCR (backbone A, development tasks). Tier~1: C0--C6, $n=168$ per system. Tier~2: E0X2, all three
-levels, $n=72$ per defect.}
-\label{tab:tier1}
-\centering\footnotesize
-\begin{tabular}{@{}lrrrrr@{}}
-\toprule
- & Tier 1 & \multicolumn{4}{c}{Tier 2 (E0X2)} \\
-\cmidrule(l){3-6}
-System & C0--C6 & X2 & X3 & X4 & All \\
-\midrule
-\sys{F}   & 1.000 & 0.000 & 0.000 & 0.000 & 0.000 \\
-\sys{S0}  & 0.982 & 0.833 & 0.819 & 0.028 & 0.560 \\
-\sys{M0}  & 0.970 & 0.681 & 0.750 & 0.069 & 0.500 \\
-\sys{MQ}  & 0.958 & 0.722 & 0.917 & 0.292 & 0.644 \\
-\sys{MP}  & 0.976 & 0.833 & 0.764 & 0.972 & 0.856 \\
-\sys{SQP} & 0.982 & 0.736 & 0.861 & 0.972 & 0.856 \\
-\sys{MQP} & 0.964 & 0.778 & 0.847 & 0.972 & 0.866 \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\textbf{Declared defects saturate.} On Tier~1 (Table~\ref{tab:tier1}) \sys{F} verified 168 of 168 runs and every
-agentic system 95.8--98.2\%; \sys{MQP}$-$\sys{M0} was $-0.6$ points. Because each Tier~1 defect is declared with its
-remedy, a workflow written from the specification solves all of them. The agents' 28 Tier~1 failures were wrong joins
-(12), budget exhaustion (6), unit mismatches (5), missing records (3), one execution error, and one abstention.
-Backbone B was also at the ceiling (E0SB rerun: \sys{M0} 0.964, \sys{SQP} 0.964, \sys{MQP} 0.976). A first E0SB run
-exposed a tool bug affecting 28 backbone-B runs; we fixed it and reran all 504 runs rather than only the affected
-ones, so that no run was selected by its outcome.
-
-\textbf{Available versus enforced verification (X4).} Every system's tool documentation describes the
-\texttt{authoritative\_verified} policy, and every system can use it. In the 72 X4 runs per system, \sys{S0} used it
-in 2 and \sys{M0} in 5, and they verified 2 and 5. Systems with enforced provenance checks used it in 71--72 and
-verified 70 each. \sys{MQ}, whose quality gate cannot detect drift, used it in 22 runs and verified 21, and in none of
-those runs did a gate failure precede the first use; a plausible cause is that its task text mentions checking, which
-the pilots cannot separate from other causes. The oracle, which always verifies content, solved every X4 instance, so
-X4 does not need an LLM; the question is whether agents that could handle it do so without being made to.
-
-\textbf{Gate effects are specific.} \sys{F} abstained on all 216 Tier~2 runs: its gates failed and it has no rule
-for undeclared defects. Unit-mismatch failures occurred only in systems without Q (\sys{S0} 9, \sys{M0} 11, \sys{MP}
-11 first failures), and on X3 \sys{MQ} reached 0.917 against 0.750 for \sys{M0}. On X2, gates did not help:
-\sys{SQP} (0.736) was below \sys{S0} (0.833). Of 102 failed agentic X2 runs, 96 ended at the token limit. They were
-still exploring (25--28 schema, profiling, and query calls on average, against 8--12 per Tier~1 run), materialised
-features less than once on average, and 61 never fitted a model; repair cycles (at most 0.03 per run) and gate
-verdicts (3--7\% of observation text) do not explain the budget use. X2 outcomes therefore partly measure search
-efficiency under the frozen limit. In 1,008 agentic Tier~1 runs, no system used any Tier~2 repair operation.
-
-\textbf{Coordination and cost.} On Tier~2, \sys{MQP}$-$\sys{SQP} was $+0.9$ points and \sys{M0}$-$\sys{S0} $-6.0$.
-The team took longer (mean active time 219.5\,s for \sys{MQP} vs.\ 131.1\,s for \sys{SQP}), and predictive quality of
-verified runs was nearly identical (D5 average precision 0.354--0.362; D6 RMSE 1.960--1.964). Applied to pilot cells
-in the frozen conditions, the frozen estimator gave $+9.2$ points for \sys{MQP}$-$\sys{M0} ($-0.6$ on Tier~1,
-$+31.9$ on Tier~2); these cells informed the design and do not support H1.
+protocol; they are not confirmatory. On Tier~1 (C0--C6, 168 runs per system), \sys{F} verified 168 of 168 runs and
+every agentic system 95.8--98.2\%; \sys{MQP}$-$\sys{M0} was $-0.6$ points. Backbone B was also at the ceiling (\sys{M0}
+0.964, \sys{SQP} 0.964, \sys{MQP} 0.976). A first backbone-B pilot exposed a tool bug affecting 28 runs; we fixed it and
+reran all 504 runs, so that no run was selected by its outcome. In the Tier~2 calibration pilot (72 runs per defect and
+system), \sys{F} abstained on all Tier~2 runs, and on X4 \sys{S0} and \sys{M0} used the hash-verifying load in 2 and 5
+runs, \sys{MQ} in 22, and the systems with enforced provenance checks in 71--72. On X2, gates did not help (\sys{SQP}
+0.736 vs.\ \sys{S0} 0.833): 96 of 102 failed agentic X2 runs ended at the token limit while still exploring (25--28
+schema, profiling, and query calls on average, against 8--12 per Tier~1 run), and 61 never fitted a model. Applied to
+pilot cells in the frozen conditions, the frozen estimator gave $+9.2$ points for \sys{MQP}$-$\sys{M0} ($-0.6$ on
+Tier~1, $+31.9$ on Tier~2); these cells informed the design and do not support H1.
 
 % =====================================================================
 \section{Confirmatory Results}
@@ -517,7 +474,8 @@ All 8,352 scheduled runs were recorded (E1 7,560; E4 540; E5 252). Ten E1 runs w
 inputs as verified infrastructure failures: eight were in progress when the JupyterHub server was stopped externally,
 and two received a zero generation budget from the serving engine because the prompt filled the context. No run was
 retried after an agent failure. Table~\ref{tab:main} gives VCR by system and tier and Table~\ref{tab:contrasts} the
-prespecified contrasts.
+prespecified contrasts. Two E1 and seven E4 runs reached the 600\,s limit; every other budget-exhausted run
+reached the token limit.
 
 \begin{table}[t]
 \caption{Confirmatory VCR by system and tier (E1, backbone A, 36 tasks, 3 repetitions)}
@@ -590,17 +548,23 @@ System & Enforced & \multicolumn{2}{c}{X4 ($n$=108)} & \multicolumn{2}{c}{Tier~1
 
 \textbf{Agents rarely verify unless made to.} On X4 the ungated single agent used the hash-verifying load in 1 of 108
 runs and the ungated team in 12; systems whose provenance check was enforced used it in 104--107
-(Table~\ref{tab:verify}, Fig.~\ref{fig:main}b). The ungated systems' use did not respond to the defect: \sys{M0} used
-the policy in 11.1\% of X4 runs and in 13.1\% of Tier~1 runs, where nothing had drifted, and \sys{S0} in 0.9\% and
-0.4\%. The most frequent first failure of \sys{S0} and \sys{M0} on X4 was a wrong source version (105 and 88 of 108).
-\sys{MQ}, whose quality gate cannot see drift, used the policy more (38), as in the pilots. Use on Tier~1, the
-prespecified false-alarm measure, is harmless because the content matches; gated teams used it often there (\sys{MP}
-30.2\%, \sys{MQP} 42.5\%) and the gated single agent rarely (1.6\%).
+(Table~\ref{tab:verify}, Fig.~\ref{fig:main}b). For \sys{S0} and \sys{M0} the use did not respond to the defect:
+\sys{M0} used the policy in 11.1\% of X4 runs and in 13.1\% of Tier~1 runs, where nothing had drifted, and \sys{S0} in
+0.9\% and 0.4\%. Their most frequent first failure on X4 was a wrong source version (105 and 88 of 108). \sys{MQ},
+whose task text mentions quality checks, used the policy more on X4 than on Tier~1 (35.2\% vs.\ 23.1\%); only 2 of
+its 38 X4 uses followed a failed range check (both in T4), so the difference is not explained by gate verdicts. On
+Tier~1, use was highest on C6, the declared stale-source condition (\sys{M0} 25, \sys{MQ} 37, \sys{MP} 48, \sys{MQP} 75
+of 108), where the declared authoritative policy already suffices; this use is harmless. Of the 37 gated X4 runs that
+used the policy but were not verified, 32 ended at the budget limit, 21 of them in the false-alarm blocks below. With
+backbone B (E4), \sys{M0} used the policy in 0 of 18 X4 runs and 0 of 126 Tier~1 runs, \sys{SQP} in 17 and \sys{MQP} in
+18 of 18 X4 runs.
 
 \textbf{Primary hypothesis.} H1 was not supported: \sys{MQP}$-$\sys{M0} was $+0.1$ points ($-11.1$ to $+9.9$; sign-flip
-$p=1.0$). The prespecified sensitivity analyses agree: the mixed-effects logistic model gave an odds ratio of 1.01
-(0.86 to 1.19), the variance-inflated interval was $-13.1$ to $+13.3$, and the leave-one-family-out range was $-2.3$
-to $+4.4$. The pooled null hides opposite effects: $-10.3$ points on Tier~1 and $+24.4$ on Tier~2, and per family
+$p=1.0$). The variance-inflated interval was $-13.1$ to $+13.3$ and the leave-one-family-out range $-2.3$ to $+4.4$.
+The prespecified mixed-effects logistic model gave an odds ratio of 1.01 (0.86 to 1.19), but it has no
+system-by-block term, while the dominant effect here is exactly such an interaction; adding a random system slope per
+block (not prespecified) gave 1.30 (1.05 to 1.61), because that model treats the two false-alarm blocks as
+block-level deviations. We keep the prespecified block bootstrap as the primary result. The pooled null hides opposite effects: $-10.3$ points on Tier~1 and $+24.4$ on Tier~2, and per family
 $+12.2$ (D1), $-21.7$ (D2), $+12.2$ (D3), $-18.3$ (D4), $+10.0$ (D5), and $+6.1$ (D6).
 
 \textbf{A quality-gate false alarm.} The negative D2 and D4 estimates have one cause. The contract publishes
@@ -610,7 +574,14 @@ correct data. In these two blocks (120 runs per system), \sys{F} abstained in ev
 three systems with a quality gate verified none: they could not pass the gate and mostly ran out of budget trying to
 repair data that was correct (\sys{MQ} 107, \sys{MQP} 109, \sys{SQP} 97 runs at the token limit). Systems without
 the quality gate verified 75.0\% (\sys{M0}), 75.8\% (\sys{S0}), and 86.7\% (\sys{MP}) of the same runs. These blocks
-account for all 84 of \sys{F}'s Tier~1 failures. As a post-hoc analysis that is not part of the protocol, excluding
+account for all 84 of \sys{F}'s Tier~1 failures. The ranges are published as plausible canonical ranges, not as a
+requirement that verified completion depends on: the evaluator scores units and values against the hidden reference,
+and the data in these blocks match it. X3 violates the stated units requirement, and the ranges are the evidence by
+which it can be detected. The same predicate therefore produced both outcomes: on \sys{F}'s loads it fired on all 108
+X3 runs, on correct data in 2 of 18 blocks and nowhere else, and on drifted data in T4. Counting abstentions in the two
+blocks as correct, a sensitivity analysis we add here, changes \sys{F}'s Tier~1 VCR to 1.000 but recovers only 8
+(\sys{MQ}), 10 (\sys{MQP}), and 18 (\sys{SQP}) of 120 gated runs, because the gated agents mostly kept repairing
+rather than abstaining. As a post-hoc analysis that is not part of the protocol, excluding
 the two blocks gives Tier~1 VCR of 1.000 for \sys{F} and 0.939--0.966 for every agentic system, and H1 of $+9.3$
 points ($+7.0$ to $+11.4$), of which almost all comes from X4: without X4 it is $+0.9$ ($-0.9$ to $+2.8$). D2 and D4
 then keep only two blocks each.
@@ -635,31 +606,35 @@ false-alarm blocks the gated counts were 89, 74, and 59. As in the pilots, exhau
 tasks (E5) every system refused correctly in 33--36 of 36 runs; the five false submissions were all on conflicting
 authority records (N2). With backbone B (E4), \sys{MQP}$-$\sys{M0} was $0.0$ points ($-12.2$ to $+10.6$): $-15.9$
 on Tier~1 and $+37.0$ on Tier~2, and on X4 \sys{M0} verified 0 of 18 runs against 13 for \sys{MQP} and 16 for
-\sys{SQP}; two of the six E4 tasks lie in the affected blocks. In the E6 replay audit of 146 retained submissions,
-all 146 replayed to their recorded outcome and were invariant to row and column order, and all 137 changed artifacts
-were detected. Of the 45 failed corruption checks (in 32 submissions), 18 applied no corruption because every numeric
-column of the C1/C2 instance was string-encoded, 24 were in 12 submissions whose workflow uses the hash-verifying
-load, which by design does not load a file whose content fails its hash when an intact replica exists, and 3 flagged
-the corruption with a different failure code than the check expects.
+\sys{SQP}; in the affected repetitions of D2-T2 and D4-T6 the gated systems verified none of 40 runs and \sys{M0} 17
+of 20. The E6 audit replayed 146 retained submissions. All 146 reproduced their recorded outcome and were invariant to
+row and column order, and a changed artifact hash was detected in all 137 verified ones. Two corruption checks did not
+always return the expected failure code: the wrong-version check (31 of 137) and the missing-record check (14 of 137).
+In 18 cases the check applied no corruption, because every numeric column of the C1/C2 instance was string-encoded; in
+24 (12 submissions) the workflow used the hash-verifying load, which does not load a file whose content fails its hash
+when an intact replica exists; and in 3 the corruption was flagged under a different failure code.
 
 % =====================================================================
 \section{Discussion and Threats to Validity}
 \label{sec:discussion}
 % =====================================================================
-\textbf{Available is not used.} The clearest result is behavioural. A documented operation that would have solved
-the content-drift defect was used by ungated agents at a background rate that did not change when the defect was
-present, and agents trusted the catalog's declared hash instead of checking content against the system of record.
-This extends to data mining what studies in coding and tool use report~\cite{zhang2026rite,zhang2026rethinking}; with
-the second model, the ungated team also verified no X4 run.
+\textbf{Available is rarely used.} The clearest result is behavioural. A documented operation that would have
+solved the content-drift defect was used by the ungated single agent and team at a background rate that did not
+change when the defect was present; they relied on the catalog's declared authority without recomputing content. This
+extends to data mining what studies in coding and tool use report~\cite{zhang2026rite,zhang2026rethinking}, and the
+second model behaved the same way. X4 gives agents no visible signal, so the informative quantity is this base rate of
+unprompted verification, which is conditional on one tool description and on two non-reasoning models; \sys{MQ}'s
+higher use suggests that merely mentioning checks raises it.
 
-\textbf{Enforced is only as good as its predicate.} Enforcement recovered drift almost completely, but one predicate
+\textbf{Enforced is only as good as its predicate.} Enforcement recovered most drift runs, but one predicate
 with false alarms, a value range estimated on training data, removed every quality-gated system's completions in two
 of eighteen blocks, while ungated agents, free to ignore a range that the data did not need to satisfy, completed most of
 those runs. A blocking gate turns each false alarm into a failure, and agents spent their budget trying to repair
 correct data. Gates for agentic data mining therefore need calibrated predicates and a way to contest a verdict, for
 example advisory checks or an evidence-based override. The deterministic workflow, which abstains on any failed
-check, behaved the same way. Excluding the affected blocks (post hoc), declared defects again saturated every system,
-as in the pilots, and the remaining gate benefit came from content drift.
+check, behaved the same way. The range predicate shows the trade-off directly: the check that detected every X3
+instance also rejected correct data in two blocks. Excluding those blocks (post hoc), declared defects were again near
+the ceiling (\sys{F} 1.000, agents 0.939--0.966), and the remaining gate benefit came from content drift.
 
 \textbf{Coordination did not pay.} At matched budgets the gated team was 3.2 points below the gated single agent and
 took about 60\% longer, consistent with matched-compute studies in other domains~\cite{tran2026single,dylan2026equalcost}.
@@ -685,7 +660,7 @@ and report their Tier~1 use as a false-alarm measure.
 \textbf{Enforcement, feedback, and salience.} Gated systems receive verdicts, two check tools, and a configuration
 line in the task text, and a failing check blocks submission. The design estimates enforced checking \emph{with}
 feedback and does not separate it from the mention of a check or from an explicit instruction to verify; instructed
-and advisory arms would, and are not part of the frozen design.
+and advisory arms would, and are not part of the frozen design. The title's contrast should be read in this sense.
 
 \textbf{Statistical and external validity.} Three repetition blocks per family give unstable intervals, hence the
 prespecified sensitivity analyses. Six purposively chosen families do not support population claims, and the 36
@@ -706,7 +681,8 @@ The frozen package (code, prompts, configuration, manifests with SHA-256 checksu
 scripts, and a script that recomputes every hash) is registered on OSF; on publication we will release it with the
 task generators and seeds (master seed 20261030), the evaluator and fixtures, every run record and trusted trace, and
 the scripts that produce every table. Pilot runs are archived separately from confirmatory runs, including the 504
-first-E0SB runs. The pilots used 23.4 GPU-hours. The study uses no human participants, personal data, human
+first-E0SB runs. The pilots used 23.4 GPU-hours and the formal experiments about 47.5 (E1 43.0, E4 4.1, E5 0.4), counting
+a 14.3-hour E1 session whose accounting record was lost when the server was stopped externally. The study uses no human participants, personal data, human
 annotation, or human or LLM grading.
 
 % =====================================================================
@@ -714,12 +690,13 @@ annotation, or human or LLM grading.
 % =====================================================================
 We built a data-mining benchmark and a frozen protocol that separate planning, quality checks, and provenance checks
 under matched resources, with a verifying operation available to every system but enforced only for some. In 8,352
-runs, agents almost never verified on their own, enforcement recovered a defect they otherwise missed, and an
-enforced predicate with false alarms erased the completions of every system that enforced it where it fired, so the primary contrast
-was null. The gated team did not beat a deterministic workflow on declared defects, and outside the false-alarm blocks no
-agent did. For
-practitioners the lesson is that verification must be both enforced and correct: a check that agents can skip is
-skipped, and a check that agents cannot contest fails them whenever it is wrong.
+runs with two open models used without reasoning mode, the ungated agents rarely used the verifying operation,
+enforced checking with feedback recovered a defect they otherwise missed, and an enforced range predicate with false
+alarms removed the completions of every system that enforced it in the two blocks where it fired; the pooled primary
+contrast was null. The gated team did not beat the deterministic workflow on declared defects. Within the limits of
+one tool description and two models, the lesson is that a verifying operation that agents may skip is mostly
+skipped, and that a blocking check needs a predicate calibrated to what the contract actually requires, or a way for
+the agent to contest it; advisory and contestable checks remain to be tested.
 
 \section*{Acknowledgment}
 The experiments ran on an NVIDIA RTX PRO 6000 Blackwell GPU that NVIDIA donated to the Department of Computer
