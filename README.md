@@ -27,6 +27,7 @@ Frozen at tag `freeze-20261112`:
 
 Added after the formal runs:
 - `paper/`: the IEEE BigData 2026 workshop paper (LaTeX source, bibliography, figure, compiled PDF, Overleaf zip).
+- `paper2/`: paper 2, an academic-structure version of the same paper (research questions, literature review, methodology with architecture diagram, formal model and algorithm, results by research question).
 - `results/state/`: the run state of the study.
   - `outputs/runs/<experiment>/*.json`: one record per run, for the pilots (E0, E0B, E0S, E0SB, E0X, E0X2) and the formal experiments (E1 7,560; E4 540; E5 252).
   - `outputs/traces/`: the trusted trace of every run (gzip JSON lines).
