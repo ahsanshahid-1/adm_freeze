@@ -2,7 +2,7 @@
 
 Academic-structure version of the same study (introduction with research questions, literature review with research
 gap, methodology with architecture diagram, formal model and algorithm, results by research question, conclusion).
-Same data and numbers as paper 1 (`../IEEE_BigData2026_paper/`), which is kept unchanged.
+Same data and numbers as paper 1 (`../IEEE_BigData2026_paper/`), which has the same content and structure as submitted earlier.
 
 | File | Content |
 |---|---|
