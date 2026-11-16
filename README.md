@@ -43,6 +43,12 @@ Added after the formal runs:
 - `datasets/`: CSV exports of the canonical datasets with `MANIFEST.csv`. D1 to D4 are UCI datasets under CC BY 4.0 (citations in `freeze/manifests/datasets.json`); D5 and D6 are generated.
 - `literature/`: literature review and the reference-verification records.
 
+## Licence
+
+Software is under the MIT licence (`LICENSE`). Study records, results, and generated data are under CC BY 4.0; the UCI
+datasets keep their CC BY 4.0 licence and creators' credit. Paper manuscripts are not openly licensed. Details:
+`LICENSE-DATA.md`.
+
 ## Post-freeze deviation
 
 After all 8,352 formal runs were recorded, the frozen E6 replay audit raised a `TypeError` under pandas 3 on integer
