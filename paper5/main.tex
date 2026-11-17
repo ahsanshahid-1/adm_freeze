@@ -59,17 +59,17 @@ The study makes three contributions. First, it provides a benchmark of 36 tasks 
 \section{Related Work}
 \label{sec:related}
 \subsection{Data-science agents and their evaluation}
-InfiAgent-DABench supports automatic evaluation of data-analysis questions~\cite{hu2024infiagent}; DSBench adds realistic analysis and modeling tasks~\cite{jing2025dsbench}; and MLE-bench evaluates machine-learning engineering against Kaggle competition outcomes~\cite{chan2025mlebench}. DABstep emphasizes multi-step analysis~\cite{egg2025dabstep}, Spider~2.0 enterprise SQL workflows~\cite{lei2025spider2}, and the Data Agent Benchmark heterogeneous data sources~\cite{ma2026dab}. These benchmarks establish complementary measures of task capability, rather than interchangeable success rates.
+InfiAgent-DABench supports automatic evaluation of data-analysis questions~\cite{hu2024infiagent}; DSBench adds realistic analysis and modeling tasks~\cite{jing2025dsbench}; and MLE-bench evaluates machine-learning engineering against Kaggle competition outcomes~\cite{chan2025mlebench}. DABstep emphasizes multi-step analysis~\cite{egg2025dabstep} and the Data Agent Benchmark heterogeneous data sources~\cite{ma2026dab}. These benchmarks establish complementary measures of task capability, rather than interchangeable success rates.
 
-Agent architectures also offer useful building blocks. DS-Agent uses case-based reasoning~\cite{guo2024dsagent}, Data Interpreter organizes interdependent work through task graphs~\cite{hong2024datainterpreter}, and DS-STAR addresses heterogeneous formats and open-ended queries~\cite{nam2025dsstar}. Our study does not rank these end-to-end systems. It uses a bounded environment to isolate planning and verification choices. This complements the methodological audit of Li et~al.~\cite{li2026silent}, which demonstrates why accurate predictions and executable code are insufficient evidence of sound data science.
+Agent architectures also offer useful building blocks. Data Interpreter organizes interdependent work through task graphs~\cite{hong2024datainterpreter}, and DS-STAR addresses heterogeneous formats and open-ended queries~\cite{nam2025dsstar}. Our study does not rank these end-to-end systems. It uses a bounded environment to isolate planning and verification choices. This complements the methodological audit of Li et~al.~\cite{li2026silent}, which demonstrates why accurate predictions and executable code are insufficient evidence of sound data science.
 
 \subsection{Data quality, repair, and provenance}
-Production data validation~\cite{polyzotis2019datavalidation} and Deequ-style verification~\cite{schelter2018deequ} show how data expectations can become executable checks. HoloClean studies probabilistic repair~\cite{rekatsinas2017holoclean}, while mlinspect examines distribution changes introduced by pipeline operations~\cite{grafberger2021mlinspect}. Provenance provides a complementary view: PROV-DM describes data entities, activities, and derivations~\cite{w3c2013provdm}, and Vamsa tracks provenance in data-science scripts~\cite{namaki2020vamsa}. We draw on these ideas to distinguish checking data properties from checking source identity and transformation history.
+Production data validation~\cite{polyzotis2019datavalidation} and Deequ-style verification~\cite{schelter2018deequ} show how data expectations can become executable checks. mlinspect examines distribution changes introduced by pipeline operations~\cite{grafberger2021mlinspect}. Provenance provides a complementary view: PROV-DM describes data entities, activities, and derivations~\cite{w3c2013provdm}. We draw on these ideas to distinguish checking data properties from checking source identity and transformation history.
 
 Recent agentic work extends this foundation. DataGovBench evaluates end-to-end data-governance workflows~\cite{liu2025datagovbench}. Fadlallah reports trade-offs among detection, evidence grounding, and conservative repair in reference-free cleaning~\cite{fadlallah2026cleaning}; Parmar et~al. find that debate can help error detection but can also harm generation~\cite{parmar2026debate}. A context-aware assessment framework validates the feasibility of agent-generated rules before executing them~\cite{fadlallah2026dqa}. These studies motivate examining the quality of the checking mechanism, not only whether an agent has one.
 
 \subsection{Verification and multi-agent coordination}
-SARC-DQ shows that metadata-aware gates can recover losses on defects covered by their predicates~\cite{besanson2026sarcdq}; related work explains how remediation by one gate can affect another~\cite{besanson2026onegate}. RITE identifies recognition, use of a verification path, and integration of evidence as separate bottlenecks~\cite{zhang2026rite}. LIMBO distinguishes model behavior from guarantees provided by tool contracts~\cite{li2026limbo}. In coding, completion gates and independent review can improve outcomes, with different resource costs~\cite{zhang2026rethinking}, while ContextCov converts documented constraints into executable checks~\cite{sharma2026contextcov}. Verification prompts can also reduce reliance on corrupted tool outputs~\cite{yang2026overreliance}. These findings motivate our comparison, but their effects should not be assumed to transfer unchanged to data mining.
+SARC-DQ shows that metadata-aware gates can recover losses on defects covered by their predicates~\cite{besanson2026sarcdq}; related work explains how remediation by one gate can affect another~\cite{besanson2026onegate}. RITE identifies recognition, use of a verification path, and integration of evidence as separate bottlenecks~\cite{zhang2026rite}. LIMBO distinguishes model behavior from guarantees provided by tool contracts~\cite{li2026limbo}. In coding, completion gates and independent review can improve outcomes, with different resource costs~\cite{zhang2026rethinking}, while ContextCov converts documented constraints into executable checks~\cite{sharma2026contextcov}. These findings motivate our comparison, but their effects should not be assumed to transfer unchanged to data mining.
 
 ReAct provides a tool-interaction pattern~\cite{yao2023react}, while AutoGen and MetaGPT support role-based coordination~\cite{wu2023autogen,hong2024metagpt}. Evidence on teams is mixed. Matched-budget reasoning studies find no consistent team advantage~\cite{tran2026single,dylan2026equalcost}; broader comparisons identify both successful configurations and substantial overhead~\cite{fu2026moreagents,jwalapuram2026illusion}. Benefits depend on task structure and coordination design~\cite{kim2025scaling}, and verification remains a documented failure category~\cite{cemri2025mas}. SPADE synthesizes and filters data-quality assertions for LLM pipelines with attention to false failures~\cite{shankar2024spade}, and Kapoor et al.\ argue that agent evaluations must report cost alongside accuracy and compare against simple baselines~\cite{kapoor2024agentsmatter}; both shape our gate audit and resource reporting. Accordingly, our conclusions concern the tested three-role design, not multi-agent systems in general.
 
@@ -315,24 +315,24 @@ Prespecified sensitivity analyses include a variance-inflated interval, leave-on
 \label{sec:results}
 All 8,352 scheduled runs were completed as evaluations, including runs ending in abstention, failure, or budget exhaustion. Table~\ref{tab:outcomes} separates the ways a run can fail; gated agents rarely submitted invalid workflows (12 for \sys{MQP} and 9 for \sys{SQP}, against 144 for \sys{M0} and 161 for \sys{S0}) but more often exhausted the budget (198 and 156, against 77 and 52).
 
-\begin{table}[t]
-\caption{Run outcomes in E1 (1,080 runs per system). Invalid: submitted but rejected by the evaluator. Tokens: mean per run and per verified completion (thousands).}
+\begin{table*}[t]
+\caption{Run outcomes and resource use in E1 (1,080 runs per system). Invalid: submitted but rejected by the evaluator, as a count and as a share of submitted workflows. Model calls, tool calls, and repairs are means per run; tokens per verified completion are in thousands.}
 \label{tab:outcomes}
-\centering\footnotesize\setlength{\tabcolsep}{2.5pt}
-\begin{tabular}{@{}lrrrrrrr@{}}
+\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrrrrrrr@{}}
 \toprule
-System & Verified & Invalid & Abstain & Budget & Error & Tok./run & Tok./ver. \\
+System & Verified & Invalid & Invalid / submitted & Abstained & Budget & Error & Model calls & Tool calls & Repairs & Tokens / verified \\
 \midrule
-\sys{F} & 672 & 0 & 408 & 0 & 0 & -- & -- \\
-\sys{S0} & 863 & 161 & 0 & 52 & 4 & 164 & 205 \\
-\sys{M0} & 855 & 144 & 0 & 77 & 4 & 169 & 214 \\
-\sys{MQ} & 810 & 68 & 12 & 181 & 9 & 193 & 257 \\
-\sys{MP} & 948 & 52 & 1 & 76 & 3 & 175 & 200 \\
-\sys{SQP} & 891 & 9 & 19 & 156 & 5 & 185 & 224 \\
-\sys{MQP} & 856 & 12 & 11 & 198 & 3 & 196 & 248 \\
+\sys{F}   & 672 & 0   & 0.0\%  & 408 & 0   & 0 & 0.0  & 5.7  & 0.0 & -- \\
+\sys{S0}  & 863 & 161 & 15.7\% & 0   & 52  & 4 & 17.5 & 17.4 & 0.0 & 205 \\
+\sys{M0}  & 855 & 144 & 14.4\% & 0   & 77  & 4 & 25.2 & 21.6 & 0.0 & 214 \\
+\sys{MQ}  & 810 & 68  & 7.7\%  & 12  & 181 & 9 & 27.0 & 23.4 & 0.1 & 257 \\
+\sys{MP}  & 948 & 52  & 5.2\%  & 1   & 76  & 3 & 25.8 & 22.2 & 0.1 & 200 \\
+\sys{SQP} & 891 & 9   & 1.0\%  & 19  & 156 & 5 & 18.8 & 18.5 & 0.2 & 224 \\
+\sys{MQP} & 856 & 12  & 1.4\%  & 11  & 198 & 3 & 27.2 & 23.6 & 0.2 & 248 \\
 \bottomrule
 \end{tabular}
-\end{table} Table~\ref{tab:main} reports E1 verified-completion rates, Fig.~\ref{fig:main} contrasts completion with verification uptake, and Table~\ref{tab:contrasts} gives the hypothesis tests. The analyses below follow the four research questions and distinguish prespecified comparisons from explanatory follow-up analyses.
+\end{table*} Table~\ref{tab:main} reports E1 verified-completion rates, Fig.~\ref{fig:main} contrasts completion with verification uptake, and Table~\ref{tab:contrasts} gives the hypothesis tests. The analyses below follow the four research questions and distinguish prespecified comparisons from explanatory follow-up analyses.
 
 \begin{table}[t]
 \caption{Verified-completion rate in E1 (backbone A). Each system has 1,080 runs; denominators are shown for each condition group.}
@@ -410,7 +410,7 @@ On Tier~1, \sys{F} exceeded \sys{MQP} by 5.4\,pp (95\% CI for \sys{MQP}$-$\sys{F
 \subsection{Replication, refusal, and replay}
 Backbone B reproduced the primary pattern on six prespecified tasks: H1 was $0.0$\,pp (95\% CI $-12.2$ to $+10.6$), with $-15.9$\,pp on Tier~1 and $+37.0$\,pp on Tier~2. In E5, systems correctly refused 33--36 of 36 unsatisfiable runs each (\sys{F} and \sys{MP} 36, \sys{MQP} 35, \sys{S0}, \sys{M0}, and \sys{SQP} 34, \sys{MQ} 33). All five false submissions involved conflicting authority records, identifying a boundary case for refusal logic.
 
-In E6, all 146 retained submissions reproduced their recorded outcomes and were invariant to row and column order. Forty-five corruption-audit checks in 32 submissions did not return the expected code: in 18 the audit applied no corruption because every numeric column was string-encoded, in 24 (12 submissions) the hash-verifying load correctly avoided the corrupted file because an intact replica existed, and in 3 the corruption was flagged under a different failure code.
+In E6, fitted models had been retained for a fixed 2\% sample of E1 and E4 runs, selected by a hash of the run ID before the runs; all 146 sampled runs that submitted (134 E1, 12 E4) reproduced their recorded outcomes and were invariant to row and column order. Forty-five corruption-audit checks in 32 submissions did not return the expected code: in 18 the audit applied no corruption because every numeric column was string-encoded, in 24 (12 submissions) the hash-verifying load correctly avoided the corrupted file because an intact replica existed, and in 3 the corruption was flagged under a different failure code.
 
 \section{Discussion and Limitations}
 \label{sec:discussion}

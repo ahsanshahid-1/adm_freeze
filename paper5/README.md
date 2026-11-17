@@ -11,3 +11,7 @@ Paper 4 with the text-level revisions from the co-author's recommendations repor
 - References: SPADE and AI Agents That Matter added; published version of Saravanan et al.; arXiv version of Wang et al. pinned.
 - Proposed follow-up experiments listed in the conclusion (not run).
 The positioning table of paper 3/4 was removed to stay within 10 pages.
+
+Second round (same day): outcome table widened with invalid share of submitted workflows, model calls, tool calls, and repairs;
+E6 sample selection explained (fixed 2% hash sample; 146 = 134 E1 + 12 E4); five background references removed
+(Spider 2.0, DS-Agent, HoloClean, Vamsa, tool overreliance) and the uncited SWE-bench entry dropped (56 references).
