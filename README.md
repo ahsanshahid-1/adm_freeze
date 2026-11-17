@@ -29,7 +29,8 @@ Added after the formal runs:
 - `paper/`: the IEEE BigData 2026 workshop paper (LaTeX source, bibliography, figure, compiled PDF, Overleaf zip).
 - `paper2/`: paper 2, an academic-structure version of the same paper (research questions, literature review, methodology with architecture diagram, formal model and algorithm, results by research question).
 - `paper3/`: co-author revision of paper 2 (unchanged).
-- `paper4/`: paper 3 with corrected acknowledgment and AI disclosure, OSF DOI, and verified method details (latest).
+- `paper4/`: paper 3 with corrected acknowledgment and AI disclosure, OSF DOI, and verified method details.
+- `paper5/`: paper 4 with the recommendations-report revisions and the post-hoc gate-acceptance audit (latest).
 - `results/state/`: the run state of the study.
   - `outputs/runs/<experiment>/*.json`: one record per run, for the pilots (E0, E0B, E0S, E0SB, E0X, E0X2) and the formal experiments (E1 7,560; E4 540; E5 252).
   - `outputs/traces/`: the trusted trace of every run (gzip JSON lines).
